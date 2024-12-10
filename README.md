@@ -76,7 +76,7 @@ UpGit/
 │   │   └── __init__.py
 │   ├── schema/
 │   │   └── __init__.py
-│   ├── services/
+│   ├── controllers/
 │   │   └── __init__.py
 │   ├── tests/
 │   │   └── __init__.py

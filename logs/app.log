@@ -1,0 +1,83 @@
+2024-12-09T11:51:44.053352+0100 INFO Project was initialized successfully
+2024-12-09T12:02:15.973453+0100 INFO Project was initialized successfully
+2024-12-09T12:03:18.932107+0100 INFO Project was initialized successfully
+2024-12-09T12:03:55.938417+0100 INFO Project was initialized successfully
+2024-12-09T12:53:01.594137+0100 INFO Database initialized successfully
+2024-12-09T12:53:01.594745+0100 INFO successfully established connection
+2024-12-09T12:53:01.595090+0100 INFO Project was initialized successfully
+2024-12-09T12:53:48.924674+0100 INFO Database initialized successfully
+2024-12-09T12:53:48.925383+0100 INFO successfully established connection
+2024-12-09T12:53:48.925903+0100 INFO Project was initialized successfully
+2024-12-09T17:00:31.425798+0100 ERROR error connecting to database:  the greenlet library is required to use this function. No module named 'greenlet'
+2024-12-09T17:00:31.426191+0100 INFO Project was initialized successfully
+2024-12-09T17:02:48.531166+0100 ERROR error connecting to database:  the greenlet library is required to use this function. No module named 'greenlet'
+2024-12-09T17:02:48.531524+0100 INFO Project was initialized successfully
+2024-12-09T17:03:15.855492+0100 ERROR error connecting to database:  greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2024-12-09T17:03:15.856086+0100 INFO Project was initialized successfully
+2024-12-09T17:04:23.278139+0100 ERROR error connecting to database:  greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2024-12-09T17:04:23.278537+0100 INFO Project was initialized successfully
+2024-12-09T17:05:21.234504+0100 ERROR error connecting to database:  greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2024-12-09T17:05:21.234807+0100 INFO Project was initialized successfully
+2024-12-09T17:06:08.375108+0100 ERROR error connecting to database:  greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2024-12-09T17:06:08.375737+0100 INFO Project was initialized successfully
+2024-12-09T17:07:30.602869+0100 INFO Database initialized successfully
+2024-12-09T17:07:30.603537+0100 INFO successfully established connection
+2024-12-09T17:07:30.603936+0100 INFO Project was initialized successfully
+2024-12-10T06:23:31.817844+0100 INFO Database initialized successfully
+2024-12-10T06:23:31.818488+0100 INFO successfully established database connection
+2024-12-10T06:23:55.960131+0100 INFO Project was initialized successfully
+2024-12-10T06:29:54.850522+0100 INFO Database initialized successfully
+2024-12-10T06:29:54.850878+0100 INFO successfully established database connection
+2024-12-10T06:30:13.919829+0100 INFO Database initialized successfully
+2024-12-10T06:30:13.920210+0100 INFO successfully established database connection
+2024-12-10T06:30:33.397614+0100 INFO Database initialized successfully
+2024-12-10T06:30:33.397972+0100 INFO successfully established database connection
+2024-12-10T06:32:14.692737+0100 INFO User created without fault
+2024-12-10T06:32:14.693189+0100 INFO Project was initialized successfully
+2024-12-10T06:36:49.143041+0100 INFO Database initialized successfully
+2024-12-10T06:36:49.143410+0100 INFO successfully established database connection
+2024-12-10T06:37:30.388709+0100 INFO Database initialized successfully
+2024-12-10T06:37:30.389116+0100 INFO successfully established database connection
+2024-12-10T06:37:43.088085+0100 ERROR Failed to create user: (sqlite3.OperationalError) table users has no column named password
+[SQL: INSERT INTO users (name, password, email) VALUES (?, ?, ?)]
+[parameters: ('Afa', '$2b$12$Zli7ia2xVFlfsbyvpNYND.w3O9n/SYvNndrQ0qCs36x7Da38ZRovi', 'afa')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-10T06:39:14.836388+0100 INFO Database initialized successfully
+2024-12-10T06:39:14.837128+0100 INFO successfully established database connection
+2024-12-10T06:39:31.934289+0100 ERROR Failed to create user: (sqlite3.OperationalError) table users has no column named password
+[SQL: INSERT INTO users (name, password, email) VALUES (?, ?, ?)]
+[parameters: ('Afanyuy Caleb', '$2b$12$u/Y/o4yGlLuYrY5cWrGcNekDGzDX4Zm75gQ9Xn.e0ko6Ev76zM3Ky', 'afanyuys@gmail.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-10T06:40:35.537150+0100 INFO Database initialized successfully
+2024-12-10T06:40:35.537747+0100 INFO successfully established database connection
+2024-12-10T06:40:49.736725+0100 INFO User created without fault
+2024-12-10T06:55:16.016769+0100 INFO Database initialized successfully
+2024-12-10T06:55:16.017106+0100 INFO successfully established database connection
+2024-12-10T06:55:45.394961+0100 INFO Database initialized successfully
+2024-12-10T06:55:45.395301+0100 INFO successfully established database connection
+2024-12-10T06:55:50.505932+0100 ERROR Failed to get users: id
+2024-12-10T06:56:36.072749+0100 INFO Database initialized successfully
+2024-12-10T06:56:36.073153+0100 INFO successfully established database connection
+2024-12-10T06:56:38.276273+0100 ERROR Failed to get users: id
+2024-12-10T06:58:01.353648+0100 INFO Database initialized successfully
+2024-12-10T06:58:01.353988+0100 INFO successfully established database connection
+2024-12-10T07:01:11.625958+0100 INFO Database initialized successfully
+2024-12-10T07:01:11.626460+0100 INFO successfully established database connection
+2024-12-10T07:01:38.330279+0100 INFO User created without fault
+2024-12-10T07:01:44.614060+0100 INFO Database initialized successfully
+2024-12-10T07:01:44.614470+0100 INFO successfully established database connection
+2024-12-10T07:02:10.763794+0100 INFO Database initialized successfully
+2024-12-10T07:02:10.764134+0100 INFO successfully established database connection
+2024-12-10T07:03:04.687301+0100 INFO Database initialized successfully
+2024-12-10T07:03:04.687764+0100 INFO successfully established database connection
+2024-12-10T07:03:06.435418+0100 ERROR Failed to get users: id
+2024-12-10T07:05:47.399893+0100 INFO Database initialized successfully
+2024-12-10T07:05:47.400264+0100 INFO successfully established database connection
+2024-12-10T07:05:49.508917+0100 ERROR Failed to get users: Column expression, FROM clause, or other columns clause element expected, got <sqlalchemy.sql.selectable.Select object at 0x000001A32EE682D0>. To create a FROM clause from a <class 'sqlalchemy.sql.selectable.Select'> object, use the .subquery() method. (Background on this error at: https://sqlalche.me/e/20/89ve)
+2024-12-10T07:06:28.974753+0100 INFO Database initialized successfully
+2024-12-10T07:06:28.975130+0100 INFO successfully established database connection
+2024-12-10T07:08:34.276896+0100 INFO Database initialized successfully
+2024-12-10T07:08:34.277253+0100 INFO successfully established database connection
+2024-12-10T07:08:36.244011+0100 ERROR Failed to get users: Query.filter() got an unexpected keyword argument 'name'
+2024-12-10T07:09:13.832815+0100 INFO Database initialized successfully
+2024-12-10T07:09:13.833180+0100 INFO successfully established database connection

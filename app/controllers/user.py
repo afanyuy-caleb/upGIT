@@ -19,7 +19,6 @@ def create_user():
     user.set_password(password)
     
     """Insert the new user"""
-    
     try:    
         create(session, user)
         logger.info("User created without fault")
@@ -31,7 +30,9 @@ def get_users():
     
     try:
         users = get_all(session)
-        for user in users:
-            print(f"ID: {user.id}, Name: {user.name}, Email: {user.email}")
+        print(users)
+        # for user in users:
+        #     print(f"ID: {user.id}, Name: {user.name}, Email: {user.email}")
     except Exception as e:
         logger.error("Failed to get users: %s" % e)
+        

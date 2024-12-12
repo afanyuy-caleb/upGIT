@@ -11,7 +11,12 @@ def create(session: Session, user: User):
 
 def get_all(session: Session, limit: int = 20, skip: int = 0):
     """Get all users from the database"""
-    # query = select(User).offset(skip).limit(limit)
-    result = session.query(User).filter_by(name = 'test user')
+    result = session.query(User).all()
+    session.close()
+    return result
+
+def get_by_id(session: Session, id: int):
+    """Get the users by the given id"""
+    result = session.query(User).filter_by(id = id)
     session.close()
     return result

@@ -81,3 +81,51 @@
 2024-12-10T07:08:36.244011+0100 ERROR Failed to get users: Query.filter() got an unexpected keyword argument 'name'
 2024-12-10T07:09:13.832815+0100 INFO Database initialized successfully
 2024-12-10T07:09:13.833180+0100 INFO successfully established database connection
+2024-12-10T08:04:43.058052+0100 INFO Database initialized successfully
+2024-12-10T08:04:43.058635+0100 INFO successfully established database connection
+2024-12-10T08:04:47.668330+0100 ERROR Failed to get users: Object <User at 0x1652a6cb770> cannot be converted to 'persistent' state, as this identity map is no longer valid.  Has the owning Session been closed? (Background on this error at: https://sqlalche.me/e/20/lkrp)
+2024-12-10T08:06:03.561244+0100 INFO Database initialized successfully
+2024-12-10T08:06:03.561587+0100 INFO successfully established database connection
+2024-12-10T08:06:34.057738+0100 INFO Database initialized successfully
+2024-12-10T08:06:34.058074+0100 INFO successfully established database connection
+2024-12-10T08:07:05.297763+0100 INFO Database initialized successfully
+2024-12-10T08:07:05.298099+0100 INFO successfully established database connection
+2024-12-10T08:16:01.893388+0100 INFO Database initialized successfully
+2024-12-10T08:16:01.893753+0100 INFO successfully established database connection
+2024-12-10T08:17:44.545269+0100 INFO Database initialized successfully
+2024-12-10T08:17:44.545603+0100 INFO successfully established database connection
+2024-12-10T08:21:56.399430+0100 INFO Database initialized successfully
+2024-12-10T08:21:56.399830+0100 INFO successfully established database connection
+2024-12-10T16:52:27.270155+0100 INFO Database initialized successfully
+2024-12-10T16:52:27.271132+0100 INFO successfully established database connection
+2024-12-10T16:52:56.521057+0100 INFO User created without fault
+2024-12-10T16:53:09.098113+0100 INFO Database initialized successfully
+2024-12-10T16:53:09.098920+0100 INFO successfully established database connection
+2024-12-11T21:33:38.255103+0100 INFO Database initialized successfully
+2024-12-11T21:33:38.255929+0100 INFO successfully established database connection
+2024-12-11T21:33:59.898772+0100 INFO Database initialized successfully
+2024-12-11T21:33:59.899498+0100 INFO successfully established database connection
+2024-12-11T21:35:55.964619+0100 INFO Database initialized successfully
+2024-12-11T21:35:55.965022+0100 INFO successfully established database connection
+2024-12-11T21:35:59.604670+0100 ERROR Invalid choice: list index out of range
+2024-12-11T21:36:21.271690+0100 INFO Database initialized successfully
+2024-12-11T21:36:21.272071+0100 INFO successfully established database connection
+2024-12-11T21:36:24.452606+0100 ERROR Invalid choice: list index out of range
+2024-12-11T21:40:01.746954+0100 INFO Database initialized successfully
+2024-12-11T21:40:01.747705+0100 INFO successfully established database connection
+2024-12-11T21:40:29.837248+0100 INFO Database initialized successfully
+2024-12-11T21:40:29.837847+0100 INFO successfully established database connection
+2024-12-11T21:42:27.905478+0100 INFO Database initialized successfully
+2024-12-11T21:42:27.905837+0100 INFO successfully established database connection
+2024-12-11T21:42:42.592979+0100 INFO Database initialized successfully
+2024-12-11T21:42:42.593333+0100 INFO successfully established database connection
+2024-12-11T21:42:43.597410+0100 ERROR Invalid choice: list index out of range
+2024-12-11T22:56:43.583035+0100 INFO Database initialized successfully
+2024-12-11T22:56:43.583403+0100 INFO successfully established database connection
+2024-12-11T22:56:46.566410+0100 ERROR An error occurred: unsupported operand type(s) for +: 'int' and 'str'
+2024-12-11T22:57:30.059410+0100 INFO Database initialized successfully
+2024-12-11T22:57:30.059752+0100 INFO successfully established database connection
+2024-12-11T23:10:06.003315+0100 INFO Database initialized successfully
+2024-12-11T23:10:06.003952+0100 INFO successfully established database connection
+2024-12-11T23:10:17.361493+0100 INFO Database initialized successfully
+2024-12-11T23:10:17.361871+0100 INFO successfully established database connection

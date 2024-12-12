@@ -26,7 +26,7 @@ class User(Base):
     def check_password(self, plain_password: str) -> bool:
         return bcrypt.checkpw(plain_password.encode('utf-8'), self.password.encode('utf-8'))
     
-    # def __repr__(self):
-    #     """Return a string representation of the user class"""
-    #     return f"\n<user_name = {self.name}, user_email = {self.email}, user_password = {self.password}>\n"
+    def __repr__(self):
+        """Return a string representation of the user class"""
+        return f"\n<user_name = {self.name}, user_email = {self.email}, user_password = {self.password}>\n"
 

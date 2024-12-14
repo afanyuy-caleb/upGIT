@@ -6,7 +6,8 @@ from .config.database import (
     connect_to_database,
     disconnect_from_database
 )
-from .controllers import user as user_controller
+from .auth import user as user_auth
+from .controllers import user as user_controllers
 
 def db_connection():
     """Initialize the database connection"""
@@ -22,13 +23,13 @@ def get_operations(model: str):
 def main():
     db_connection()
     operation_handler = [{
-        "method": [user_controller.create_user, user_controller.get_users]
+        "method": [user_auth.register, user_controllers.get_all, user_controllers.get_id, user_controllers.get_specific, user_controllers.update_user, user_controllers.delete_user]
         },
         {
-        "method": [user_controller.create_user, user_controller.get_users]
+        "method": [user_auth.register, user_controllers.get_all]
         },
         {
-        "method": [user_controller.create_user, user_controller.get_users]
+        "method": [user_auth.register, user_controllers.get_all]
         }
     ]
     models = ['user', 'file', 'repo']
@@ -44,16 +45,13 @@ def main():
             print (f"{op_num}.  {operation}")
             op_num += 1
         operation = int(input("Enter your choice: "))
-        
-        while operation not in range(1, len(operations)):
+        while operation not in range(1, len(operations)+1):
             operation = int(input("Enter your choice: "))
-        
+            
         operation_handler[model - 1]['method'][operation - 1]()
-    
     except IndexError as e:
         logger.error("Invalid choice: %s" % e)
         quit()
-    
     except Exception as e:
         logger.error("An error occurred: %s" % e)
         quit()

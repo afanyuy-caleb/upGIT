@@ -62,7 +62,7 @@ python -m pip install <package_name>
 pip freeze > requirements.txt
 ```
 
-## Project Structure
+## Basic Project Structure
 ```
 UpGit/
 ├── app/

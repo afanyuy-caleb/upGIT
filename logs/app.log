@@ -129,3 +129,236 @@
 2024-12-11T23:10:06.003952+0100 INFO successfully established database connection
 2024-12-11T23:10:17.361493+0100 INFO Database initialized successfully
 2024-12-11T23:10:17.361871+0100 INFO successfully established database connection
+2024-12-14T13:30:19.163688+0100 INFO Database initialized successfully
+2024-12-14T13:30:19.164964+0100 INFO successfully established database connection
+2024-12-14T13:30:44.454132+0100 ERROR An error occurred: 3 validation errors for UserCreate
+email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='Caleb', input_type=str]
+password
+  String should have at least 8 characters [type=string_too_short, input_value='yeah', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_too_short
+confirm_password
+  Field required [type=missing, input_value={'name': 'afa', 'email': ...eb', 'password': 'yeah'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2024-12-14T13:31:59.258691+0100 INFO Database initialized successfully
+2024-12-14T13:31:59.259075+0100 INFO successfully established database connection
+2024-12-14T13:32:14.696340+0100 ERROR An error occurred: cannot access local variable 'user' where it is not associated with a value
+2024-12-14T13:33:25.894500+0100 INFO Database initialized successfully
+2024-12-14T13:33:25.895111+0100 INFO successfully established database connection
+2024-12-14T13:33:38.613744+0100 ERROR Error occured creating user 3 validation errors for UserCreate
+email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='Caleb', input_type=str]
+password
+  String should have at least 8 characters [type=string_too_short, input_value='afa', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_too_short
+confirm_password
+  Field required [type=missing, input_value={'name': 'afa', 'email': ...leb', 'password': 'afa'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2024-12-14T13:34:48.901463+0100 INFO Database initialized successfully
+2024-12-14T13:34:48.902030+0100 INFO successfully established database connection
+2024-12-14T13:35:13.542674+0100 ERROR Error occured creating user 1 validation error for UserCreate
+confirm_password
+  Field required [type=missing, input_value={'name': 'Afanyuy Caleb',...assword': 'password123'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2024-12-14T13:35:50.834651+0100 INFO Database initialized successfully
+2024-12-14T13:35:50.835004+0100 INFO successfully established database connection
+2024-12-14T13:36:27.097170+0100 ERROR Error occured creating user 1 validation error for UserCreate
+confirm_password
+  Field required [type=missing, input_value={'name': 'Afanyuy Caleb',...assword': 'password123'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2024-12-14T13:37:14.736390+0100 INFO Database initialized successfully
+2024-12-14T13:37:14.736741+0100 INFO successfully established database connection
+2024-12-14T13:38:43.057944+0100 ERROR Error occured creating user 1 validation error for UserCreate
+confirm_password
+  Field required [type=missing, input_value={'name': 'Afa', 'email': ...rmation': 'password123'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2024-12-14T13:39:13.772750+0100 INFO Database initialized successfully
+2024-12-14T13:39:13.773313+0100 INFO successfully established database connection
+2024-12-14T13:39:30.401390+0100 ERROR Error occured creating user 1 validation error for UserCreate
+confirm_password
+  String should have at least 8 characters [type=string_too_short, input_value='pass123', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_too_short
+2024-12-14T13:39:41.308225+0100 INFO Database initialized successfully
+2024-12-14T13:39:41.308775+0100 INFO successfully established database connection
+2024-12-14T13:40:01.138442+0100 ERROR Error occured creating user 1 validation error for UserCreate
+confirm_password
+  Value error, Passwords do not match [type=value_error, input_value='password1234', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2024-12-14T13:40:56.895161+0100 INFO Database initialized successfully
+2024-12-14T13:40:56.895509+0100 INFO successfully established database connection
+2024-12-14T13:43:20.253830+0100 INFO Database initialized successfully
+2024-12-14T13:43:20.254179+0100 INFO successfully established database connection
+2024-12-14T13:43:35.836026+0100 ERROR Error occured creating user BaseModel.__init__() takes 1 positional argument but 2 were given
+2024-12-14T13:52:16.733702+0100 INFO Database initialized successfully
+2024-12-14T13:52:16.734052+0100 INFO successfully established database connection
+2024-12-14T13:55:01.236878+0100 INFO Database initialized successfully
+2024-12-14T13:55:01.237231+0100 INFO successfully established database connection
+2024-12-14T13:59:35.439009+0100 INFO Database initialized successfully
+2024-12-14T13:59:35.439357+0100 INFO successfully established database connection
+2024-12-14T14:00:47.154188+0100 INFO Database initialized successfully
+2024-12-14T14:00:47.154669+0100 INFO successfully established database connection
+2024-12-14T14:01:00.657033+0100 ERROR Error occured creating user 'str' object has no attribute 'dict'
+2024-12-14T14:01:48.697826+0100 INFO Database initialized successfully
+2024-12-14T14:01:48.698144+0100 INFO successfully established database connection
+2024-12-14T14:02:22.695312+0100 INFO Database initialized successfully
+2024-12-14T14:02:22.695665+0100 INFO successfully established database connection
+2024-12-14T14:03:51.421371+0100 INFO Database initialized successfully
+2024-12-14T14:03:51.421729+0100 INFO successfully established database connection
+2024-12-14T14:11:39.512735+0100 INFO Database initialized successfully
+2024-12-14T14:11:39.513258+0100 INFO successfully established database connection
+2024-12-14T14:27:40.160724+0100 INFO Database initialized successfully
+2024-12-14T14:27:40.161078+0100 INFO successfully established database connection
+2024-12-14T14:27:57.493607+0100 ERROR Error occured creating user create_user() takes 0 positional arguments but 1 was given
+2024-12-14T14:29:51.091012+0100 INFO Database initialized successfully
+2024-12-14T14:29:51.091403+0100 INFO successfully established database connection
+2024-12-14T14:30:09.939208+0100 ERROR Error occured creating user create() missing 1 required positional argument: 'user'
+2024-12-14T14:31:26.044861+0100 INFO Database initialized successfully
+2024-12-14T14:31:26.045212+0100 INFO successfully established database connection
+2024-12-14T14:31:41.104504+0100 INFO User created without fault
+2024-12-14T15:10:05.046360+0100 INFO Database initialized successfully
+2024-12-14T15:10:05.046845+0100 INFO successfully established database connection
+2024-12-14T15:10:29.922256+0100 ERROR Error occured creating user 1 validation error for UserCreate
+confirm_password
+  String should have at least 8 characters [type=string_too_short, input_value='big123', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_too_short
+2024-12-14T15:11:03.133572+0100 INFO Database initialized successfully
+2024-12-14T15:11:03.133925+0100 INFO successfully established database connection
+2024-12-14T15:11:32.556909+0100 INFO User created without fault
+2024-12-14T15:11:36.897440+0100 INFO Database initialized successfully
+2024-12-14T15:11:36.897961+0100 INFO successfully established database connection
+2024-12-14T15:40:47.133894+0100 INFO Database initialized successfully
+2024-12-14T15:40:47.134256+0100 INFO successfully established database connection
+2024-12-14T15:42:08.603566+0100 INFO Database initialized successfully
+2024-12-14T15:42:08.603920+0100 INFO successfully established database connection
+2024-12-14T15:43:02.274902+0100 INFO Database initialized successfully
+2024-12-14T15:43:02.275444+0100 INFO successfully established database connection
+2024-12-14T15:43:20.020578+0100 INFO Database initialized successfully
+2024-12-14T15:43:20.021125+0100 INFO successfully established database connection
+2024-12-14T16:00:54.400426+0100 INFO Database initialized successfully
+2024-12-14T16:00:54.400788+0100 INFO successfully established database connection
+2024-12-14T16:02:18.590493+0100 INFO Database initialized successfully
+2024-12-14T16:02:18.590861+0100 INFO successfully established database connection
+2024-12-14T16:02:25.789627+0100 INFO Here are the users that have been gotten: [User(user_name = afa, user_email = afa@gmail.com, user_password = $2b$12$vbhik3jtjeNBaSDLjDsazuGXOIFEVC7wi5wu78Z1iaE0cwfrnj9ra)
+, User(user_name = Biggy, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+]
+2024-12-14T16:03:28.615298+0100 INFO Database initialized successfully
+2024-12-14T16:03:28.615659+0100 INFO successfully established database connection
+2024-12-14T16:03:37.376769+0100 INFO Successfully retrievedof User(user_name = Biggy, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+
+2024-12-14T16:03:59.181370+0100 INFO Database initialized successfully
+2024-12-14T16:03:59.181896+0100 INFO successfully established database connection
+2024-12-14T16:04:22.487888+0100 INFO Successfully retrieved users with <sqlalchemy.engine.result.ChunkedIteratorResult object at 0x000001DDB209DF90>
+2024-12-14T16:05:17.870582+0100 INFO Database initialized successfully
+2024-12-14T16:05:17.871001+0100 INFO successfully established database connection
+2024-12-14T16:05:40.919095+0100 INFO Successfully retrieved users with <sqlalchemy.engine.result.ChunkedIteratorResult object at 0x000001BC9F3A3DD0>
+2024-12-14T16:16:46.592265+0100 INFO Database initialized successfully
+2024-12-14T16:16:46.592694+0100 INFO successfully established database connection
+2024-12-14T16:17:09.215962+0100 ERROR Failed to get users: Executable SQL or text() construct expected, got [User(user_name = Biggy, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+].
+2024-12-14T16:18:54.787675+0100 INFO Database initialized successfully
+2024-12-14T16:18:54.788025+0100 INFO successfully established database connection
+2024-12-14T16:19:08.119361+0100 ERROR Failed to get users: Executable SQL or text() construct expected, got [User(user_name = Biggy, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+].
+2024-12-14T16:21:06.503596+0100 INFO Database initialized successfully
+2024-12-14T16:21:06.503944+0100 INFO successfully established database connection
+2024-12-14T16:21:17.757523+0100 ERROR Failed to get users: Query.filter() got an unexpected keyword argument 'filter_column'
+2024-12-14T16:22:37.922776+0100 INFO Database initialized successfully
+2024-12-14T16:22:37.923391+0100 INFO successfully established database connection
+2024-12-14T16:22:49.454825+0100 INFO Successfully retrieved users with [User(user_name = Biggy, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+]
+2024-12-14T16:22:56.119441+0100 INFO Database initialized successfully
+2024-12-14T16:22:56.119974+0100 INFO successfully established database connection
+2024-12-14T16:23:05.886306+0100 ERROR Failed to get users: type object 'User' has no attribute 'nam'
+2024-12-14T16:23:14.606046+0100 INFO Database initialized successfully
+2024-12-14T16:23:14.606395+0100 INFO successfully established database connection
+2024-12-14T16:23:23.172495+0100 INFO Successfully retrieved users with []
+2024-12-14T16:24:24.903654+0100 INFO Database initialized successfully
+2024-12-14T16:24:24.904101+0100 INFO successfully established database connection
+2024-12-14T16:24:32.599392+0100 INFO Successfully retrieved users with []
+2024-12-14T16:24:49.546569+0100 INFO Database initialized successfully
+2024-12-14T16:24:49.547111+0100 INFO successfully established database connection
+2024-12-14T16:24:56.262161+0100 INFO Successfully retrieved users with [User(user_name = Biggy, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+]
+2024-12-14T16:25:12.209311+0100 INFO Database initialized successfully
+2024-12-14T16:25:12.209961+0100 INFO successfully established database connection
+2024-12-14T16:25:41.340726+0100 INFO Successfully retrieved users with [User(user_name = afa, user_email = afa@gmail.com, user_password = $2b$12$vbhik3jtjeNBaSDLjDsazuGXOIFEVC7wi5wu78Z1iaE0cwfrnj9ra)
+]
+2024-12-14T16:25:43.795555+0100 INFO Database initialized successfully
+2024-12-14T16:25:43.796240+0100 INFO successfully established database connection
+2024-12-14T16:25:48.076469+0100 INFO Successfully retrieved users with [User(user_name = Biggy, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+]
+2024-12-14T16:26:24.176197+0100 INFO Database initialized successfully
+2024-12-14T16:26:24.176647+0100 INFO successfully established database connection
+2024-12-14T16:26:31.555248+0100 INFO Successfully retrieved users with [User(user_name = Biggy, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+]
+2024-12-14T16:27:01.791366+0100 INFO Database initialized successfully
+2024-12-14T16:27:01.791726+0100 INFO successfully established database connection
+2024-12-14T16:27:11.044006+0100 INFO Successfully retrieved users with [User(user_name = Biggy, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+]
+2024-12-14T16:53:07.112574+0100 INFO Database initialized successfully
+2024-12-14T16:53:07.113087+0100 INFO successfully established database connection
+2024-12-14T16:53:34.291845+0100 ERROR Failed to update user: too many values to unpack (expected 2)
+2024-12-14T16:54:39.342883+0100 INFO Database initialized successfully
+2024-12-14T16:54:39.343239+0100 INFO successfully established database connection
+2024-12-14T16:55:05.987807+0100 ERROR Failed to update user: dictionary changed size during iteration
+2024-12-14T16:58:44.431881+0100 INFO Database initialized successfully
+2024-12-14T16:58:44.432255+0100 INFO successfully established database connection
+2024-12-14T17:01:54.364714+0100 INFO Database initialized successfully
+2024-12-14T17:01:54.365073+0100 INFO successfully established database connection
+2024-12-14T17:09:26.125872+0100 INFO Database initialized successfully
+2024-12-14T17:09:26.126223+0100 INFO successfully established database connection
+2024-12-14T17:11:55.553343+0100 INFO Database initialized successfully
+2024-12-14T17:11:55.553870+0100 INFO successfully established database connection
+2024-12-14T17:14:28.453678+0100 INFO Database initialized successfully
+2024-12-14T17:14:28.454054+0100 INFO successfully established database connection
+2024-12-14T17:14:40.301433+0100 ERROR Failed to update user: (sqlite3.IntegrityError) NOT NULL constraint failed: users.password
+[SQL: UPDATE users SET name=?, password=?, email=? WHERE users.id = ?]
+[parameters: ('testing update', None, None, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-14T17:17:33.854954+0100 INFO Database initialized successfully
+2024-12-14T17:17:33.855414+0100 INFO successfully established database connection
+2024-12-14T17:17:45.820130+0100 ERROR Failed to update user: (sqlite3.IntegrityError) NOT NULL constraint failed: users.password
+[SQL: UPDATE users SET name=?, password=?, email=? WHERE users.id = ?]
+[parameters: ('testing update', None, None, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-14T17:19:05.202722+0100 INFO Database initialized successfully
+2024-12-14T17:19:05.203069+0100 INFO successfully established database connection
+2024-12-14T17:19:19.828314+0100 ERROR Failed to update user: (sqlite3.IntegrityError) NOT NULL constraint failed: users.password
+[SQL: UPDATE users SET name=?, password=?, email=? WHERE users.id = ?]
+[parameters: ('testing update', None, None, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-14T17:22:44.328617+0100 INFO Database initialized successfully
+2024-12-14T17:22:44.329006+0100 INFO successfully established database connection
+2024-12-14T17:22:56.347478+0100 ERROR Failed to update user: Instance <User at 0x27fc3728050> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-12-14T17:25:01.864719+0100 INFO Database initialized successfully
+2024-12-14T17:25:01.865098+0100 INFO successfully established database connection
+2024-12-14T17:25:14.441116+0100 ERROR Failed to update user: Instance <User at 0x2b6b23f8050> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-12-14T17:26:26.792829+0100 INFO Database initialized successfully
+2024-12-14T17:26:26.793189+0100 INFO successfully established database connection
+2024-12-14T17:26:41.473232+0100 INFO Database initialized successfully
+2024-12-14T17:26:41.473580+0100 INFO successfully established database connection
+2024-12-14T17:26:44.462790+0100 INFO All users: [User(user_name = afa, user_email = afa@gmail.com, user_password = $2b$12$vbhik3jtjeNBaSDLjDsazuGXOIFEVC7wi5wu78Z1iaE0cwfrnj9ra)
+, User(user_name = testing update, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+]
+2024-12-14T17:29:42.966614+0100 INFO Database initialized successfully
+2024-12-14T17:29:42.967060+0100 INFO successfully established database connection
+2024-12-14T17:30:01.534864+0100 ERROR Failed to update user: Instance <User at 0x20d0f688050> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-12-14T17:30:42.184313+0100 INFO Database initialized successfully
+2024-12-14T17:30:42.184664+0100 INFO successfully established database connection
+2024-12-14T17:30:55.958942+0100 INFO Successfully updated user with id 1
+2024-12-14T17:31:10.275561+0100 INFO Database initialized successfully
+2024-12-14T17:31:10.276088+0100 INFO successfully established database connection
+2024-12-14T17:31:14.822983+0100 INFO All users: [User(user_name = afanyuy, user_email = afa@gmail.com, user_password = $2b$12$xhChBVT63xqbDzR4yyUjXOniwrK4BQJENN/k8odXVDtjjsIUsxnVq)
+, User(user_name = testing update, user_email = gib@gmail.com, user_password = $2b$12$wmWBLjJaMRL3IlOVNjNvH.Wnb1H9WGihKqfbe3/XCW9E8gLz8daeK)
+]
+2024-12-14T17:32:42.494525+0100 INFO Database initialized successfully
+2024-12-14T17:32:42.495161+0100 INFO successfully established database connection
+2024-12-14T17:33:33.763733+0100 INFO Database initialized successfully
+2024-12-14T17:33:33.764106+0100 INFO successfully established database connection
+2024-12-14T17:35:07.839222+0100 INFO Database initialized successfully
+2024-12-14T17:35:07.839570+0100 INFO successfully established database connection
+2024-12-14T17:35:25.009893+0100 INFO Successfully deleted user with id 2
+2024-12-14T17:35:31.324514+0100 INFO Database initialized successfully
+2024-12-14T17:35:31.325075+0100 INFO successfully established database connection
+2024-12-14T17:35:38.495312+0100 INFO All users: [User(user_name = afanyuy, user_email = afa@gmail.com, user_password = $2b$12$xhChBVT63xqbDzR4yyUjXOniwrK4BQJENN/k8odXVDtjjsIUsxnVq)
+]

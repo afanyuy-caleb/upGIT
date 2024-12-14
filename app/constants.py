@@ -9,6 +9,6 @@ logger.add(log_file, format="{time} {level} {message}", rotation="10 MB", retent
 PATH_TO_DB = os.path.join(
   current_dir, 
   'config',
-  "upgit.sqlite"
+  "upgit.db"
   )
 

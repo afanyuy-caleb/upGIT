@@ -362,3 +362,33 @@ confirm_password
 2024-12-14T17:35:31.325075+0100 INFO successfully established database connection
 2024-12-14T17:35:38.495312+0100 INFO All users: [User(user_name = afanyuy, user_email = afa@gmail.com, user_password = $2b$12$xhChBVT63xqbDzR4yyUjXOniwrK4BQJENN/k8odXVDtjjsIUsxnVq)
 ]
+2024-12-16T11:26:08.113675+0100 INFO Database initialized successfully
+2024-12-16T11:26:08.115322+0100 INFO successfully established database connection
+2024-12-16T11:26:32.025790+0100 INFO Database initialized successfully
+2024-12-16T11:26:32.026149+0100 INFO successfully established database connection
+2024-12-16T11:42:43.001044+0100 INFO Database initialized successfully
+2024-12-16T11:42:43.001496+0100 INFO successfully established database connection
+2024-12-16T11:43:10.215490+0100 INFO Database initialized successfully
+2024-12-16T11:43:10.215909+0100 INFO successfully established database connection
+2024-12-16T11:44:52.707880+0100 INFO Database initialized successfully
+2024-12-16T11:44:52.708716+0100 INFO successfully established database connection
+2024-12-16T11:45:00.152042+0100 ERROR Failed to get users: 'list' object has no attribute 'check_password'
+2024-12-16T11:45:52.265168+0100 INFO Database initialized successfully
+2024-12-16T11:45:52.265585+0100 INFO successfully established database connection
+2024-12-16T11:45:55.619118+0100 ERROR Failed to get users: 'list' object has no attribute 'check_password'
+2024-12-16T11:46:22.543024+0100 INFO Database initialized successfully
+2024-12-16T11:46:22.543386+0100 INFO successfully established database connection
+2024-12-16T11:46:25.856944+0100 ERROR Failed to get users: 'list' object has no attribute 'check_password'
+2024-12-16T11:49:16.575047+0100 INFO Database initialized successfully
+2024-12-16T11:49:16.575437+0100 INFO successfully established database connection
+2024-12-16T11:57:37.624205+0100 INFO Database initialized successfully
+2024-12-16T11:57:37.624610+0100 INFO successfully established database connection
+2024-12-16T11:57:44.354133+0100 ERROR Failed to get users: 'NoneType' object has no attribute 'name'
+2024-12-16T12:02:57.088798+0100 INFO Database initialized successfully
+2024-12-16T12:02:57.089267+0100 INFO successfully established database connection
+2024-12-16T12:03:00.925570+0100 ERROR Incorrect email or password
+2024-12-16T12:03:13.374913+0100 INFO Database initialized successfully
+2024-12-16T12:03:13.375698+0100 INFO successfully established database connection
+2024-12-16T12:03:24.107484+0100 INFO User, afanyuy logged in successfully
+2024-12-16T12:38:18.925447+0100 INFO Database initialized successfully
+2024-12-16T12:38:18.925801+0100 INFO successfully established database connection

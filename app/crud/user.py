@@ -27,6 +27,11 @@ def get_by_column(session: Session, field:str, value, skip:int=0, limit: int=10)
     condition = filter_column.like(f"%{value}%")
     return session.query(User).filter(condition).all()
 
+def get_by_email(session: Session, email: str):
+    """Login a user by their email"""
+    user = session.query(User).filter_by(email=email).one_or_none()
+    return user
+
 def update(session: Session, user_id: int, user: UserUpdate):
     """Update the user with the given id"""
     user_to_update = session.query(User).filter_by(id=user_id).one_or_none()

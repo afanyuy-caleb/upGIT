@@ -39,15 +39,19 @@ def register():
         return False
         
 def login():
-    print("\nGetting all users....") 
+    print("\nPlease login into your account") 
     user_info = {
         'email': input("email: "),
         'password': input("password: ")
     }
     try:
-        user = user_crud.get_by_column(session, field='email', value=user_info["email"])
-        
-        print(user)
+        user = user_crud.get_by_email(session, email=user_info["email"])
+        if user:
+            if user.check_password(user_info["password"]): 
+                logger.info(f"User, {user.name} logged in successfully")
+                return True, user
+        logger.error(f"Incorrect email or password")
+        return False, "Incorrect email or password"
     except Exception as e:
-        logger.error("Failed to get users: %s" % e)
+        logger.error("Failed to authenticate user: %s" % e)
         return False

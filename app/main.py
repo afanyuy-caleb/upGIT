@@ -16,10 +16,15 @@ def db_connection():
 
 def handle_acc_creation():
     """Handle user registration and remote repo creation"""
-    
-    # user_auth.register()
-    github_obj = GithubUtililty()
-    github_obj.get_repo
+    try:
+        user = user_auth.register()
+        github_obj = GithubUtililty()
+        
+        repo_name = user.name + '_' + user.id
+        print(repo_name)
+        
+    except Exception as e:
+        logger.error('Error registering user and repo: %s' % e)
     
 def main():
     db_connection()

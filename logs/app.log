@@ -392,3 +392,20 @@ confirm_password
 2024-12-16T12:03:24.107484+0100 INFO User, afanyuy logged in successfully
 2024-12-16T12:38:18.925447+0100 INFO Database initialized successfully
 2024-12-16T12:38:18.925801+0100 INFO successfully established database connection
+2024-12-17T00:04:56.252706+0100 INFO Database initialized successfully
+2024-12-17T00:04:56.253691+0100 INFO successfully established database connection
+2024-12-17T00:08:40.640846+0100 INFO Database initialized successfully
+2024-12-17T00:08:40.641822+0100 INFO successfully established database connection
+2024-12-17T00:09:16.786238+0100 ERROR Error occured creating user When initializing mapper Mapper[User(users)], expression 'RemoteRepo' failed to locate a name ('RemoteRepo'). If this is a class name, consider adding this relationship() to the <class 'app.models.user.User'> class after both dependent classes have been defined.
+2024-12-17T00:09:16.786785+0100 ERROR Error registering user and repo: 'bool' object has no attribute 'name'
+2024-12-17T00:10:52.010283+0100 INFO Database initialized successfully
+2024-12-17T00:10:52.010714+0100 INFO successfully established database connection
+2024-12-17T00:11:22.778855+0100 ERROR Error occured creating user When initializing mapper Mapper[RemoteRepo(remoteRepos)], expression 'Branch' failed to locate a name ('Branch'). If this is a class name, consider adding this relationship() to the <class 'app.models.remote_repo.RemoteRepo'> class after both dependent classes have been defined.
+2024-12-17T00:11:22.779400+0100 ERROR Error registering user and repo: 'bool' object has no attribute 'name'
+2024-12-17T00:21:17.430309+0100 INFO Database initialized successfully
+2024-12-17T00:21:17.430707+0100 INFO successfully established database connection
+2024-12-17T00:21:39.242869+0100 ERROR Error occured creating user Instance <User at 0x202617102f0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-12-17T00:21:39.243812+0100 ERROR Error registering user and repo: 'bool' object has no attribute 'name'
+2024-12-17T00:22:41.096979+0100 INFO Database initialized successfully
+2024-12-17T00:22:41.097352+0100 INFO successfully established database connection
+2024-12-17T00:22:54.314937+0100 INFO User, afa logged in successfully

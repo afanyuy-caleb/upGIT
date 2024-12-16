@@ -32,7 +32,7 @@ def register():
         """Insert the new user"""
         created_user = user_crud.create(session, model_object)
         logger.info(f"User created without fault \n{created_user}")
-        return True
+        return created_user
         
     except Exception as e:
         logger.error(f"Error occured creating user {e}")

@@ -10,8 +10,13 @@ class GithubUtililty():
         gh = Github(auth=auth)
         self.user = gh.get_user()
     
-    def create_repo(self):
-        pass
+    def create_repo(self, repo_name, repo_description="This is an initial user repository created via upGIT", private=True):
+        repo = self.user.create_repo(
+            name = repo_name, 
+            description = repo_description, 
+            private=private
+        )
+        return repo
     
     def get_repo(self, repo_name = None):
         for repo in self.user.get_repos():

@@ -66,23 +66,28 @@ pip freeze > requirements.txt
 ```
 UpGit/
 ├── app/
+│   ├── auth/
+│   │   └── __init__.py
 │   ├── config/
 │   │   ├── __init__.py
 │   │   ├── constants.py
 │   │   └── database.py
+│   ├── controllers/
+│   │   └── __init__.py
 │   ├── crud/
 │   │   └── __init__.py
 │   ├── models/
 │   │   └── __init__.py
 │   ├── schema/
 │   │   └── __init__.py
-│   ├── controllers/
+│   ├── services/
 │   │   └── __init__.py
 │   ├── tests/
 │   │   └── __init__.py
 │   ├── views/
 │   │   └── __init__.py
 │   ├── __init.py
+│   └── demo.py
 │   └── main.py
 ├── logs/
 │   └── app.log

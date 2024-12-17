@@ -1,4 +1,4 @@
-from .constants import logger
+from .utils.constants import logger
 from .auth import user as user_auth
 from .controllers import user as user_controllers
 

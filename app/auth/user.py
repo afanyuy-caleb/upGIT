@@ -1,13 +1,7 @@
-from sqlalchemy.orm import sessionmaker
-from ..config.database import engine
 from ..models.user import User as user_model
 from ..schema.user import UserCreate
 from ..crud import user as user_crud
-from ..constants import logger
-
-"""Create a db session"""
-Session = sessionmaker(engine)
-session = Session()
+from ..utils.constants import logger
 
 def register():
     print("\nCreating user....")
@@ -30,7 +24,7 @@ def register():
         model_object.set_password()
         
         """Insert the new user"""
-        created_user = user_crud.create(session, model_object)
+        created_user = user_crud.create(user=model_object)
         logger.info(f"User created without fault \n{created_user}")
         return created_user
         
@@ -45,7 +39,7 @@ def login():
         'password': input("password: ")
     }
     try:
-        user = user_crud.get_by_email(session, email=user_info["email"])
+        user = user_crud.get_by_email(email=user_info["email"])
         if user:
             if user.check_password(user_info["password"]): 
                 logger.info(f"User, {user.name} logged in successfully")

@@ -1,10 +1,8 @@
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-
 import os, sys
-from ..constants import logger, PATH_TO_DB
+
+from ..utils.constants import logger, PATH_TO_DB
 
 DATABASE_URL = "sqlite:///%s" % PATH_TO_DB
 

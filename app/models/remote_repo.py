@@ -14,6 +14,7 @@ class RemoteRepo(Base):
     name = Column(String, nullable=False, index=True)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
     url = Column(String, nullable=False, index=True)
+    clone_url = Column(String, nullable=False, index=True)
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
     updated_at = Column(DateTime, nullable=False, default=datetime.utcnow)
     

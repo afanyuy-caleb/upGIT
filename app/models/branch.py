@@ -21,7 +21,7 @@ class Branch(Base):
         self.password = self.password.encode('utf-8')
         self.password = bcrypt.hashpw(self.password, salt=salt)
         self.password = self.password.decode('utf-8')
-        
+                
     def check_password(self, plain_password: str) -> bool:
         return bcrypt.checkpw(plain_password.encode('utf-8'), self.password.encode('utf-8'))
     

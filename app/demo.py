@@ -1,6 +1,8 @@
 from .utils.constants import logger
 from .auth import user as user_auth
-from .controllers import user as user_controllers
+from .controllers import user as user_controller
+from .controllers import branch as branch_controller
+from .controllers import remote_repo as remote_controller
 
 def get_operations(model: str):
     return [f'create a {model}', f'get all {model}s', f'get {model} by id', f'get {model} by specific column', f'update {model}', f'delete {model}']
@@ -8,18 +10,39 @@ def get_operations(model: str):
 
 def run_demo():
     operation_handler = [{
-        "method": [user_auth.register, user_controllers.get_all, user_controllers.get_id, user_controllers.get_specific, user_controllers.update_user, user_controllers.delete_user]
+        "model": 'user',
+        "methods": [user_auth.register, user_controller.get_all, user_controller.get_id, user_controller.get_specific, user_controller.update_user, user_controller.delete_user]
         },
         {
-        "method": [user_auth.register, user_controllers.get_all]
+        "model": 'file',
+        "methods": [user_auth.register, user_controller.get_all]
         },
         {
-        "method": [user_auth.register, user_controllers.get_all]
+        "model": 'branch',
+        "methods": [branch_controller.save, branch_controller.get_all, branch_controller.get_id, branch_controller.get_specific, branch_controller.delete_branch]
+        },
+        {
+        "model": 'remote_repo',
+        "methods": [remote_controller.save, remote_controller.get_all, remote_controller.get_id, remote_controller.get_specific, remote_controller.delete_remote_repo]
+        },
+        {
+        "model": 'local_repo',
+        "methods": [user_auth.register, user_controller.get_all]
+        },
+        {
+        "model": 'local_branch',
+        "methods": [user_auth.register, user_controller.get_all]
         }
     ]
-    models = ['user', 'file', 'repo']
+    models = [operation['model'] for operation in operation_handler]
     print("\nHi there! Welcome to this mini sqlalchemy demo. \nWhich model do you want to work on?")
-    print("1. user\t 2. file\t 3. repository\t")
+    
+    model_string = ''
+    num = 1
+    for model in models:
+        model_string += str(num)+ '. '+model+ '\t '
+        num += 1
+    print(model_string)
     model = int(input("Enter your choice: "))
     
     try:
@@ -32,8 +55,9 @@ def run_demo():
         operation = int(input("Enter your choice: "))
         while operation not in range(1, len(operations)+1):
             operation = int(input("Enter your choice: "))
-            
-        operation_handler[model - 1]['method'][operation - 1]()
+        
+        #call the associate function to run
+        operation_handler[model - 1]['methods'][operation - 1]()
     except IndexError as e:
         logger.error("Invalid choice: %s" % e)
         quit()

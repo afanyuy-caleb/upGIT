@@ -40,19 +40,19 @@ def handle_acc_creation():
         logger.error('Error registering user and repo: %s' % e)
     
 def main():
-    db_connection()
+    # db_connection()
     
-    print("1. create account\t 2. Login")
-    choice = int(input("Enter your choice: "))
+    # print("1. create account\t 2. Login")
+    # choice = int(input("Enter your choice: "))
     
-    if choice == 1:
-        handle_acc_creation()
-    elif choice == 2:
-        login_status = user_auth.login()
+    # if choice == 1:
+    #     handle_acc_creation()
+    # elif choice == 2:
+    #     login_status = user_auth.login()
         
-        if login_status[0]:
-            """Redirect to the home page"""
+    #     if login_status[0]:
+    #         """Redirect to the home page"""
     
     # run the demo file
-    # demo.run_demo()
+    demo.run_demo()
     

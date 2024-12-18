@@ -37,3 +37,5 @@ User(user_name = afa, user_email = afa@gmail.com, user_password = $2b$12$53Bi/kG
 2024-12-17T02:29:41.999730+0100 INFO Database session closed after create
 2024-12-17T02:29:42.000688+0100 INFO Successfully created remote_repo
 2024-12-17T02:29:42.001592+0100 INFO Successfully created remote repository for upGIT_afa_1 and saved it to the database
+2024-12-18T04:20:53.771037+0100 ERROR Invalid choice: list index out of range
+2024-12-18T04:23:36.123573+0100 ERROR Failed to delete user: invalid literal for int() with base 10: '\x18\x1a'

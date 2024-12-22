@@ -4,6 +4,7 @@ from sqlalchemy.orm import relationship
 from datetime import datetime
 import bcrypt
 from .remote_repo import RemoteRepo
+from .local_repo import LocalRepo
 
 class User(Base):
     """User model"""
@@ -16,10 +17,13 @@ class User(Base):
     password = Column(String, nullable=False)
     email = Column(String, unique=True, nullable=False)
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
-    updated_at = Column(DateTime, nullable=False, default=datetime.utcnow)
+    updated_at = Column(DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
     
-    """parent-child relationship with remote repository"""
-    repositories = relationship("RemoteRepo", backref="owner", uselist=False)
+    """one-to-one relationship with remote repository"""
+    remote_repos = relationship("RemoteRepo", backref="owner", uselist=False)
+    
+    """parent-child relationship with local repository/uploaded folder"""
+    local_repos = relationship("LocalRepo", backref="uploader")
     
     """Method to be implemented"""
     def set_password(self) -> str:

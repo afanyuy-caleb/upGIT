@@ -8,7 +8,6 @@ from functools import wraps #to maintain the function metadata when called
 Session = sessionmaker(bind=engine)
 
 def transaction_decorator(func):
-    
     @wraps(func)
     def wrapper(*args, **kwargs):
         """Create a db session"""

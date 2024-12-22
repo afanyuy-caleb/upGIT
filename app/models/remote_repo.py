@@ -16,7 +16,7 @@ class RemoteRepo(Base):
     url = Column(String, nullable=False, index=True)
     clone_url = Column(String, nullable=False, index=True)
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
-    updated_at = Column(DateTime, nullable=False, default=datetime.utcnow)
+    updated_at = Column(DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
     
     """Parent-child relationship with the branches"""
     branches = relationship("Branch", backref="parent_repo")

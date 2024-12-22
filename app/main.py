@@ -40,7 +40,7 @@ def handle_acc_creation():
         logger.error('Error registering user and repo: %s' % e)
     
 def main():
-    # db_connection()
+    db_connection()
     
     # print("1. create account\t 2. Login")
     # choice = int(input("Enter your choice: "))

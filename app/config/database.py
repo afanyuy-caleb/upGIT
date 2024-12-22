@@ -7,7 +7,7 @@ from ..utils.constants import logger, PATH_TO_DB
 DATABASE_URL = "sqlite:///%s" % PATH_TO_DB
 
 """Create database variables"""
-engine = create_engine(DATABASE_URL, echo=True)
+engine = create_engine(DATABASE_URL)
 Base = declarative_base()
 
 def init_db():

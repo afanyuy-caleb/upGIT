@@ -24,6 +24,8 @@ def get_local_branch(session, id: int):
 def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
     filter_column = getattr(LocalBranch, field)
     condition = filter_column.like(f"%{value}%")
+    if limit == 1:
+        return session.query(LocalBranch).filter(condition).first()
     return session.query(LocalBranch).filter(condition).all()
 
 @transaction_decorator

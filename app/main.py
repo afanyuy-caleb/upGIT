@@ -6,6 +6,7 @@ from app import demo
 from .controllers import user as user_controllers
 from .controllers import remote_repo as remote_repo_controller
 from .services.github import GithubUtililty
+from .services import backup
 
 def db_connection():
     """Initialize the database connection"""
@@ -39,20 +40,27 @@ def handle_acc_creation():
     except Exception as e:
         logger.error('Error registering user and repo: %s' % e)
     
-def main():
+def main():    
     db_connection()
     
-    # print("1. create account\t 2. Login")
-    # choice = int(input("Enter your choice: "))
+    print("1. create account\t 2. Login")
+    choice = int(input("Enter your choice: "))
     
-    # if choice == 1:
-    #     handle_acc_creation()
-    # elif choice == 2:
-    #     login_status = user_auth.login()
+    if choice == 1:
+        handle_acc_creation()
+    elif choice == 2:
+        login_status = user_auth.login()
         
-    #     if login_status[0]:
-    #         """Redirect to the home page"""
+        if login_status[0]:
+            """Redirect to the home page"""
+            logger.info(f"successful login for {login_status[1].name}")
+            backup_object = {
+                'path': input('enter folder path: '),
+                'backup_frequency': input('enter backup frequency(in hours, xh): '),
+                'branch': input('enter branch name: ')
+            }
+            backup.new_backup(user=login_status[1], backup_object=backup_object)    
     
     # run the demo file
-    demo.run_demo()
+    # demo.run_demo()
     

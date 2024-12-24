@@ -13,7 +13,6 @@ def save(file_object):
         return False
 
 def get_all():
-    print("\nGetting all files....") 
     try:
         files = file_crud.get_all()
         logger.info(f"All files: {files}")
@@ -22,29 +21,29 @@ def get_all():
         logger.error("Failed to get files: %s" % e)
         return False
         
-def get_id():
+def get_id(id: int):
     try:
-        id = int(input("Enter the file ID: "))
         file = file_crud.get_file(id=id)
         logger.info(f"Successfully retrieved {file}")
+        return file
     except Exception as e:
         logger.error("Failed to get files: %s" % e)
         return False
 
-def get_specific():
+def get_specific(column: str, value, limit = None):
     try:
-        column = input("Enter the column name: ")
-        value = input("Enter the value: ")
-        files = file_crud.get_by_column(field=column, value=value)
+        files = file_crud.get_by_column(field=column, value=value, limit=limit)
         logger.info(f"Successfully retrieved files with {files}")
+        return files
     except Exception as e:
         logger.error("Failed to get files: %s" % e)
         return False
   
-def delete_file():
+def delete_file(id: int):
     try:
-        id = int(input("Enter the file ID: "))
         deleted = file_crud.delete(file_id=id)
         logger.info(f"Successfully deleted file with id {id}")
+        return deleted
     except Exception as e:
         logger.error("Failed to delete file: %s" % e)
+        return False

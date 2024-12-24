@@ -43,3 +43,212 @@ User(user_name = afa, user_email = afa@gmail.com, user_password = $2b$12$53Bi/kG
 2024-12-22T03:17:20.159683+0100 INFO successfully established database connection
 2024-12-22T03:18:36.636143+0100 INFO Database initialized successfully
 2024-12-22T03:18:36.636684+0100 INFO successfully established database connection
+2024-12-23T17:57:04.533181+0100 INFO Database initialized successfully
+2024-12-23T17:57:04.534148+0100 INFO successfully established database connection
+2024-12-23T17:57:27.384731+0100 ERROR Error occured creating user Error creating backref 'parent_file' on relationship 'File.parent_file': property of that name exists on mapper 'Mapper[File(files)]'
+2024-12-23T17:57:27.385264+0100 ERROR Error registering user and repo: 'bool' object has no attribute 'name'
+2024-12-23T17:59:03.487287+0100 INFO Database initialized successfully
+2024-12-23T17:59:03.487875+0100 INFO successfully established database connection
+2024-12-23T17:59:23.332146+0100 INFO Database session closed after create
+2024-12-23T17:59:23.332578+0100 INFO User created without fault 
+User(user_name = afanyuy, user_email = afa@gmail.com, user_password = $2b$12$UTcAVDVeNiOHNf1w86vRxOTjv7Tz2rzdRanglnIY0OZVLF8fGyrc.)
+
+2024-12-23T17:59:25.410854+0100 INFO Database session closed after create
+2024-12-23T17:59:25.411899+0100 INFO Successfully created remote_repo
+2024-12-23T17:59:25.412761+0100 INFO Successfully created remote repository for upGIT_afanyuy_1 and saved it to the database
+2024-12-23T18:00:27.620057+0100 INFO Database initialized successfully
+2024-12-23T18:00:27.620579+0100 INFO successfully established database connection
+2024-12-23T18:00:38.488661+0100 ERROR A database connection error occured: Class 'builtins.NoneType' is not mapped
+2024-12-23T18:00:38.489004+0100 INFO Database session closed after get_by_email
+2024-12-23T18:00:38.489268+0100 ERROR Incorrect email or password
+2024-12-23T18:00:47.024045+0100 INFO Database initialized successfully
+2024-12-23T18:00:47.024478+0100 INFO successfully established database connection
+2024-12-23T18:00:58.987798+0100 INFO Database session closed after get_by_email
+2024-12-23T18:00:59.264461+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:02:00.032048+0100 INFO Database initialized successfully
+2024-12-23T18:02:00.032756+0100 INFO successfully established database connection
+2024-12-23T18:02:09.057346+0100 INFO Database session closed after get_by_email
+2024-12-23T18:02:09.329745+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:02:09.330475+0100 INFO successful login for afanyuy
+2024-12-23T18:37:21.668389+0100 INFO Database initialized successfully
+2024-12-23T18:37:21.668938+0100 INFO successfully established database connection
+2024-12-23T18:37:30.703605+0100 INFO Database session closed after get_by_email
+2024-12-23T18:37:30.975474+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:37:30.975844+0100 INFO successful login for afanyuy
+2024-12-23T18:37:30.978209+0100 ERROR A database connection error occured: Class 'builtins.list' is not mapped
+2024-12-23T18:37:30.978720+0100 INFO Database session closed after get_by_column
+2024-12-23T18:37:30.979255+0100 INFO Successfully retrieved remote_repos with None
+2024-12-23T18:39:11.474022+0100 INFO Database initialized successfully
+2024-12-23T18:39:11.474498+0100 INFO successfully established database connection
+2024-12-23T18:39:32.956656+0100 INFO Database initialized successfully
+2024-12-23T18:39:32.957114+0100 INFO successfully established database connection
+2024-12-23T18:39:43.555488+0100 INFO Database session closed after get_by_email
+2024-12-23T18:39:43.830278+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:39:43.830655+0100 INFO successful login for afanyuy
+2024-12-23T18:39:43.833399+0100 ERROR A database connection error occured: Class 'builtins.list' is not mapped
+2024-12-23T18:39:43.833893+0100 INFO Database session closed after get_by_column
+2024-12-23T18:39:43.834371+0100 INFO Successfully retrieved remote_repos with None
+2024-12-23T18:41:37.486197+0100 INFO Database initialized successfully
+2024-12-23T18:41:37.486915+0100 INFO successfully established database connection
+2024-12-23T18:41:46.781255+0100 INFO Database session closed after get_by_email
+2024-12-23T18:41:47.055721+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:41:47.056197+0100 INFO successful login for afanyuy
+2024-12-23T18:41:47.059092+0100 ERROR A database connection error occured: Class 'builtins.list' is not mapped
+2024-12-23T18:41:47.059608+0100 INFO Database session closed after get_by_column
+2024-12-23T18:41:47.060192+0100 INFO Successfully retrieved remote_repos with None
+2024-12-23T18:44:35.097702+0100 INFO Database initialized successfully
+2024-12-23T18:44:35.098222+0100 INFO successfully established database connection
+2024-12-23T18:44:41.289075+0100 INFO Database session closed after get_by_email
+2024-12-23T18:44:41.562736+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:44:41.563263+0100 INFO successful login for afanyuy
+2024-12-23T18:44:41.564493+0100 ERROR A database connection error occured: Class 'sqlalchemy.orm.query.Query' is not mapped
+2024-12-23T18:44:41.565014+0100 INFO Database session closed after get_by_column
+2024-12-23T18:44:41.565602+0100 INFO Successfully retrieved remote_repos, None
+2024-12-23T18:49:27.931614+0100 INFO Database initialized successfully
+2024-12-23T18:49:27.932154+0100 INFO successfully established database connection
+2024-12-23T18:49:35.847249+0100 INFO Database session closed after get_by_email
+2024-12-23T18:49:36.131232+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:49:36.131721+0100 INFO successful login for afanyuy
+2024-12-23T18:49:36.133105+0100 ERROR A database connection error occured: Class 'sqlalchemy.orm.query.Query' is not mapped
+2024-12-23T18:49:36.133624+0100 INFO Database session closed after get_by_column
+2024-12-23T18:49:36.134182+0100 INFO Successfully retrieved remote_repos None
+2024-12-23T18:49:59.799705+0100 INFO Database initialized successfully
+2024-12-23T18:49:59.800398+0100 INFO successfully established database connection
+2024-12-23T18:50:10.218670+0100 INFO Database session closed after get_by_email
+2024-12-23T18:50:10.508464+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:50:10.508958+0100 INFO successful login for afanyuy
+2024-12-23T18:51:10.296282+0100 INFO Database initialized successfully
+2024-12-23T18:51:10.296686+0100 INFO successfully established database connection
+2024-12-23T18:51:18.734023+0100 INFO Database session closed after get_by_email
+2024-12-23T18:51:19.006026+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:51:19.006501+0100 INFO successful login for afanyuy
+2024-12-23T18:51:19.010842+0100 INFO Database session closed after get_by_user
+2024-12-23T18:51:19.011469+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-23T18:53:13.700916+0100 INFO Database initialized successfully
+2024-12-23T18:53:13.701463+0100 INFO successfully established database connection
+2024-12-23T18:53:21.231520+0100 INFO Database session closed after get_by_email
+2024-12-23T18:53:21.524103+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:53:21.524573+0100 INFO successful login for afanyuy
+2024-12-23T18:53:21.527347+0100 ERROR A database connection error occured: Class 'builtins.list' is not mapped
+2024-12-23T18:53:21.527904+0100 INFO Database session closed after get_by_column
+2024-12-23T18:53:21.528478+0100 INFO Successfully retrieved remote_repos None
+2024-12-23T18:56:23.051089+0100 INFO Database initialized successfully
+2024-12-23T18:56:23.051750+0100 INFO successfully established database connection
+2024-12-23T18:56:32.291878+0100 INFO Database session closed after get_by_email
+2024-12-23T18:56:32.561486+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:56:32.561926+0100 INFO successful login for afanyuy
+2024-12-23T18:56:32.565174+0100 INFO Database session closed after get_by_user
+2024-12-23T18:56:32.565523+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-23T18:57:12.684297+0100 INFO Database initialized successfully
+2024-12-23T18:57:12.684852+0100 INFO successfully established database connection
+2024-12-23T18:57:20.960807+0100 INFO Database session closed after get_by_email
+2024-12-23T18:57:21.236760+0100 INFO User, afanyuy logged in successfully
+2024-12-23T18:57:21.237140+0100 INFO successful login for afanyuy
+2024-12-23T18:57:21.240331+0100 INFO Database session closed after get_by_user
+2024-12-23T18:57:21.240573+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-23T18:58:14.739587+0100 ERROR A database connection error occured: Class 'builtins.list' is not mapped
+2024-12-23T18:58:14.739990+0100 INFO Database session closed after get_by_column
+2024-12-23T18:58:14.740304+0100 INFO Successfully retrieved branchs with None
+2024-12-23T18:58:14.757772+0100 INFO Database session closed after create
+2024-12-23T18:58:14.758124+0100 INFO Successfully created branch
+2024-12-23T19:01:40.325058+0100 ERROR A database connection error occured: Class 'builtins.list' is not mapped
+2024-12-23T19:01:40.325531+0100 INFO Database session closed after get_by_column
+2024-12-23T19:01:40.325840+0100 INFO Successfully retrieved users with None
+2024-12-23T19:04:40.835659+0100 ERROR An unexpected error occurred during crud operation: Query.filter() got an unexpected keyword argument 'filter_column'
+2024-12-23T19:04:40.836352+0100 INFO Database session closed after get_by_column
+2024-12-23T19:04:40.836813+0100 INFO Successfully retrieved users with None
+2024-12-23T19:05:11.868989+0100 ERROR A database connection error occured: Class 'builtins.list' is not mapped
+2024-12-23T19:05:11.869454+0100 INFO Database session closed after get_by_column
+2024-12-23T19:05:11.869744+0100 INFO Successfully retrieved users with None
+2024-12-23T19:11:03.797500+0100 ERROR A database connection error occured: Class 'builtins.list' is not mapped
+2024-12-23T19:11:03.798095+0100 INFO Database session closed after get_by_column
+2024-12-23T19:11:03.798479+0100 INFO Successfully retrieved users with None
+2024-12-23T19:15:24.899374+0100 INFO Successfully retrieved users with [User(user_name = afanyuy, user_email = afa@gmail.com, user_password = $2b$12$UTcAVDVeNiOHNf1w86vRxOTjv7Tz2rzdRanglnIY0OZVLF8fGyrc.)
+]
+2024-12-23T19:18:17.856373+0100 INFO Database session closed after get_by_column
+2024-12-23T19:18:17.857071+0100 ERROR Failed to get users: Instance <User at 0x2d762c4d550> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-12-23T19:18:57.354016+0100 ERROR A database connection error occured: Class 'builtins.list' is not mapped
+2024-12-23T19:18:57.354522+0100 INFO Database session closed after get_by_column
+2024-12-23T19:18:57.355000+0100 INFO Successfully retrieved users with None
+2024-12-23T19:19:24.384755+0100 INFO Database session closed after get_by_column
+2024-12-23T19:19:24.385398+0100 ERROR Failed to get users: Instance <User at 0x1ddf3669550> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-12-23T19:22:16.275741+0100 ERROR A database connection error occured: Class 'builtins.list' is not mapped
+2024-12-23T19:22:16.276315+0100 INFO Database session closed after get_by_column
+2024-12-23T19:22:16.276793+0100 INFO Successfully retrieved users with None
+2024-12-23T19:24:36.132527+0100 INFO Database session closed after get_by_column
+2024-12-23T19:24:36.133180+0100 ERROR Failed to get users: Instance <User at 0x1a8f4309550> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-12-23T19:27:18.133045+0100 ERROR Failed to get users: Instance <User at 0x20456739550> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-12-23T19:29:33.387653+0100 ERROR Failed to get users: Instance <User at 0x2cdbfa29550> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-12-23T19:29:50.981141+0100 ERROR Failed to get users: Instance <User at 0x2141f4b9550> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-12-23T19:32:56.472651+0100 INFO Successfully retrieved users with [User(user_name = afanyuy, user_email = afa@gmail.com, user_password = $2b$12$UTcAVDVeNiOHNf1w86vRxOTjv7Tz2rzdRanglnIY0OZVLF8fGyrc.)
+]
+2024-12-23T19:33:55.032004+0100 INFO Database session closed after get_by_column
+2024-12-23T19:33:55.032526+0100 INFO Successfully retrieved users with [User(user_name = afanyuy, user_email = afa@gmail.com, user_password = $2b$12$UTcAVDVeNiOHNf1w86vRxOTjv7Tz2rzdRanglnIY0OZVLF8fGyrc.)
+]
+2024-12-23T19:36:27.948185+0100 INFO Database initialized successfully
+2024-12-23T19:36:27.948709+0100 INFO successfully established database connection
+2024-12-23T19:36:37.939691+0100 INFO Database session closed after get_by_email
+2024-12-23T19:36:38.209652+0100 INFO User, afanyuy logged in successfully
+2024-12-23T19:36:38.210070+0100 INFO successful login for afanyuy
+2024-12-23T19:36:38.212400+0100 INFO Database session closed after get_by_column
+2024-12-23T19:36:38.212739+0100 INFO Successfully retrieved remote_repos [RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+]
+2024-12-23T19:37:48.545393+0100 INFO Database session closed after get_by_column
+2024-12-23T19:37:48.545958+0100 INFO Successfully retrieved branchs with [Branch(branch_name = first_branch, branch_parent = 1
+]
+2024-12-24T08:23:08.895547+0100 INFO Database initialized successfully
+2024-12-24T08:23:08.896862+0100 INFO successfully established database connection
+2024-12-24T08:23:17.305511+0100 INFO Database session closed after get_by_email
+2024-12-24T08:23:17.581282+0100 INFO User, afanyuy logged in successfully
+2024-12-24T08:23:17.582088+0100 INFO successful login for afanyuy
+2024-12-24T08:23:17.584905+0100 INFO Database session closed after get_by_column
+2024-12-24T08:23:17.585429+0100 INFO Successfully retrieved remote_repos [RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+]
+2024-12-24T08:25:04.237108+0100 INFO Database session closed after get_by_column
+2024-12-24T08:25:04.237625+0100 INFO Successfully retrieved branchs with []
+2024-12-24T08:27:02.307952+0100 INFO Database initialized successfully
+2024-12-24T08:27:02.308598+0100 INFO successfully established database connection
+2024-12-24T08:27:11.067844+0100 INFO Database session closed after get_by_email
+2024-12-24T08:27:11.343788+0100 INFO User, afanyuy logged in successfully
+2024-12-24T08:27:11.344227+0100 INFO successful login for afanyuy
+2024-12-24T08:27:11.347111+0100 INFO Database session closed after get_by_column
+2024-12-24T08:27:11.347390+0100 INFO Successfully retrieved remote_repos [RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+]
+2024-12-24T08:27:38.309590+0100 INFO Database session closed after get_by_column
+2024-12-24T08:27:38.309902+0100 INFO Successfully retrieved branchs with []
+2024-12-24T08:27:38.327621+0100 INFO Database session closed after create
+2024-12-24T08:27:38.328007+0100 INFO Successfully created branch
+2024-12-24T08:47:53.852734+0100 INFO Database initialized successfully
+2024-12-24T08:47:53.853306+0100 INFO successfully established database connection
+2024-12-24T08:48:02.419904+0100 INFO Database session closed after get_by_email
+2024-12-24T08:48:02.696895+0100 INFO User, afanyuy logged in successfully
+2024-12-24T08:48:02.697401+0100 INFO successful login for afanyuy
+2024-12-24T08:49:15.897894+0100 INFO Database initialized successfully
+2024-12-24T08:49:15.898396+0100 INFO successfully established database connection
+2024-12-24T08:49:24.757923+0100 INFO Database session closed after get_by_email
+2024-12-24T08:49:25.028011+0100 INFO User, afanyuy logged in successfully
+2024-12-24T08:49:25.028735+0100 INFO successful login for afanyuy
+2024-12-24T08:49:43.734339+0100 INFO Database session closed after get_by_column
+2024-12-24T08:49:43.734831+0100 INFO Successfully retrieved remote_repos [RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+]
+2024-12-24T08:49:43.736993+0100 INFO Database session closed after get_by_column
+2024-12-24T08:49:43.737467+0100 INFO Successfully retrieved branchs with [Branch(branch_name = second_branch, branch_parent_repo = 1
+]
+2024-12-24T09:01:59.316732+0100 INFO Database initialized successfully
+2024-12-24T09:01:59.317233+0100 INFO successfully established database connection
+2024-12-24T09:02:07.344621+0100 INFO Database session closed after get_by_email
+2024-12-24T09:02:07.625710+0100 INFO User, afanyuy logged in successfully
+2024-12-24T09:02:07.626167+0100 INFO successful login for afanyuy
+2024-12-24T09:02:28.599900+0100 INFO Database session closed after get_by_column
+2024-12-24T09:02:28.600191+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T09:02:28.602017+0100 INFO Database session closed after get_by_column
+2024-12-24T09:02:28.602425+0100 INFO Successfully retrieved branchs with Branch(branch_name = second_branch, branch_parent_repo = 1
+
+2024-12-24T09:02:28.625099+0100 INFO Database session closed after create
+2024-12-24T09:02:28.625973+0100 INFO Successfully created local_repo
+2024-12-24T09:02:28.647663+0100 INFO Database session closed after create
+2024-12-24T09:02:28.648314+0100 INFO Successfully created local_branch

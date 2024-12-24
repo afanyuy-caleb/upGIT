@@ -25,7 +25,10 @@ def get_remote_repo(session, id: int):
 def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
     filter_column = getattr(RemoteRepo, field)
     condition = filter_column.like(f"%{value}%")
-    return session.query(RemoteRepo).filter(condition).all()
+    if limit == 1:
+        return session.query(RemoteRepo).filter(condition).first()
+    result = session.query(RemoteRepo).filter(condition).all()
+    return result
 
 @transaction_decorator
 def delete(session, remote_repo_id: int):

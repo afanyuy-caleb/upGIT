@@ -24,9 +24,16 @@ def get_user(session, id: int):
 
 @transaction_decorator
 def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
+    if not hasattr(User, field):
+        raise ValueError(f"Invalid field name: {field}")
     filter_column = getattr(User, field)
-    condition = filter_column.like(f"%{value}%")
-    return session.query(User).filter(condition).all()
+    # Adjust for string comparison if the field is a string
+    if isinstance(value, str):
+        value = value.lower()  # Convert to lowercase for comparison
+        results = session.query(User).filter(filter_column.ilike(f'%{value}%')).offset(skip).limit(limit).all()
+    else:
+        results = session.query(User).filter(filter_column == value).offset(skip).limit(limit).all()
+    return results
 
 @transaction_decorator
 def get_by_email(session, email: str):

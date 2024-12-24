@@ -15,12 +15,14 @@ def transaction_decorator(func):
         try:
             # Perform database transaction
             result = func(session, *args, **kwargs)
-            session.commit()
-            session.refresh(result)
+            
+            # Commit the transaction if only there are changes to the database
+            if session.dirty or session.new:
+                session.commit()
+                session.refresh(result)
             return result
         except SQLAlchemyError as e:
             session.rollback()
-            # Log the error
             logger.error(f"A database connection error occured: {e}")
             return None
         except Exception as e:

@@ -13,7 +13,6 @@ def save(local_branch_object):
         return False
 
 def get_all():
-    print("\nGetting all local_branchs....") 
     try:
         local_branchs = local_branch_crud.get_all()
         logger.info(f"All local_branchs: {local_branchs}")
@@ -22,29 +21,29 @@ def get_all():
         logger.error("Failed to get local_branchs: %s" % e)
         return False
         
-def get_id():
+def get_id(id: int):
     try:
-        id = int(input("Enter the local_branch ID: "))
         local_branch = local_branch_crud.get_local_branch(id=id)
         logger.info(f"Successfully retrieved {local_branch}")
+        return local_branch
     except Exception as e:
         logger.error("Failed to get local_branchs: %s" % e)
         return False
 
-def get_specific():
+def get_specific(column: str, value, limit=None):
     try:
-        column = input("Enter the column name: ")
-        value = input("Enter the value: ")
-        local_branchs = local_branch_crud.get_by_column(field=column, value=value)
+        local_branchs = local_branch_crud.get_by_column(field=column, value=value, limit=limit)
         logger.info(f"Successfully retrieved local_branchs with {local_branchs}")
+        return local_branchs
     except Exception as e:
         logger.error("Failed to get local_branchs: %s" % e)
         return False
   
-def delete_local_branch():
+def delete_local_branch(id):
     try:
-        id = int(input("Enter the local_branch ID: "))
         deleted = local_branch_crud.delete(local_branch_id=id)
         logger.info(f"Successfully deleted local_branch with id {id}")
+        return deleted
     except Exception as e:
         logger.error("Failed to delete local_branch: %s" % e)
+        return False

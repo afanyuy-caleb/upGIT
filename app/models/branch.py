@@ -11,7 +11,7 @@ class Branch(Base):
     
     """table attributes"""
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String, nullable=False, index=True)
+    name = Column(String, nullable=False, index=True, unique=True)
     remote_repo = Column(Integer, ForeignKey('remoteRepos.id'), nullable=False)
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
     updated_at = Column(DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
@@ -21,5 +21,5 @@ class Branch(Base):
     
     def __repr__(self):
         """Return a string representation of the branch class"""
-        return f"Branch(branch_name = {self.name}, branch_parent = {self.remote_repo}\n"
+        return f"Branch(branch_name = {self.name}, branch_parent_repo = {self.remote_repo}\n"
 

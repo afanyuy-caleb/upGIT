@@ -11,6 +11,7 @@ class BackupStatus(PyEnum):
     PENDING = "pending"
     COMPLETED = "completed"
     FAILED = "failed"
+    READY = "ready"
 
 class LocalRepo(Base):
     """LocalRepo model"""
@@ -21,7 +22,7 @@ class LocalRepo(Base):
     name = Column(String, nullable=False, index=True)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
     backup_frequency = Column(String, nullable=False, index=True, default="48h")
-    backup_status = Column(Enum(BackupStatus), nullable=False, index=True, default=BackupStatus.PENDING)
+    backup_status = Column(Enum(BackupStatus), nullable=False, index=True, default=BackupStatus.READY)
     backup_time = Column(DateTime, nullable=False, index=True, default=datetime.utcnow)
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
     updated_at = Column(DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)

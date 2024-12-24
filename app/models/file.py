@@ -12,6 +12,7 @@ class File(Base):
     name = Column(String, nullable=False, index=True)
     repo_id = Column(Integer, ForeignKey('localRepos.id'), nullable=False, index=True)
     size = Column(Float)
+    parent_id = Column(Integer, ForeignKey('files.id'), nullable=True)
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
     updated_at = Column(DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
     

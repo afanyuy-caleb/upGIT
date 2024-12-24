@@ -13,7 +13,6 @@ def save(local_repo_object):
         return False
 
 def get_all():
-    print("\nGetting all local_repos....") 
     try:
         local_repos = local_repo_crud.get_all()
         logger.info(f"All local_repos: {local_repos}")
@@ -22,29 +21,29 @@ def get_all():
         logger.error("Failed to get local_repos: %s" % e)
         return False
         
-def get_id():
+def get_id(id):
     try:
-        id = int(input("Enter the local_repo ID: "))
         local_repo = local_repo_crud.get_local_repo(id=id)
         logger.info(f"Successfully retrieved {local_repo}")
+        return local_repo
     except Exception as e:
         logger.error("Failed to get local_repos: %s" % e)
         return False
 
-def get_specific():
+def get_specific(column: str, value, limit=None):
     try:
-        column = input("Enter the column name: ")
-        value = input("Enter the value: ")
-        local_repos = local_repo_crud.get_by_column(field=column, value=value)
+        local_repos = local_repo_crud.get_by_column(field=column, value=value, limit=limit)
         logger.info(f"Successfully retrieved local_repos with {local_repos}")
+        return local_repos
     except Exception as e:
         logger.error("Failed to get local_repos: %s" % e)
         return False
   
-def delete_local_repo():
+def delete_local_repo(id):
     try:
-        id = int(input("Enter the local_repo ID: "))
         deleted = local_repo_crud.delete(local_repo_id=id)
         logger.info(f"Successfully deleted local_repo with id {id}")
+        return deleted
     except Exception as e:
         logger.error("Failed to delete local_repo: %s" % e)
+        return False

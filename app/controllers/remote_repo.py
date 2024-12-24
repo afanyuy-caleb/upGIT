@@ -13,7 +13,6 @@ def save(remote_repo_object):
         return False
 
 def get_all():
-    print("\nGetting all remote_repos....") 
     try:
         remote_repos = remote_repo_crud.get_all()
         logger.info(f"All remote_repos: {remote_repos}")
@@ -22,29 +21,29 @@ def get_all():
         logger.error("Failed to get remote_repos: %s" % e)
         return False
         
-def get_id():
+def get_id(id: int):
     try:
-        id = int(input("Enter the remote_repo ID: "))
         remote_repo = remote_repo_crud.get_remote_repo(id=id)
         logger.info(f"Successfully retrieved {remote_repo}")
+        return remote_repo
     except Exception as e:
         logger.error("Failed to get remote_repos: %s" % e)
         return False
 
-def get_specific():
+def get_specific(column: str, value, limit=None):
     try:
-        column = input("Enter the column name: ")
-        value = input("Enter the value: ")
-        remote_repos = remote_repo_crud.get_by_column(field=column, value=value)
-        logger.info(f"Successfully retrieved remote_repos with {remote_repos}")
+        remote_repos = remote_repo_crud.get_by_column(field=column, value=value, limit=limit)
+        logger.info(f"Successfully retrieved remote_repos {remote_repos}")
+        return remote_repos
     except Exception as e:
         logger.error("Failed to get remote_repos: %s" % e)
         return False
-  
-def delete_remote_repo():
+ 
+def delete_remote_repo(id):
     try:
-        id = int(input("Enter the remote_repo ID: "))
         deleted = remote_repo_crud.delete(remote_repo_id=id)
         logger.info(f"Successfully deleted remote_repo with id {id}")
+        return deleted
     except Exception as e:
         logger.error("Failed to delete remote_repo: %s" % e)
+        return False

@@ -252,3 +252,644 @@ User(user_name = afanyuy, user_email = afa@gmail.com, user_password = $2b$12$UTc
 2024-12-24T09:02:28.625973+0100 INFO Successfully created local_repo
 2024-12-24T09:02:28.647663+0100 INFO Database session closed after create
 2024-12-24T09:02:28.648314+0100 INFO Successfully created local_branch
+2024-12-24T09:41:39.965141+0100 INFO Database initialized successfully
+2024-12-24T09:41:39.965596+0100 INFO successfully established database connection
+2024-12-24T14:36:01.745582+0100 INFO Database initialized successfully
+2024-12-24T14:36:01.746012+0100 INFO successfully established database connection
+2024-12-24T14:36:01.800549+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T14:36:10.478503+0100 INFO Database session closed after get_by_email
+2024-12-24T14:36:10.760381+0100 INFO User, afanyuy logged in successfully
+2024-12-24T14:36:10.760769+0100 INFO successful login for afanyuy
+2024-12-24T14:36:28.602017+0100 INFO Database session closed after get_by_column
+2024-12-24T14:36:28.602356+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T14:36:28.604293+0100 INFO Database session closed after get_by_column
+2024-12-24T14:36:28.604607+0100 INFO Successfully retrieved branchs with Branch(branch_name = second_branch, branch_parent_repo = 1
+
+2024-12-24T14:36:28.626869+0100 INFO Database session closed after create
+2024-12-24T14:36:28.627248+0100 INFO Successfully created local_repo
+2024-12-24T14:36:28.645084+0100 INFO Database session closed after create
+2024-12-24T14:36:28.645618+0100 INFO Successfully created local_branch
+2024-12-24T14:36:28.838227+0100 ERROR An error occurred while organizing files: organize_files() missing 1 required positional argument: 'folder_id'
+2024-12-24T14:47:04.581475+0100 INFO Database initialized successfully
+2024-12-24T14:47:04.581848+0100 INFO successfully established database connection
+2024-12-24T14:47:04.620011+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T14:47:22.060022+0100 INFO Database session closed after get_by_email
+2024-12-24T14:47:22.386701+0100 INFO User, afanyuy logged in successfully
+2024-12-24T14:47:22.387092+0100 INFO successful login for afanyuy
+2024-12-24T14:47:44.689803+0100 INFO Database session closed after get_by_column
+2024-12-24T14:47:44.690194+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T14:47:44.692289+0100 INFO Database session closed after get_by_column
+2024-12-24T14:47:44.692671+0100 INFO Successfully retrieved branchs with Branch(branch_name = second_branch, branch_parent_repo = 1
+
+2024-12-24T14:47:44.716031+0100 INFO Database session closed after create
+2024-12-24T14:47:44.716403+0100 INFO Successfully created local_repo
+2024-12-24T14:47:44.734636+0100 INFO Database session closed after create
+2024-12-24T14:47:44.735397+0100 INFO Successfully created local_branch
+2024-12-24T14:47:44.821018+0100 ERROR A subprocess error occurred: 3
+2024-12-24T14:49:07.823989+0100 INFO Database initialized successfully
+2024-12-24T14:49:07.824447+0100 INFO successfully established database connection
+2024-12-24T14:49:07.864044+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T14:49:16.724476+0100 INFO Database session closed after get_by_email
+2024-12-24T14:49:17.010812+0100 INFO User, afanyuy logged in successfully
+2024-12-24T14:49:17.011194+0100 INFO successful login for afanyuy
+2024-12-24T14:49:26.762485+0100 INFO Database session closed after get_by_column
+2024-12-24T14:49:26.762854+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T14:49:26.764798+0100 INFO Database session closed after get_by_column
+2024-12-24T14:49:26.765480+0100 INFO Successfully retrieved branchs with Branch(branch_name = first_branch, branch_parent_repo = 1
+
+2024-12-24T14:49:26.787527+0100 INFO Database session closed after create
+2024-12-24T14:49:26.788129+0100 INFO Successfully created local_repo
+2024-12-24T14:49:26.806284+0100 INFO Database session closed after create
+2024-12-24T14:49:26.806924+0100 INFO Successfully created local_branch
+2024-12-24T14:49:26.893390+0100 ERROR A subprocess error occurred: 3
+2024-12-24T14:49:26.894004+0100 ERROR Subprocess error: 
+2024-12-24T14:52:17.371313+0100 INFO Database initialized successfully
+2024-12-24T14:52:17.371766+0100 INFO successfully established database connection
+2024-12-24T14:52:17.410698+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T14:52:30.300999+0100 INFO Database session closed after get_by_email
+2024-12-24T14:52:30.582864+0100 INFO User, afanyuy logged in successfully
+2024-12-24T14:52:30.583241+0100 INFO successful login for afanyuy
+2024-12-24T14:52:57.354859+0100 INFO Database session closed after get_by_column
+2024-12-24T14:52:57.355252+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T14:52:57.357182+0100 INFO Database session closed after get_by_column
+2024-12-24T14:52:57.357497+0100 INFO Successfully retrieved branchs with None
+2024-12-24T14:52:57.374849+0100 INFO Database session closed after create
+2024-12-24T14:52:57.375180+0100 INFO Successfully created branch
+2024-12-24T14:52:57.404863+0100 INFO Database session closed after create
+2024-12-24T14:52:57.405675+0100 INFO Successfully created local_repo
+2024-12-24T14:52:57.423614+0100 INFO Database session closed after create
+2024-12-24T14:52:57.423982+0100 INFO Successfully created local_branch
+2024-12-24T14:52:57.513518+0100 ERROR A subprocess error occurred: 3
+2024-12-24T14:54:52.134843+0100 INFO Database initialized successfully
+2024-12-24T14:54:52.135319+0100 INFO successfully established database connection
+2024-12-24T14:54:52.175535+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T14:55:00.057786+0100 INFO Database session closed after get_by_email
+2024-12-24T14:55:00.357372+0100 INFO User, afanyuy logged in successfully
+2024-12-24T14:55:00.357748+0100 INFO successful login for afanyuy
+2024-12-24T14:55:18.587137+0100 INFO Database session closed after get_by_column
+2024-12-24T14:55:18.587515+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T14:55:18.590051+0100 INFO Database session closed after get_by_column
+2024-12-24T14:55:18.590419+0100 INFO Successfully retrieved branchs with None
+2024-12-24T14:55:18.611449+0100 INFO Database session closed after create
+2024-12-24T14:55:18.611972+0100 INFO Successfully created branch
+2024-12-24T14:55:18.634092+0100 INFO Database session closed after create
+2024-12-24T14:55:18.634402+0100 INFO Successfully created local_repo
+2024-12-24T14:55:18.660336+0100 INFO Database session closed after create
+2024-12-24T14:55:18.660755+0100 INFO Successfully created local_branch
+2024-12-24T14:55:18.756283+0100 ERROR A subprocess error occurred: 3
+2024-12-24T14:55:18.756655+0100 ERROR Subprocess error: error: remote origin already exists.
+
+2024-12-24T14:58:58.581202+0100 INFO Database initialized successfully
+2024-12-24T14:58:58.581639+0100 INFO successfully established database connection
+2024-12-24T14:58:58.622724+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T14:59:05.437491+0100 INFO Database session closed after get_by_email
+2024-12-24T14:59:05.721089+0100 INFO User, afanyuy logged in successfully
+2024-12-24T14:59:05.721487+0100 INFO successful login for afanyuy
+2024-12-24T14:59:38.114338+0100 INFO Database session closed after get_by_column
+2024-12-24T14:59:38.114715+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T14:59:38.116670+0100 INFO Database session closed after get_by_column
+2024-12-24T14:59:38.116984+0100 INFO Successfully retrieved branchs with Branch(branch_name = fourth, branch_parent_repo = 1
+
+2024-12-24T14:59:38.138821+0100 INFO Database session closed after create
+2024-12-24T14:59:38.139340+0100 INFO Successfully created local_repo
+2024-12-24T14:59:38.158113+0100 INFO Database session closed after create
+2024-12-24T14:59:38.158577+0100 INFO Successfully created local_branch
+2024-12-24T15:02:01.993518+0100 INFO Database initialized successfully
+2024-12-24T15:02:01.993955+0100 INFO successfully established database connection
+2024-12-24T15:02:02.038155+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:02:11.148682+0100 INFO Database session closed after get_by_email
+2024-12-24T15:02:11.429260+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:02:11.429624+0100 INFO successful login for afanyuy
+2024-12-24T15:02:24.603007+0100 INFO Database session closed after get_by_column
+2024-12-24T15:02:24.603372+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:02:24.605326+0100 INFO Database session closed after get_by_column
+2024-12-24T15:02:24.605635+0100 INFO Successfully retrieved branchs with None
+2024-12-24T15:02:24.623235+0100 INFO Database session closed after create
+2024-12-24T15:02:24.623593+0100 INFO Successfully created branch
+2024-12-24T15:02:24.644620+0100 INFO Database session closed after create
+2024-12-24T15:02:24.645127+0100 INFO Successfully created local_repo
+2024-12-24T15:02:24.666194+0100 INFO Database session closed after create
+2024-12-24T15:02:24.666623+0100 INFO Successfully created local_branch
+2024-12-24T15:03:30.996883+0100 INFO Database initialized successfully
+2024-12-24T15:03:30.997284+0100 INFO successfully established database connection
+2024-12-24T15:03:31.035545+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:03:39.104819+0100 INFO Database session closed after get_by_email
+2024-12-24T15:03:39.383116+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:03:39.383515+0100 INFO successful login for afanyuy
+2024-12-24T15:03:50.250508+0100 INFO Database session closed after get_by_column
+2024-12-24T15:03:50.250879+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:03:50.252809+0100 INFO Database session closed after get_by_column
+2024-12-24T15:03:50.253115+0100 INFO Successfully retrieved branchs with None
+2024-12-24T15:03:50.272466+0100 INFO Database session closed after create
+2024-12-24T15:03:50.272832+0100 INFO Successfully created branch
+2024-12-24T15:03:50.293486+0100 INFO Database session closed after create
+2024-12-24T15:03:50.293954+0100 INFO Successfully created local_repo
+2024-12-24T15:03:50.310876+0100 INFO Database session closed after create
+2024-12-24T15:03:50.311253+0100 INFO Successfully created local_branch
+2024-12-24T15:03:50.477336+0100 ERROR An error occurred while organizing files: organize_files() missing 1 required positional argument: 'folder_id'
+2024-12-24T15:09:58.633198+0100 INFO Database initialized successfully
+2024-12-24T15:09:58.633746+0100 INFO successfully established database connection
+2024-12-24T15:09:58.673550+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:10:21.495210+0100 INFO Database session closed after create
+2024-12-24T15:10:21.495591+0100 INFO User created without fault 
+User(user_name = afanyuy, user_email = afa@gmail.com, user_password = $2b$12$w6Z7amy1r6xH6nhti1TonepgWUzz01BEvSYGwTNFkCY0ksX/bR9BG)
+
+2024-12-24T15:10:23.182170+0100 INFO Database session closed after create
+2024-12-24T15:10:23.182648+0100 INFO Successfully created remote_repo
+2024-12-24T15:10:23.182939+0100 INFO Successfully created remote repository for upGIT_afanyuy_1 and saved it to the database
+2024-12-24T15:10:31.190019+0100 INFO Database initialized successfully
+2024-12-24T15:10:31.190461+0100 INFO successfully established database connection
+2024-12-24T15:10:31.231806+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:10:43.978848+0100 INFO Database session closed after get_by_email
+2024-12-24T15:10:44.264968+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:10:44.265527+0100 INFO successful login for afanyuy
+2024-12-24T15:11:10.947514+0100 INFO Database session closed after get_by_column
+2024-12-24T15:11:10.947898+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:11:10.949953+0100 INFO Database session closed after get_by_column
+2024-12-24T15:11:10.950278+0100 INFO Successfully retrieved branchs with None
+2024-12-24T15:11:11.962801+0100 INFO Database session closed after create
+2024-12-24T15:11:11.963757+0100 INFO Successfully created branch
+2024-12-24T15:11:11.999812+0100 INFO Database session closed after create
+2024-12-24T15:11:12.000773+0100 INFO Successfully created local_repo
+2024-12-24T15:11:12.022279+0100 INFO Database session closed after create
+2024-12-24T15:11:12.022986+0100 INFO Successfully created local_branch
+2024-12-24T15:11:12.197209+0100 ERROR An error occurred while organizing files: cannot access local variable 'to_be_deleted' where it is not associated with a value
+2024-12-24T15:11:15.101148+0100 INFO 5 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T15:17:48.312166+0100 INFO Database initialized successfully
+2024-12-24T15:17:48.312565+0100 INFO successfully established database connection
+2024-12-24T15:17:48.352169+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:17:59.959641+0100 INFO Database session closed after get_by_email
+2024-12-24T15:18:00.255577+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:18:00.255961+0100 INFO successful login for afanyuy
+2024-12-24T15:18:29.100154+0100 INFO Database session closed after get_by_column
+2024-12-24T15:18:29.100531+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:18:29.102755+0100 INFO Database session closed after get_by_column
+2024-12-24T15:18:29.103258+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-24T15:18:29.108398+0100 ERROR A database connection error occured: (sqlite3.IntegrityError) UNIQUE constraint failed: localRepos.name
+[SQL: INSERT INTO "localRepos" (name, user_id, backup_frequency, backup_status, backup_time, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('C:\\Users\\Caleb\\Desktop\\GIthub', 1, '2h', 'READY', '2024-12-24 14:18:29.106754', '2024-12-24 14:18:29.106762', '2024-12-24 14:18:29.106765')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-24T15:18:29.109365+0100 INFO Database session closed after create
+2024-12-24T15:18:29.109703+0100 INFO Successfully created local_repo
+2024-12-24T15:21:13.752520+0100 INFO Database initialized successfully
+2024-12-24T15:21:13.753102+0100 INFO successfully established database connection
+2024-12-24T15:21:13.793976+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:21:19.989874+0100 INFO Database session closed after get_by_email
+2024-12-24T15:21:20.271684+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:21:20.272052+0100 INFO successful login for afanyuy
+2024-12-24T15:21:35.692567+0100 INFO Database session closed after get_by_column
+2024-12-24T15:21:35.692908+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:21:35.695136+0100 INFO Database session closed after get_by_column
+2024-12-24T15:21:35.695637+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-24T15:21:35.698914+0100 INFO Database session closed after get_by_column
+2024-12-24T15:21:35.699519+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T15:21:35.702663+0100 ERROR A database connection error occured: (sqlite3.IntegrityError) UNIQUE constraint failed: local_branches.repo_id, local_branches.branch_id
+[SQL: INSERT INTO local_branches (repo_id, branch_id, created_at, updated_at) VALUES (?, ?, ?, ?)]
+[parameters: (1, 1, '2024-12-24 14:21:35.701978', '2024-12-24 14:21:35.701982')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-24T15:21:35.703993+0100 INFO Database session closed after create
+2024-12-24T15:21:35.704585+0100 INFO Successfully created local_branch
+2024-12-24T15:21:36.458911+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T15:21:36.482109+0100 INFO Database session closed after create
+2024-12-24T15:21:36.482647+0100 INFO Successfully created file
+2024-12-24T15:31:29.391085+0100 INFO Database initialized successfully
+2024-12-24T15:31:29.391795+0100 INFO successfully established database connection
+2024-12-24T15:31:29.443878+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:31:37.977005+0100 INFO Database session closed after get_by_email
+2024-12-24T15:31:38.258526+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:31:38.258926+0100 INFO successful login for afanyuy
+2024-12-24T15:31:45.588714+0100 INFO Database session closed after get_by_column
+2024-12-24T15:31:45.589255+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:31:45.591824+0100 INFO Database session closed after get_by_column
+2024-12-24T15:31:45.592332+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-24T15:31:45.595631+0100 INFO Database session closed after get_by_column
+2024-12-24T15:31:45.596233+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T15:31:46.504115+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T15:31:46.527163+0100 INFO Database session closed after create
+2024-12-24T15:31:46.527855+0100 INFO Successfully created file
+2024-12-24T15:36:50.620102+0100 INFO Database initialized successfully
+2024-12-24T15:36:50.620527+0100 INFO successfully established database connection
+2024-12-24T15:36:50.660702+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:37:03.834262+0100 INFO Database session closed after get_by_email
+2024-12-24T15:37:04.117908+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:37:04.118332+0100 INFO successful login for afanyuy
+2024-12-24T15:37:43.357205+0100 INFO Database session closed after get_by_column
+2024-12-24T15:37:43.357587+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:37:43.359588+0100 INFO Database session closed after get_by_column
+2024-12-24T15:37:43.359898+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-24T15:37:43.362173+0100 INFO Database session closed after get_by_column
+2024-12-24T15:37:43.362491+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T15:37:44.195022+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T15:37:44.219288+0100 INFO Database session closed after create
+2024-12-24T15:37:44.219791+0100 INFO Successfully created file
+2024-12-24T15:40:49.530026+0100 INFO Database initialized successfully
+2024-12-24T15:40:49.530481+0100 INFO successfully established database connection
+2024-12-24T15:40:49.568293+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:41:00.451222+0100 INFO Database session closed after get_by_email
+2024-12-24T15:41:00.740589+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:41:00.741006+0100 INFO successful login for afanyuy
+2024-12-24T15:41:12.893023+0100 INFO Database session closed after get_by_column
+2024-12-24T15:41:12.893379+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:41:12.895341+0100 INFO Database session closed after get_by_column
+2024-12-24T15:41:12.895748+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-24T15:41:12.899672+0100 INFO Database session closed after get_by_column
+2024-12-24T15:41:12.900113+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T15:41:13.620336+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T15:41:13.641365+0100 INFO Database session closed after create
+2024-12-24T15:41:13.641751+0100 INFO Successfully created file
+2024-12-24T15:43:01.820633+0100 INFO Database initialized successfully
+2024-12-24T15:43:01.821058+0100 INFO successfully established database connection
+2024-12-24T15:43:01.860865+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:43:12.325563+0100 INFO Database session closed after get_by_email
+2024-12-24T15:43:12.618168+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:43:12.618602+0100 INFO successful login for afanyuy
+2024-12-24T15:43:25.508896+0100 INFO Database session closed after get_by_column
+2024-12-24T15:43:25.509459+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:43:25.511946+0100 INFO Database session closed after get_by_column
+2024-12-24T15:43:25.512442+0100 INFO Successfully retrieved branchs with None
+2024-12-24T15:43:25.537986+0100 INFO Database session closed after create
+2024-12-24T15:43:25.538614+0100 INFO Successfully created branch
+2024-12-24T15:43:25.541718+0100 INFO Database session closed after get_by_column
+2024-12-24T15:43:25.542229+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T15:43:25.560460+0100 INFO Database session closed after create
+2024-12-24T15:43:25.561044+0100 INFO Successfully created local_branch
+2024-12-24T15:43:26.252380+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T15:43:26.271478+0100 INFO Database session closed after create
+2024-12-24T15:43:26.272063+0100 INFO Successfully created file
+2024-12-24T15:43:27.277150+0100 INFO 2 chunks of commandlinetools-win-11076708_latest.zip have been created
+2024-12-24T15:43:27.296707+0100 INFO Database session closed after create
+2024-12-24T15:43:27.297346+0100 INFO Successfully created file
+2024-12-24T15:43:27.298016+0100 ERROR An error occurred while organizing files: cannot access local variable 'main_dir' where it is not associated with a value
+2024-12-24T15:52:11.591921+0100 INFO Database initialized successfully
+2024-12-24T15:52:11.592482+0100 INFO successfully established database connection
+2024-12-24T15:52:11.631599+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:52:19.825655+0100 INFO Database session closed after get_by_email
+2024-12-24T15:52:20.110005+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:52:20.110401+0100 INFO successful login for afanyuy
+2024-12-24T15:52:36.397543+0100 INFO Database session closed after get_by_column
+2024-12-24T15:52:36.397921+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:52:36.400005+0100 INFO Database session closed after get_by_column
+2024-12-24T15:52:36.400331+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-24T15:52:36.402565+0100 INFO Database session closed after get_by_column
+2024-12-24T15:52:36.402881+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T15:52:37.028323+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T15:52:37.053055+0100 INFO Database session closed after create
+2024-12-24T15:52:37.054033+0100 INFO Successfully created file
+2024-12-24T15:52:37.683739+0100 INFO 2 chunks of commandlinetools-win-11076708_latest.zip have been created
+2024-12-24T15:52:37.701539+0100 INFO Database session closed after create
+2024-12-24T15:52:37.703127+0100 INFO Successfully created file
+2024-12-24T15:52:37.704282+0100 ERROR An error occurred while organizing files: cannot access local variable 'main_dir' where it is not associated with a value
+2024-12-24T15:53:28.450306+0100 INFO Database initialized successfully
+2024-12-24T15:53:28.450969+0100 INFO successfully established database connection
+2024-12-24T15:53:28.494662+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T15:53:47.995281+0100 INFO Database session closed after get_by_email
+2024-12-24T15:53:48.280481+0100 INFO User, afanyuy logged in successfully
+2024-12-24T15:53:48.280826+0100 INFO successful login for afanyuy
+2024-12-24T15:54:10.702162+0100 INFO Database session closed after get_by_column
+2024-12-24T15:54:10.702518+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T15:54:10.704562+0100 INFO Database session closed after get_by_column
+2024-12-24T15:54:10.704876+0100 INFO Successfully retrieved branchs with None
+2024-12-24T15:54:10.723701+0100 INFO Database session closed after create
+2024-12-24T15:54:10.724071+0100 INFO Successfully created branch
+2024-12-24T15:54:10.728209+0100 INFO Database session closed after get_by_column
+2024-12-24T15:54:10.728634+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T15:54:10.749331+0100 INFO Database session closed after create
+2024-12-24T15:54:10.749935+0100 INFO Successfully created local_branch
+2024-12-24T15:54:11.428347+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T15:54:11.456494+0100 INFO Database session closed after create
+2024-12-24T15:54:11.457071+0100 INFO Successfully created file
+2024-12-24T15:54:12.394600+0100 INFO 2 chunks of commandlinetools-win-11076708_latest.zip have been created
+2024-12-24T15:54:12.413286+0100 INFO Database session closed after create
+2024-12-24T15:54:12.413779+0100 INFO Successfully created file
+2024-12-24T16:12:08.445581+0100 INFO Database initialized successfully
+2024-12-24T16:12:08.445986+0100 INFO successfully established database connection
+2024-12-24T16:12:08.776100+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T16:12:26.136765+0100 INFO Database session closed after get_by_email
+2024-12-24T16:12:26.442648+0100 INFO User, afanyuy logged in successfully
+2024-12-24T16:12:26.443003+0100 INFO successful login for afanyuy
+2024-12-24T16:12:46.532172+0100 INFO Database session closed after get_by_column
+2024-12-24T16:12:46.532605+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T16:12:46.534830+0100 INFO Database session closed after get_by_column
+2024-12-24T16:12:46.535209+0100 INFO Successfully retrieved branchs with Branch(branch_name = branch, branch_parent_repo = 1
+
+2024-12-24T16:12:46.538448+0100 INFO Database session closed after get_by_column
+2024-12-24T16:12:46.539080+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T16:12:47.460851+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T16:12:47.741128+0100 INFO Database session closed after create
+2024-12-24T16:12:47.741712+0100 INFO Successfully created file
+2024-12-24T16:12:48.819285+0100 INFO 2 chunks of commandlinetools-win-11076708_latest.zip have been created
+2024-12-24T16:12:49.022369+0100 INFO Database session closed after create
+2024-12-24T16:12:49.023228+0100 INFO Successfully created file
+2024-12-24T16:12:49.797564+0100 INFO 2 chunks of Game.of.Thrones.S05E02.(NKIRI.COM).nciodncoisndcoinsdocinsdncosdincoidscoindsicnsd.mkv have been created
+2024-12-24T16:12:49.816259+0100 INFO Database session closed after create
+2024-12-24T16:12:49.816945+0100 INFO Successfully created file
+2024-12-24T16:12:50.675170+0100 INFO 2 chunks of Game.of.Thrones.S05E04.(NKIRI.COM).nicodsnconsdcnsodincosidncondscndsoncdsnioc.mkv have been created
+2024-12-24T16:12:50.876534+0100 INFO Database session closed after create
+2024-12-24T16:12:50.877216+0100 INFO Successfully created file
+2024-12-24T16:12:51.595888+0100 INFO 2 chunks of Game.of.Thrones.S05E06.(NKIRI.COM).nciodsncidscniodsncsodincoisdncoisndocnodsincoindsc.mkv have been created
+2024-12-24T16:12:51.840296+0100 INFO Database session closed after create
+2024-12-24T16:12:51.841973+0100 INFO Successfully created file
+2024-12-24T16:12:52.978281+0100 INFO 2 chunks of Game.of.Thrones.S05E08.(NKIRI.COM).nciodncoidsncoindscnosdincodisncoindsconidsn.mkv have been created
+2024-12-24T16:12:52.997008+0100 INFO Database session closed after create
+2024-12-24T16:12:52.997591+0100 INFO Successfully created file
+2024-12-24T16:12:53.979836+0100 INFO 2 chunks of Game.of.Thrones.S05E09.(NKIRI.COM).nicodsncioscnoidsncoisdnocinsodicnosdncosdincisdc.mkv have been created
+2024-12-24T16:12:53.998612+0100 INFO Database session closed after create
+2024-12-24T16:12:53.999167+0100 INFO Successfully created file
+2024-12-24T16:12:54.906569+0100 INFO 2 chunks of Game.of.Thrones.S05E10.(NKIRI.COM).nciodsncoisncoisndsoicnosidncoindscinsd.mkv have been created
+2024-12-24T16:12:54.922995+0100 INFO Database session closed after create
+2024-12-24T16:12:54.923551+0100 INFO Successfully created file
+2024-12-24T16:12:55.211790+0100 ERROR An error occurred while running the CLI command: 'Logger' object has no attribute 'infor'
+2024-12-24T16:19:38.436785+0100 INFO Database initialized successfully
+2024-12-24T16:19:38.437216+0100 INFO successfully established database connection
+2024-12-24T16:19:38.482118+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T16:19:47.120472+0100 INFO Database session closed after get_by_email
+2024-12-24T16:19:47.437149+0100 INFO User, afanyuy logged in successfully
+2024-12-24T16:19:47.437520+0100 INFO successful login for afanyuy
+2024-12-24T16:20:01.256527+0100 INFO Database session closed after get_by_column
+2024-12-24T16:20:01.257029+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T16:20:01.261356+0100 INFO Database session closed after get_by_column
+2024-12-24T16:20:01.261725+0100 INFO Successfully retrieved branchs with None
+2024-12-24T16:20:01.280739+0100 INFO Database session closed after create
+2024-12-24T16:20:01.281199+0100 INFO Successfully created branch
+2024-12-24T16:20:01.285483+0100 INFO Database session closed after get_by_column
+2024-12-24T16:20:01.285982+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T16:20:01.304750+0100 INFO Database session closed after create
+2024-12-24T16:20:01.305136+0100 INFO Successfully created local_branch
+2024-12-24T16:20:01.945008+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T16:20:01.963803+0100 INFO Database session closed after create
+2024-12-24T16:20:01.964134+0100 INFO Successfully created file
+2024-12-24T16:20:02.558160+0100 INFO 2 chunks of commandlinetools-win-11076708_latest.zip have been created
+2024-12-24T16:20:02.581113+0100 INFO Database session closed after create
+2024-12-24T16:20:02.581807+0100 INFO Successfully created file
+2024-12-24T16:20:03.064653+0100 INFO 2 chunks of Game.of.Thrones.S05E02.(NKIRI.COM).nciodncoisndcoinsdocinsdncosdincoidscoindsicnsd.mkv have been created
+2024-12-24T16:20:03.082308+0100 INFO Database session closed after create
+2024-12-24T16:20:03.082883+0100 INFO Successfully created file
+2024-12-24T16:20:03.626777+0100 INFO 2 chunks of Game.of.Thrones.S05E04.(NKIRI.COM).nicodsnconsdcnsodincosidncondscndsoncdsnioc.mkv have been created
+2024-12-24T16:20:03.734054+0100 INFO Database session closed after create
+2024-12-24T16:20:03.734660+0100 INFO Successfully created file
+2024-12-24T16:20:04.280118+0100 INFO 2 chunks of Game.of.Thrones.S05E06.(NKIRI.COM).nciodsncidscniodsncsodincoisdncoisndocnodsincoindsc.mkv have been created
+2024-12-24T16:20:04.388706+0100 INFO Database session closed after create
+2024-12-24T16:20:04.389368+0100 INFO Successfully created file
+2024-12-24T16:20:05.051260+0100 INFO 2 chunks of Game.of.Thrones.S05E08.(NKIRI.COM).nciodncoidsncoindscnosdincodisncoindsconidsn.mkv have been created
+2024-12-24T16:20:05.067940+0100 INFO Database session closed after create
+2024-12-24T16:20:05.068521+0100 INFO Successfully created file
+2024-12-24T16:20:05.976042+0100 INFO 2 chunks of Game.of.Thrones.S05E09.(NKIRI.COM).nicodsncioscnoidsncoisdnocinsodicnosdncosdincisdc.mkv have been created
+2024-12-24T16:20:05.997126+0100 INFO Database session closed after create
+2024-12-24T16:20:05.997686+0100 INFO Successfully created file
+2024-12-24T16:20:06.717263+0100 INFO 2 chunks of Game.of.Thrones.S05E10.(NKIRI.COM).nciodsncoisncoisndsoicnosidncoindscinsd.mkv have been created
+2024-12-24T16:20:06.876313+0100 INFO Database session closed after create
+2024-12-24T16:20:06.877750+0100 INFO Successfully created file
+2024-12-24T16:20:06.985010+0100 INFO successfully executed init_git
+2024-12-24T16:20:07.062748+0100 INFO successfully executed add_remote
+2024-12-24T16:20:08.136756+0100 INFO successfully executed create_branch
+2024-12-24T16:23:34.082289+0100 INFO Database initialized successfully
+2024-12-24T16:23:34.082698+0100 INFO successfully established database connection
+2024-12-24T16:23:34.120516+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T16:23:41.161505+0100 INFO Database session closed after get_by_email
+2024-12-24T16:23:41.443539+0100 INFO User, afanyuy logged in successfully
+2024-12-24T16:23:41.443929+0100 INFO successful login for afanyuy
+2024-12-24T16:23:53.215561+0100 INFO Database session closed after get_by_column
+2024-12-24T16:23:53.215942+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T16:23:53.217851+0100 INFO Database session closed after get_by_column
+2024-12-24T16:23:53.218161+0100 INFO Successfully retrieved branchs with None
+2024-12-24T16:23:53.236145+0100 INFO Database session closed after create
+2024-12-24T16:23:53.236506+0100 INFO Successfully created branch
+2024-12-24T16:23:53.239282+0100 INFO Database session closed after get_by_column
+2024-12-24T16:23:53.239597+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T16:23:53.259835+0100 INFO Database session closed after create
+2024-12-24T16:23:53.260493+0100 INFO Successfully created local_branch
+2024-12-24T16:23:53.936021+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T16:23:53.954791+0100 INFO Database session closed after create
+2024-12-24T16:23:53.955367+0100 INFO Successfully created file
+2024-12-24T16:23:54.807303+0100 INFO 2 chunks of commandlinetools-win-11076708_latest.zip have been created
+2024-12-24T16:23:54.926639+0100 INFO Database session closed after create
+2024-12-24T16:23:54.927952+0100 INFO Successfully created file
+2024-12-24T16:23:55.427340+0100 INFO 2 chunks of Game.of.Thrones.S05E02.(NKIRI.COM).nciodncoisndcoinsdocinsdncosdincoidscoindsicnsd.mkv have been created
+2024-12-24T16:23:55.444610+0100 INFO Database session closed after create
+2024-12-24T16:23:55.445438+0100 INFO Successfully created file
+2024-12-24T16:23:56.024481+0100 INFO 2 chunks of Game.of.Thrones.S05E04.(NKIRI.COM).nicodsnconsdcnsodincosidncondscndsoncdsnioc.mkv have been created
+2024-12-24T16:23:56.150468+0100 INFO Database session closed after create
+2024-12-24T16:23:56.150985+0100 INFO Successfully created file
+2024-12-24T16:23:56.819277+0100 INFO 2 chunks of Game.of.Thrones.S05E06.(NKIRI.COM).nciodsncidscniodsncsodincoisdncoisndocnodsincoindsc.mkv have been created
+2024-12-24T16:23:56.938375+0100 INFO Database session closed after create
+2024-12-24T16:23:56.939033+0100 INFO Successfully created file
+2024-12-24T16:23:57.548909+0100 INFO 2 chunks of Game.of.Thrones.S05E08.(NKIRI.COM).nciodncoidsncoindscnosdincodisncoindsconidsn.mkv have been created
+2024-12-24T16:23:57.586949+0100 INFO Database session closed after create
+2024-12-24T16:23:57.587603+0100 INFO Successfully created file
+2024-12-24T16:23:58.345458+0100 INFO 2 chunks of Game.of.Thrones.S05E09.(NKIRI.COM).nicodsncioscnoidsncoisdnocinsodicnosdncosdincisdc.mkv have been created
+2024-12-24T16:23:58.464430+0100 INFO Database session closed after create
+2024-12-24T16:23:58.464994+0100 INFO Successfully created file
+2024-12-24T16:23:59.195688+0100 INFO 2 chunks of Game.of.Thrones.S05E10.(NKIRI.COM).nciodsncoisncoisndsoicnosidncoindscinsd.mkv have been created
+2024-12-24T16:23:59.212248+0100 INFO Database session closed after create
+2024-12-24T16:23:59.212869+0100 INFO Successfully created file
+2024-12-24T16:23:59.304335+0100 INFO successfully executed init_git
+2024-12-24T16:23:59.420236+0100 INFO successfully executed add_remote
+2024-12-24T16:23:59.537139+0100 INFO successfully executed create_branch
+2024-12-24T16:26:05.227996+0100 INFO successfully executed add
+2024-12-24T16:26:14.513800+0100 INFO successfully executed commit
+2024-12-24T16:43:35.527880+0100 INFO Database initialized successfully
+2024-12-24T16:43:35.528450+0100 INFO successfully established database connection
+2024-12-24T16:43:35.569173+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T16:44:38.733205+0100 INFO Database session closed after get_by_email
+2024-12-24T16:44:39.053219+0100 INFO User, afanyuy logged in successfully
+2024-12-24T16:44:39.053787+0100 INFO successful login for afanyuy
+2024-12-24T16:44:52.123227+0100 INFO Database session closed after get_by_column
+2024-12-24T16:44:52.123666+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T16:44:52.125966+0100 INFO Database session closed after get_by_column
+2024-12-24T16:44:52.126503+0100 INFO Successfully retrieved branchs with Branch(branch_name = helo, branch_parent_repo = 1
+
+2024-12-24T16:44:52.130096+0100 INFO Database session closed after get_by_column
+2024-12-24T16:44:52.130670+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T16:44:53.148225+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T16:44:53.264332+0100 INFO Database session closed after create
+2024-12-24T16:44:53.265076+0100 INFO Successfully created file
+2024-12-24T16:44:54.210647+0100 INFO 2 chunks of commandlinetools-win-11076708_latest.zip have been created
+2024-12-24T16:44:54.314343+0100 INFO Database session closed after create
+2024-12-24T16:44:54.315815+0100 INFO Successfully created file
+2024-12-24T16:44:54.668232+0100 INFO successfully executed init_git
+2024-12-24T16:44:54.897052+0100 INFO successfully executed add_remote
+2024-12-24T16:44:55.053374+0100 INFO successfully executed create_branch
+2024-12-24T16:45:22.397893+0100 INFO successfully executed add
+2024-12-24T16:45:24.882653+0100 INFO successfully executed commit
+2024-12-24T16:45:24.904961+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\GIthub\Easyworship-7.4.1.9_UPGIT_CHUNKS
+2024-12-24T16:45:24.927935+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\GIthub\wow\Commandlinetools-win-11076708_latest_UPGIT_CHUNKS
+2024-12-24T16:47:29.210991+0100 INFO Database initialized successfully
+2024-12-24T16:47:29.211495+0100 INFO successfully established database connection
+2024-12-24T16:47:29.255563+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T16:47:49.284640+0100 INFO Database session closed after get_by_email
+2024-12-24T16:47:49.710413+0100 INFO User, afanyuy logged in successfully
+2024-12-24T16:47:49.710909+0100 INFO successful login for afanyuy
+2024-12-24T16:48:11.956003+0100 INFO Database session closed after get_by_column
+2024-12-24T16:48:11.956447+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T16:48:11.958395+0100 INFO Database session closed after get_by_column
+2024-12-24T16:48:11.958751+0100 INFO Successfully retrieved branchs with Branch(branch_name = helo, branch_parent_repo = 1
+
+2024-12-24T16:48:11.960937+0100 INFO Database session closed after get_by_column
+2024-12-24T16:48:11.961278+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T16:48:12.795837+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T16:48:12.825235+0100 INFO Database session closed after create
+2024-12-24T16:48:12.825884+0100 INFO Successfully created file
+2024-12-24T16:48:13.589153+0100 INFO 2 chunks of commandlinetools-win-11076708_latest.zip have been created
+2024-12-24T16:48:13.605723+0100 INFO Database session closed after create
+2024-12-24T16:48:13.606343+0100 INFO Successfully created file
+2024-12-24T16:48:13.805511+0100 INFO successfully executed init_git
+2024-12-24T16:48:13.947153+0100 INFO successfully executed add_remote
+2024-12-24T16:48:14.127610+0100 INFO successfully executed create_branch
+2024-12-24T16:48:47.883811+0100 INFO successfully executed add
+2024-12-24T16:48:50.769968+0100 INFO successfully executed commit
+2024-12-24T16:48:50.793600+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\GIthub\Easyworship-7.4.1.9_UPGIT_CHUNKS
+2024-12-24T16:48:50.817114+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\GIthub\wow\Commandlinetools-win-11076708_latest_UPGIT_CHUNKS
+2024-12-24T16:48:50.818365+0100 ERROR An error occurred while running the CLI command: CLI.is_connected() takes 0 positional arguments but 1 was given
+2024-12-24T16:50:27.591046+0100 INFO Database initialized successfully
+2024-12-24T16:50:27.591912+0100 INFO successfully established database connection
+2024-12-24T16:50:27.648232+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T16:50:35.678819+0100 INFO Database session closed after get_by_email
+2024-12-24T16:50:35.973722+0100 INFO User, afanyuy logged in successfully
+2024-12-24T16:50:35.974228+0100 INFO successful login for afanyuy
+2024-12-24T16:50:44.475928+0100 INFO Database session closed after get_by_column
+2024-12-24T16:50:44.476411+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T16:50:44.478440+0100 INFO Database session closed after get_by_column
+2024-12-24T16:50:44.478838+0100 INFO Successfully retrieved branchs with Branch(branch_name = helo, branch_parent_repo = 1
+
+2024-12-24T16:50:44.481042+0100 INFO Database session closed after get_by_column
+2024-12-24T16:50:44.481385+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T16:50:45.410387+0100 INFO 2 chunks of EasyWorship-7.4.1.9.exe have been created
+2024-12-24T16:50:45.445503+0100 INFO Database session closed after create
+2024-12-24T16:50:45.446940+0100 INFO Successfully created file
+2024-12-24T16:50:46.143800+0100 INFO 2 chunks of commandlinetools-win-11076708_latest.zip have been created
+2024-12-24T16:50:46.169867+0100 INFO Database session closed after create
+2024-12-24T16:50:46.171690+0100 INFO Successfully created file
+2024-12-24T16:50:46.276955+0100 INFO successfully executed init_git
+2024-12-24T16:50:46.377020+0100 INFO successfully executed add_remote
+2024-12-24T16:50:46.476887+0100 INFO successfully executed create_branch
+2024-12-24T16:51:14.675453+0100 INFO successfully executed add
+2024-12-24T16:51:17.757177+0100 INFO successfully executed commit
+2024-12-24T16:51:17.779181+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\GIthub\Easyworship-7.4.1.9_UPGIT_CHUNKS
+2024-12-24T16:51:17.804558+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\GIthub\wow\Commandlinetools-win-11076708_latest_UPGIT_CHUNKS
+2024-12-24T16:51:26.251523+0100 ERROR A subprocess error occurred: 128
+2024-12-24T16:51:26.253014+0100 ERROR Subprocess error: remote: Repository not found.
+fatal: repository 'https://github.com/keyz-dev/upGIT_afanyuy_1.git/' not found
+
+2024-12-24T16:56:39.685902+0100 INFO Database initialized successfully
+2024-12-24T16:56:39.686553+0100 INFO successfully established database connection
+2024-12-24T16:56:39.730012+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T16:56:47.900632+0100 INFO Database session closed after get_by_email
+2024-12-24T16:56:47.901176+0100 ERROR Incorrect email or password
+2024-12-24T16:56:53.237250+0100 INFO Database initialized successfully
+2024-12-24T16:56:53.237870+0100 INFO successfully established database connection
+2024-12-24T16:56:53.279040+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T16:57:00.415156+0100 INFO Database session closed after get_by_email
+2024-12-24T16:57:00.717473+0100 INFO User, afanyuy logged in successfully
+2024-12-24T16:57:00.717966+0100 INFO successful login for afanyuy
+2024-12-24T16:57:23.900225+0100 INFO Database session closed after get_by_column
+2024-12-24T16:57:23.900633+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T16:57:23.902654+0100 INFO Database session closed after get_by_column
+2024-12-24T16:57:23.903041+0100 INFO Successfully retrieved branchs with Branch(branch_name = helo, branch_parent_repo = 1
+
+2024-12-24T16:57:23.905313+0100 INFO Database session closed after get_by_column
+2024-12-24T16:57:23.905661+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T16:57:24.646205+0100 INFO 2 chunks of commandlinetools-win-11076708_latest.zip have been created
+2024-12-24T16:57:24.668606+0100 INFO Database session closed after create
+2024-12-24T16:57:24.669196+0100 INFO Successfully created file
+2024-12-24T16:57:24.837866+0100 INFO successfully executed init_git
+2024-12-24T16:57:25.045849+0100 INFO successfully executed add_remote
+2024-12-24T16:57:25.132718+0100 INFO successfully executed create_branch
+2024-12-24T16:57:41.516542+0100 INFO successfully executed add
+2024-12-24T16:57:43.948314+0100 INFO successfully executed commit
+2024-12-24T16:57:44.175903+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\GIthub\wow\Commandlinetools-win-11076708_latest_UPGIT_CHUNKS
+2024-12-24T16:57:56.242697+0100 ERROR A subprocess error occurred: 128
+2024-12-24T16:57:56.244325+0100 ERROR Subprocess error: remote: Repository not found.
+fatal: repository 'https://github.com/keyz-dev/upGIT_afanyuy_1.git/' not found
+
+2024-12-24T16:58:34.712070+0100 INFO Database initialized successfully
+2024-12-24T16:58:34.712678+0100 INFO successfully established database connection
+2024-12-24T16:58:34.757987+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T16:58:45.058825+0100 INFO Database session closed after get_by_email
+2024-12-24T16:58:45.350300+0100 INFO User, afanyuy logged in successfully
+2024-12-24T16:58:45.350767+0100 INFO successful login for afanyuy
+2024-12-24T16:58:55.893093+0100 INFO Database session closed after get_by_column
+2024-12-24T16:58:55.893487+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T16:58:55.895430+0100 INFO Database session closed after get_by_column
+2024-12-24T16:58:55.895767+0100 INFO Successfully retrieved branchs with Branch(branch_name = helo, branch_parent_repo = 1
+
+2024-12-24T16:58:55.897986+0100 INFO Database session closed after get_by_column
+2024-12-24T16:58:55.898332+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T16:58:55.964912+0100 INFO successfully executed init_git
+2024-12-24T16:58:56.048640+0100 INFO successfully executed add_remote
+2024-12-24T16:58:56.131767+0100 INFO successfully executed create_branch
+2024-12-24T16:58:56.214525+0100 INFO successfully executed add
+2024-12-24T16:58:56.314315+0100 INFO successfully executed commit
+2024-12-24T16:59:00.848233+0100 ERROR A subprocess error occurred: 128
+2024-12-24T16:59:00.849612+0100 ERROR Subprocess error: remote: Repository not found.
+fatal: repository 'https://github.com/keyz-dev/upGIT_afanyuy_1.git/' not found
+
+2024-12-24T17:00:28.074853+0100 INFO Database initialized successfully
+2024-12-24T17:00:28.075465+0100 INFO successfully established database connection
+2024-12-24T17:00:28.125922+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-24T17:00:37.678965+0100 INFO Database session closed after get_by_email
+2024-12-24T17:00:38.095101+0100 INFO User, afanyuy logged in successfully
+2024-12-24T17:00:38.095570+0100 INFO successful login for afanyuy
+2024-12-24T17:00:46.005317+0100 INFO Database session closed after get_by_column
+2024-12-24T17:00:46.005730+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-24T17:00:46.007722+0100 INFO Database session closed after get_by_column
+2024-12-24T17:00:46.008082+0100 INFO Successfully retrieved branchs with Branch(branch_name = helo, branch_parent_repo = 1
+
+2024-12-24T17:00:46.010284+0100 INFO Database session closed after get_by_column
+2024-12-24T17:00:46.010757+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-24T17:00:46.075749+0100 INFO successfully executed init_git
+2024-12-24T17:00:46.169292+0100 INFO successfully executed add_remote
+2024-12-24T17:00:46.283230+0100 INFO successfully executed create_branch
+2024-12-24T17:00:46.446290+0100 INFO successfully executed add
+2024-12-24T17:00:46.613438+0100 INFO successfully executed commit
+2024-12-24T17:00:48.778646+0100 ERROR A subprocess error occurred: 128
+2024-12-24T17:00:48.780027+0100 ERROR Subprocess error: remote: Permission to keyz-dev/upGIT_afanyuy_1.git denied to afanyuy-caleb.
+fatal: unable to access 'https://github.com/keyz-dev/upGIT_afanyuy_1.git/': The requested URL returned error: 403
+

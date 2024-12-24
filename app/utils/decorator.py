@@ -1,4 +1,5 @@
 """A decorator method to handle the exceptions that may occur durring the crud"""
+import subprocess
 from .constants import logger
 from ..config.database import engine
 from sqlalchemy.orm import sessionmaker
@@ -33,4 +34,21 @@ def transaction_decorator(func):
             session.close()
             logger.info(f"Database session closed after {func.__name__}")
             
+    return wrapper
+
+def cli_decorator(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        try:
+            # Execute the function
+            result = func(*args, **kwargs)
+            logger.info(f"successfully executed {func.__name__}")
+            return result
+        except subprocess.CalledProcessError as e:
+            logger.error(f"A subprocess error occurred: {e.returncode}")
+            logger.error(f"Subprocess error: {e.stderr}")
+            quit()
+        except Exception as e:
+            logger.error(f"An error occurred while running the CLI command: {e}")
+            quit()
     return wrapper

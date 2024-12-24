@@ -7,6 +7,7 @@ from .controllers import user as user_controllers
 from .controllers import remote_repo as remote_repo_controller
 from .services.github import GithubUtililty
 from .services import backup
+import subprocess
 
 def db_connection():
     """Initialize the database connection"""
@@ -15,6 +16,23 @@ def db_connection():
         logger.info('successfully established database connection')     
     except Exception as e:
         logger.error('error connecting to database:  %s' % e)
+
+def is_git_installed():
+    try:
+        # Execute the 'git --version' command
+        result = subprocess.run(['git', '--version'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        
+        # Check if the command was successful
+        if result.returncode == 0:
+            logger.info(f"Git is installed: {result.stdout.strip()}")
+            return True
+        else:
+            logger.error("Git is not installed or not added to the system PATH.")
+            return False
+    except FileNotFoundError:
+        # Exception when git command is not found
+        logger.error("Git is not installed or not accessible.")
+        return False
 
 def handle_acc_creation():
     """Handle user registration and remote repo creation"""
@@ -42,6 +60,8 @@ def handle_acc_creation():
     
 def main():    
     db_connection()
+    if not is_git_installed():
+        return
     
     print("1. create account\t 2. Login")
     choice = int(input("Enter your choice: "))

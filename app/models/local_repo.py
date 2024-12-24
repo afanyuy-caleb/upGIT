@@ -19,7 +19,7 @@ class LocalRepo(Base):
     
     """table attributes"""
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String, nullable=False, index=True)
+    name = Column(String, nullable=False, index=True, unique=True)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
     backup_frequency = Column(String, nullable=False, index=True, default="48h")
     backup_status = Column(Enum(BackupStatus), nullable=False, index=True, default=BackupStatus.READY)

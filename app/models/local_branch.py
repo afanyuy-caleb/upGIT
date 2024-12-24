@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, DateTime, ForeignKey, UniqueConstraint
 from ..config.database import Base
 from datetime import datetime
 
@@ -13,6 +13,8 @@ class LocalBranch(Base):
     branch_id = Column(Integer, ForeignKey("branches.id"), nullable=False, index=True)
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
     updated_at = Column(DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    __table_args__ = (UniqueConstraint('repo_id', 'branch_id', name='unique_repo_branch'),)
     
     """Method to be implemented"""
     def __repr__(self):

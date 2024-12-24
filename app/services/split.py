@@ -1,2 +1,0 @@
-def split(filepath):
-    pass

@@ -29,6 +29,15 @@ def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
     return session.query(LocalBranch).filter(condition).all()
 
 @transaction_decorator
+def get_by_condition(session, condition = [], limit:int=10):
+    if condition not in [None, []]:
+        if limit == 1:
+            return session.query(LocalBranch).filter(*condition).first()
+        return session.query(LocalBranch).filter(*condition).all()
+    else:
+        raise Exception("Condition not provided")
+
+@transaction_decorator
 def delete(session, local_branch_id: int):
     local_branch_to_delete = session.query(LocalBranch).filter_by(id=local_branch_id).one_or_none()
     if local_branch_to_delete:

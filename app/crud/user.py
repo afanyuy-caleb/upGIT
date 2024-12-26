@@ -36,6 +36,15 @@ def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
     return results
 
 @transaction_decorator
+def get_by_condition(session, condition = [], limit:int=10):
+    if condition not in [None, []]:
+        if limit == 1:
+            return session.query(User).filter(*condition).first()
+        return session.query(User).filter(*condition).all()
+    else:
+        raise Exception("Condition not provided")
+
+@transaction_decorator
 def get_by_email(session, email: str):
     """Login a user by their email"""
     user = session.query(User).filter_by(email=email).one_or_none()

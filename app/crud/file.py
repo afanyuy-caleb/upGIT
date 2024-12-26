@@ -29,6 +29,15 @@ def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
     return session.query(File).filter(condition).all()
 
 @transaction_decorator
+def get_by_condition(session, condition = [], limit:int=10):
+    if condition not in [None, []]:
+        if limit == 1:
+            return session.query(File).filter(*condition).first()
+        return session.query(File).filter(*condition).all()
+    else:
+        raise Exception("Condition not provided")
+
+@transaction_decorator
 def delete(session, file_id: int):
     file_to_delete = session.query(File).filter_by(id=file_id).one_or_none()
     if file_to_delete:

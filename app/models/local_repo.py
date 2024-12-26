@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Text, ARRAY, DateTime, Enum, ForeignKey
+from sqlalchemy import Column, Integer, String, Text, ARRAY, DateTime, Enum, ForeignKey, UniqueConstraint
 from ..config.database import Base
 from sqlalchemy.orm import relationship
 from datetime import datetime
@@ -19,7 +19,7 @@ class LocalRepo(Base):
     
     """table attributes"""
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String, nullable=False, index=True, unique=True)
+    name = Column(String, nullable=False, index=True)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
     backup_frequency = Column(String, nullable=False, index=True, default="48h")
     backup_status = Column(Enum(BackupStatus), nullable=False, index=True, default=BackupStatus.READY)
@@ -32,6 +32,8 @@ class LocalRepo(Base):
     
     """parent-child relationship with the local_branch"""
     files = relationship("File", backref="folder")
+    
+    __table_args__ = (UniqueConstraint("name", "user_id", name="unq_user_repo"),)
     
     """Method to be implemented"""
     def __repr__(self):

@@ -6,7 +6,8 @@ load_dotenv()
 
 class GithubUtililty():
     def __init__(self):
-        auth = Auth.Token(os.getenv('GITHUB_TOKEN'))
+        PAT = os.getenv('GITHUB_TOKEN')
+        auth = Auth.Token(PAT)
         gh = Github(auth=auth)
         self.user = gh.get_user()
     

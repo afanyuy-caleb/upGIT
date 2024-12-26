@@ -49,5 +49,6 @@ def new_backup(user : User, backup_object):
             }
             if is_new_folder or is_new_branch:
                 local_branch.save(local_branch_object)
-                
-            cli = CLI(local_dir=created_folder.name, local_dir_id=created_folder.id, remote_url=repo.clone_url, branch_name=branch_name)
+            
+            cli = CLI()
+            cli.backup(local_dir=created_folder.name, local_dir_id=created_folder.id, remote_url=repo.clone_url, branch_name=branch_name)

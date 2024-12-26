@@ -6,7 +6,7 @@ from app import demo
 from .controllers import user as user_controllers
 from .controllers import remote_repo as remote_repo_controller
 from .services.github import GithubUtililty
-from .services import backup
+from .services import backup, pull
 import subprocess
 
 def db_connection():
@@ -61,6 +61,7 @@ def handle_acc_creation():
 def main():    
     db_connection()
     if not is_git_installed():
+        logger.error("Git is not installed on the system or not added to the system PATH.")
         return
     
     print("1. create account\t 2. Login")
@@ -68,12 +69,18 @@ def main():
     
     if choice == 1:
         handle_acc_creation()
-    elif choice == 2:
-        login_status = user_auth.login()
-        
-        if login_status[0]:
-            """Redirect to the home page"""
-            logger.info(f"successful login for {login_status[1].name}")
+
+    login_status = user_auth.login()
+    
+    if login_status[0]:
+        """Redirect to the home page"""
+        logger.info(f"successful login for {login_status[1].name}")
+        print("1. backup\t 2. recover latest backup")
+        choice = int(input("Enter your choice: "))
+
+        if choice == 2:
+            pull.pull(user_id=1, local_repo_id=1)
+        else:
             backup_object = {
                 'path': input('enter folder path: '),
                 'backup_frequency': input('enter backup frequency(in hours, xh): '),

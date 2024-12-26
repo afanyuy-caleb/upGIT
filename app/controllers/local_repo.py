@@ -38,7 +38,16 @@ def get_specific(column: str, value, limit=None):
     except Exception as e:
         logger.error("Failed to get local_repos: %s" % e)
         return False
-  
+
+def get_conditional(condition, limit=None):
+    try:
+        local_repos = local_repo_crud.get_by_condition(condition=condition, limit=limit)
+        logger.info(f"Successfully retrieved local_repos with {local_repos}")
+        return local_repos
+    except Exception as e:
+        logger.error("Failed to get local_repos: %s" % e)
+        return False
+    
 def delete_local_repo(id):
     try:
         deleted = local_repo_crud.delete(local_repo_id=id)

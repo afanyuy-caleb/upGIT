@@ -31,6 +31,15 @@ def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
     return result
 
 @transaction_decorator
+def get_by_condition(session, condition = [], limit:int=10):
+    if condition not in [None, []]:
+        if limit == 1:
+            return session.query(RemoteRepo).filter(*condition).first()
+        return session.query(RemoteRepo).filter(*condition).all()
+    else:
+        raise Exception("Condition not provided")
+
+@transaction_decorator
 def delete(session, remote_repo_id: int):
     remote_repo_to_delete = session.query(RemoteRepo).filter_by(id=remote_repo_id).one_or_none()
     if remote_repo_to_delete:

@@ -38,7 +38,15 @@ def get_specific(column: str, value, limit = None):
     except Exception as e:
         logger.error("Failed to get files: %s" % e)
         return False
-  
+ 
+def get_conditional(condition, limit=None):
+    try:
+        local_repos = file_crud.get_by_condition(condition=condition, limit=limit)
+        logger.info(f"Successfully retrieved local_repos with {local_repos}")
+        return local_repos
+    except Exception as e:
+        logger.error("Failed to get local_repos: %s" % e)
+        return False 
 def delete_file(id: int):
     try:
         deleted = file_crud.delete(file_id=id)

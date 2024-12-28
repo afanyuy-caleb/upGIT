@@ -21,7 +21,7 @@ def get_all():
         logger.error("Failed to get files: %s" % e)
         return False
         
-def get_id(id: int):
+def get(id: int):
     try:
         file = file_crud.get_file(id=id)
         logger.info(f"Successfully retrieved {file}")

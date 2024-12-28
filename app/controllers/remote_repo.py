@@ -21,7 +21,7 @@ def get_all():
         logger.error("Failed to get remote_repos: %s" % e)
         return False
         
-def get_id(id: int):
+def get(id: int):
     try:
         remote_repo = remote_repo_crud.get_remote_repo(id=id)
         logger.info(f"Successfully retrieved {remote_repo}")

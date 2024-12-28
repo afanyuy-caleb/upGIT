@@ -22,7 +22,7 @@ def get_all():
         logger.error("Failed to get branchs: %s" % e)
         return False
         
-def get_id(id: int):
+def get(id: int):
     try:
         branch = branch_crud.get_branch(id=id)
         logger.info(f"Successfully retrieved {branch}")

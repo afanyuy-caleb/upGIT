@@ -3,11 +3,15 @@ from .utils.constants import logger
 from .config.database import init_db
 from .auth import user as user_auth
 from app import demo
-from .controllers import user as user_controllers
-from .controllers import remote_repo as remote_repo_controller
+from .controllers import (
+    user as user_controllers,
+    remote_repo as remote_repo_controller,
+    local_repo as local_repo_controller
+)
 from .services.github import GithubUtililty
-from .services import backup, pull
+from .services import initial_backup, pull
 import subprocess
+from .models.user import User
 
 def db_connection():
     """Initialize the database connection"""
@@ -79,15 +83,20 @@ def main():
         choice = int(input("Enter your choice: "))
 
         if choice == 2:
-            pull.pull(user_id=1, local_repo_id=1)
+            pull_object = {
+                'user_id': int(input("Enter user id: ")),
+                'local_repo_id': int(input("Enter local repo id: ")),
+                'branch_id': int(input("Enter branch id: "))
+            }
+            pull.pull(**pull_object)
         else:
             backup_object = {
                 'path': input('enter folder path: '),
                 'backup_frequency': input('enter backup frequency(in hours, xh): '),
-                'branch': input('enter branch name: ')
+                'branch_name': input('enter branch name: ')
             }
-            backup.new_backup(user=login_status[1], backup_object=backup_object)    
-    
+            initial_backup.new_backup(user=login_status[1], backup_object=backup_object)    
+        
     # run the demo file
     # demo.run_demo()
     

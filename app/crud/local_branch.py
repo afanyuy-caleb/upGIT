@@ -23,7 +23,7 @@ def get_local_branch(session, id: int):
 @transaction_decorator
 def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
     filter_column = getattr(LocalBranch, field)
-    condition = filter_column.like(f"%{value}%")
+    condition = filter_column.ilike(value)
     if limit == 1:
         return session.query(LocalBranch).filter(condition).first()
     return session.query(LocalBranch).filter(condition).all()

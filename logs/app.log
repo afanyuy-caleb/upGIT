@@ -1552,3 +1552,505 @@ User(user_name = keyz, user_email = keyz@gmail.com, user_password = $2b$12$L/jmP
 2024-12-26T21:05:15.935877+0100 INFO Database session closed after get_by_condition
 2024-12-26T21:05:15.936178+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
 
+2024-12-26T22:04:53.441552+0100 INFO Database initialized successfully
+2024-12-26T22:04:53.442121+0100 INFO successfully established database connection
+2024-12-26T22:04:53.500529+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-26T22:05:02.263594+0100 INFO Database session closed after get_by_email
+2024-12-26T22:05:02.535179+0100 INFO User, caleb logged in successfully
+2024-12-26T22:05:02.535625+0100 INFO successful login for caleb
+2024-12-26T22:06:13.962865+0100 INFO Database initialized successfully
+2024-12-26T22:06:13.963306+0100 INFO successfully established database connection
+2024-12-26T22:06:14.004820+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-26T22:06:23.955547+0100 INFO Database session closed after get_by_email
+2024-12-26T22:06:24.226155+0100 INFO User, caleb logged in successfully
+2024-12-26T22:06:24.226607+0100 INFO successful login for caleb
+2024-12-26T22:06:26.136825+0100 INFO Database session closed after get_by_condition
+2024-12-26T22:06:26.137279+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-26T22:06:26.139121+0100 INFO Database session closed after get_branch
+2024-12-26T22:06:26.139438+0100 INFO Successfully retrieved Branch(branch_name = second, branch_parent_repo = 1
+
+2024-12-26T22:06:26.185325+0100 INFO successfully executed init_git
+2024-12-26T22:06:28.726375+0100 INFO successfully executed pull
+2024-12-26T23:20:56.414348+0100 INFO Database initialized successfully
+2024-12-26T23:20:56.414778+0100 INFO successfully established database connection
+2024-12-26T23:20:56.456778+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-26T23:21:09.277030+0100 INFO Database session closed after get_by_email
+2024-12-26T23:21:09.552258+0100 INFO User, caleb logged in successfully
+2024-12-26T23:21:09.552688+0100 INFO successful login for caleb
+2024-12-26T23:21:11.606680+0100 INFO Database session closed after get_by_condition
+2024-12-26T23:21:11.607061+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-26T23:21:11.609162+0100 INFO Database session closed after get_branch
+2024-12-26T23:21:11.609813+0100 INFO Successfully retrieved Branch(branch_name = second, branch_parent_repo = 1
+
+2024-12-26T23:21:11.661310+0100 INFO successfully executed init_git
+2024-12-26T23:21:13.968709+0100 INFO successfully executed pull
+2024-12-26T23:35:37.854124+0100 INFO Database initialized successfully
+2024-12-26T23:35:37.854564+0100 INFO successfully established database connection
+2024-12-26T23:35:37.894549+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-26T23:35:46.292060+0100 INFO Database session closed after get_by_email
+2024-12-26T23:35:46.563321+0100 INFO User, caleb logged in successfully
+2024-12-26T23:35:46.563764+0100 INFO successful login for caleb
+2024-12-26T23:35:48.342043+0100 INFO Database session closed after get_by_condition
+2024-12-26T23:35:48.342317+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-26T23:35:48.343806+0100 INFO Database session closed after get_branch
+2024-12-26T23:35:48.344086+0100 INFO Successfully retrieved Branch(branch_name = second, branch_parent_repo = 1
+
+2024-12-26T23:35:48.393330+0100 INFO successfully executed init_git
+2024-12-26T23:35:51.394462+0100 ERROR An error occurred while running the CLI command: organize_pull_files() missing 1 required positional argument: 'subdir'
+2024-12-26T23:36:18.020976+0100 INFO Database initialized successfully
+2024-12-26T23:36:18.021417+0100 INFO successfully established database connection
+2024-12-26T23:36:18.067553+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-26T23:36:27.207892+0100 INFO Database session closed after get_by_email
+2024-12-26T23:36:27.482065+0100 INFO User, caleb logged in successfully
+2024-12-26T23:36:27.482531+0100 INFO successful login for caleb
+2024-12-26T23:36:28.853734+0100 INFO Database session closed after get_by_condition
+2024-12-26T23:36:28.854055+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-26T23:36:28.855688+0100 INFO Database session closed after get_branch
+2024-12-26T23:36:28.855949+0100 INFO Successfully retrieved Branch(branch_name = second, branch_parent_repo = 1
+
+2024-12-26T23:36:28.899774+0100 INFO successfully executed init_git
+2024-12-26T23:36:30.969415+0100 INFO successfully executed pull
+2024-12-26T23:58:48.042540+0100 INFO Database initialized successfully
+2024-12-26T23:58:48.043029+0100 INFO successfully established database connection
+2024-12-26T23:58:48.083022+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-26T23:59:22.341529+0100 INFO Database session closed after get_by_email
+2024-12-26T23:59:22.626807+0100 INFO User, caleb logged in successfully
+2024-12-26T23:59:22.627343+0100 INFO successful login for caleb
+2024-12-26T23:59:24.941013+0100 INFO Database session closed after get_by_condition
+2024-12-26T23:59:24.941357+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 1h
+
+2024-12-26T23:59:24.943181+0100 INFO Database session closed after get_branch
+2024-12-26T23:59:24.943495+0100 INFO Successfully retrieved Branch(branch_name = second, branch_parent_repo = 1
+
+2024-12-26T23:59:24.992678+0100 INFO successfully executed init_git
+2024-12-26T23:59:28.523437+0100 INFO successfully merged Python-tutorial_105318_UPGIT_CHUNKS chunks
+2024-12-26T23:59:28.525619+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\GIthub\Python-tutorial_105318_UPGIT_CHUNKS
+2024-12-26T23:59:28.526175+0100 INFO successfully executed pull
+2024-12-28T05:53:57.684169+0100 INFO Database initialized successfully
+2024-12-28T05:53:57.685353+0100 INFO successfully established database connection
+2024-12-28T05:53:57.728152+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T05:54:14.388536+0100 INFO Database session closed after create
+2024-12-28T05:54:14.388937+0100 INFO User created without fault 
+User(user_name = afanyuy, user_email = afa@gmail.com, user_password = $2b$12$pq/kWRzVNakQKK6jHL2qEui.zSAbtu5CHG5U/wTOv4GsdqFKMFfHa)
+
+2024-12-28T05:54:22.034437+0100 INFO Database session closed after create
+2024-12-28T05:54:22.035213+0100 INFO Successfully created remote_repo
+2024-12-28T05:54:22.035842+0100 INFO Successfully created remote repository for upGIT_afanyuy_1 and saved it to the database
+2024-12-28T05:54:49.900393+0100 INFO Database session closed after get_by_email
+2024-12-28T05:54:50.199629+0100 INFO User, afanyuy logged in successfully
+2024-12-28T05:54:50.200028+0100 INFO successful login for afanyuy
+2024-12-28T05:56:09.388214+0100 INFO Database session closed after get_by_column
+2024-12-28T05:56:09.388505+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T05:56:09.388743+0100 ERROR An error occurred running new_backup: 'branch_name'
+2024-12-28T05:58:06.549648+0100 INFO Database initialized successfully
+2024-12-28T05:58:06.550158+0100 INFO successfully established database connection
+2024-12-28T05:58:06.598765+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T05:58:13.929954+0100 INFO Database session closed after get_by_email
+2024-12-28T05:58:14.204044+0100 INFO User, afanyuy logged in successfully
+2024-12-28T05:58:14.204683+0100 INFO successful login for afanyuy
+2024-12-28T05:58:38.149252+0100 INFO Database session closed after get_by_column
+2024-12-28T05:58:38.149775+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T05:58:38.150579+0100 ERROR An error occurred running new_backup: 'branch_name'
+2024-12-28T05:59:50.656823+0100 INFO Database initialized successfully
+2024-12-28T05:59:50.657205+0100 INFO successfully established database connection
+2024-12-28T05:59:50.692449+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T05:59:58.526929+0100 INFO Database session closed after get_by_email
+2024-12-28T05:59:58.803505+0100 INFO User, afanyuy logged in successfully
+2024-12-28T05:59:58.803936+0100 INFO successful login for afanyuy
+2024-12-28T06:00:09.165089+0100 INFO Database session closed after get_by_column
+2024-12-28T06:00:09.165486+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T06:00:09.168777+0100 INFO Database session closed after get_by_column
+2024-12-28T06:00:09.169442+0100 INFO Successfully retrieved branchs with None
+2024-12-28T06:00:10.065820+0100 INFO Database session closed after create
+2024-12-28T06:00:10.066512+0100 INFO Successfully created branch
+2024-12-28T06:00:10.067457+0100 ERROR An error occurred running check_folder: 'str' object has no attribute 'trim'
+2024-12-28T06:00:10.067963+0100 ERROR An error occurred running new_backup: 'NoneType' object has no attribute 'id'
+2024-12-28T06:02:47.687300+0100 INFO Database initialized successfully
+2024-12-28T06:02:47.687868+0100 INFO successfully established database connection
+2024-12-28T06:02:47.729772+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T06:02:56.354697+0100 INFO Database session closed after get_by_email
+2024-12-28T06:02:56.633332+0100 INFO User, afanyuy logged in successfully
+2024-12-28T06:02:56.633795+0100 INFO successful login for afanyuy
+2024-12-28T06:03:07.172780+0100 INFO Database session closed after get_by_column
+2024-12-28T06:03:07.173103+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T06:03:07.174894+0100 INFO Database session closed after get_by_column
+2024-12-28T06:03:07.175149+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T06:03:07.176231+0100 ERROR An error occurred running check_folder: expected string or bytes-like object, got 'builtin_function_or_method'
+2024-12-28T06:03:07.177003+0100 ERROR An error occurred running new_backup: 'NoneType' object has no attribute 'id'
+2024-12-28T06:03:39.840968+0100 INFO Database initialized successfully
+2024-12-28T06:03:39.841505+0100 INFO successfully established database connection
+2024-12-28T06:03:39.887462+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T06:03:47.043989+0100 INFO Database session closed after get_by_email
+2024-12-28T06:03:47.345706+0100 INFO User, afanyuy logged in successfully
+2024-12-28T06:03:47.346090+0100 INFO successful login for afanyuy
+2024-12-28T06:03:55.253827+0100 INFO Database session closed after get_by_column
+2024-12-28T06:03:55.254087+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T06:03:55.255970+0100 INFO Database session closed after get_by_column
+2024-12-28T06:03:55.256247+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T06:03:55.257189+0100 ERROR An error occurred running check_folder: expected string or bytes-like object, got 'builtin_function_or_method'
+2024-12-28T06:03:55.258690+0100 ERROR An error occurred running new_backup: 'NoneType' object has no attribute 'id'
+2024-12-28T06:04:58.867072+0100 INFO Database initialized successfully
+2024-12-28T06:04:58.867710+0100 INFO successfully established database connection
+2024-12-28T06:04:58.912801+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T06:05:05.778952+0100 INFO Database session closed after get_by_email
+2024-12-28T06:05:06.056739+0100 INFO User, afanyuy logged in successfully
+2024-12-28T06:05:06.057209+0100 INFO successful login for afanyuy
+2024-12-28T06:05:16.013975+0100 INFO Database session closed after get_by_column
+2024-12-28T06:05:16.014227+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T06:05:16.015808+0100 INFO Database session closed after get_by_column
+2024-12-28T06:05:16.016079+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T06:05:16.018837+0100 INFO Database session closed after get_by_condition
+2024-12-28T06:05:16.019332+0100 INFO Successfully retrieved local_repos with None
+2024-12-28T06:05:16.090617+0100 INFO Database session closed after create
+2024-12-28T06:05:16.091246+0100 INFO Successfully created local_repo
+2024-12-28T06:05:16.119546+0100 INFO Database session closed after create
+2024-12-28T06:05:16.120104+0100 INFO Successfully created local_branch
+2024-12-28T06:05:16.465517+0100 INFO successfully executed init_git
+2024-12-28T06:05:16.801220+0100 INFO successfully executed add_remote
+2024-12-28T06:05:16.888624+0100 INFO successfully executed create_branch
+2024-12-28T06:05:22.545375+0100 INFO successfully executed add
+2024-12-28T06:05:23.072106+0100 INFO successfully executed commit
+2024-12-28T06:06:02.067547+0100 ERROR A subprocess error occurred: 1
+2024-12-28T06:06:02.068144+0100 ERROR Command '['git', 'push', 'origin', 'first']' returned non-zero exit status 1.
+2024-12-28T06:11:31.651040+0100 INFO Database initialized successfully
+2024-12-28T06:11:31.651778+0100 INFO successfully established database connection
+2024-12-28T06:11:31.700797+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T06:11:44.460441+0100 INFO Database session closed after get_by_email
+2024-12-28T06:11:44.740167+0100 INFO User, afanyuy logged in successfully
+2024-12-28T06:11:44.740676+0100 INFO successful login for afanyuy
+2024-12-28T06:12:09.620795+0100 INFO Database session closed after get_by_column
+2024-12-28T06:12:09.621166+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T06:12:09.623123+0100 INFO Database session closed after get_by_column
+2024-12-28T06:12:09.623439+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T06:12:09.626643+0100 INFO Database session closed after get_by_condition
+2024-12-28T06:12:09.627310+0100 INFO Successfully retrieved local_repos with None
+2024-12-28T06:12:09.650955+0100 INFO Database session closed after create
+2024-12-28T06:12:09.651534+0100 INFO Successfully created local_repo
+2024-12-28T06:12:09.670549+0100 INFO Database session closed after create
+2024-12-28T06:12:09.671156+0100 INFO Successfully created local_branch
+2024-12-28T06:12:09.672850+0100 ERROR An error occurred while organizing files: argument should be integer or None, not 'float'
+2024-12-28T06:12:09.740247+0100 INFO successfully executed init_git
+2024-12-28T06:12:09.821863+0100 INFO successfully executed add_remote
+2024-12-28T06:12:09.903694+0100 INFO successfully executed create_branch
+2024-12-28T06:12:10.520122+0100 INFO successfully executed add
+2024-12-28T06:12:10.678211+0100 INFO successfully executed commit
+2024-12-28T06:12:10.678873+0100 ERROR An error occurred running new_backup: 'NoneType' object is not iterable
+2024-12-28T06:16:32.611499+0100 INFO Database initialized successfully
+2024-12-28T06:16:32.611979+0100 INFO successfully established database connection
+2024-12-28T06:16:32.651319+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T06:17:13.105575+0100 INFO Database initialized successfully
+2024-12-28T06:17:13.106099+0100 INFO successfully established database connection
+2024-12-28T06:17:13.145863+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T06:17:20.715495+0100 INFO Database session closed after get_by_email
+2024-12-28T06:17:21.066155+0100 INFO User, afanyuy logged in successfully
+2024-12-28T06:17:21.066679+0100 INFO successful login for afanyuy
+2024-12-28T06:17:39.533893+0100 INFO Database session closed after get_by_column
+2024-12-28T06:17:39.534189+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T06:17:39.535878+0100 INFO Database session closed after get_by_column
+2024-12-28T06:17:39.536142+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T06:17:39.540213+0100 INFO Database session closed after get_by_condition
+2024-12-28T06:17:39.541118+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+
+2024-12-28T06:17:39.551094+0100 INFO 4 chunks of Python-Tutorial_105318.pdf have been created
+2024-12-28T06:17:39.571114+0100 INFO Database session closed after create
+2024-12-28T06:17:39.571762+0100 INFO Successfully created file
+2024-12-28T06:17:39.587224+0100 INFO 8 chunks of Data-Structure-Final-.pdf have been created
+2024-12-28T06:17:39.602442+0100 INFO Database session closed after create
+2024-12-28T06:17:39.603018+0100 INFO Successfully created file
+2024-12-28T06:17:39.619975+0100 INFO 10 chunks of Learning_Python_105051.pdf have been created
+2024-12-28T06:17:39.636681+0100 INFO Database session closed after create
+2024-12-28T06:17:39.637236+0100 INFO Successfully created file
+2024-12-28T06:17:39.685724+0100 INFO successfully executed init_git
+2024-12-28T06:17:39.730387+0100 INFO successfully executed add_remote
+2024-12-28T06:17:39.772433+0100 INFO successfully executed create_branch
+2024-12-28T06:17:40.641036+0100 INFO successfully executed add
+2024-12-28T06:17:40.909212+0100 INFO successfully executed commit
+2024-12-28T06:17:40.911281+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\Python-tutorial_105318_UPGIT_CHUNKS
+2024-12-28T06:17:40.914407+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\yeah\Data-structure-final-_UPGIT_CHUNKS
+2024-12-28T06:17:40.921482+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\yeah\Learning_python_105051_UPGIT_CHUNKS
+2024-12-28T06:18:19.478502+0100 INFO successfully executed push
+2024-12-28T06:18:19.479478+0100 ERROR An error occurred running update: __init__() takes 1 positional argument but 2 were given
+2024-12-28T06:18:19.479972+0100 INFO Successfully backed up C:\Users\Caleb\Desktop\upgit test folders\GIthub to upGIT_afanyuy_1 at 2024-12-28 06:18:19.479955
+2024-12-28T06:29:45.855842+0100 INFO Database initialized successfully
+2024-12-28T06:29:45.856311+0100 INFO successfully established database connection
+2024-12-28T06:29:45.899645+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T06:29:59.252745+0100 INFO Database session closed after create
+2024-12-28T06:29:59.253140+0100 INFO User created without fault 
+User(user_name = test user, user_email = test@gmail.com, user_password = $2b$12$SeBSi.Jp8iPtL.pp.v7z6./tYpGO/nvCjGNIN.S5iVHv2x4h5ygKa)
+
+2024-12-28T06:30:00.610478+0100 INFO Database session closed after create
+2024-12-28T06:30:00.610926+0100 INFO Successfully created remote_repo
+2024-12-28T06:30:00.611228+0100 INFO Successfully created remote repository for upGIT_test-user_2 and saved it to the database
+2024-12-28T06:30:07.533027+0100 INFO Database session closed after get_by_email
+2024-12-28T06:30:07.818733+0100 INFO User, test user logged in successfully
+2024-12-28T06:30:07.819372+0100 INFO successful login for test user
+2024-12-28T06:30:34.957346+0100 INFO Database session closed after get_by_column
+2024-12-28T06:30:34.958017+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_test-user_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_test-user_2
+
+2024-12-28T06:30:34.961166+0100 INFO Database session closed after get_by_column
+2024-12-28T06:30:34.961902+0100 INFO Successfully retrieved branchs with None
+2024-12-28T06:30:34.981660+0100 INFO Database session closed after create
+2024-12-28T06:30:34.982164+0100 INFO Successfully created branch
+2024-12-28T06:30:34.982956+0100 ERROR An error occurred running check_folder: Invalid backup frequency. backup set to 24h
+2024-12-28T06:30:34.983414+0100 ERROR An error occurred running new_backup: 'NoneType' object has no attribute 'id'
+2024-12-28T06:38:43.289915+0100 INFO Database initialized successfully
+2024-12-28T06:38:43.290458+0100 INFO successfully established database connection
+2024-12-28T06:38:43.342131+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T06:38:54.202306+0100 INFO Database session closed after get_by_email
+2024-12-28T06:38:54.498430+0100 INFO User, test user logged in successfully
+2024-12-28T06:38:54.498872+0100 INFO successful login for test user
+2024-12-28T06:39:19.932974+0100 INFO Database session closed after get_by_column
+2024-12-28T06:39:19.933366+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_test-user_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_test-user_2
+
+2024-12-28T06:39:19.935891+0100 INFO Database session closed after get_by_column
+2024-12-28T06:39:19.936412+0100 INFO Successfully retrieved branchs with Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2024-12-28T06:39:19.939992+0100 INFO Database session closed after get_by_condition
+2024-12-28T06:39:19.940493+0100 INFO Successfully retrieved local_repos with None
+2024-12-28T06:39:19.962164+0100 INFO Database session closed after create
+2024-12-28T06:39:19.962752+0100 INFO Successfully created local_repo
+2024-12-28T06:39:19.983931+0100 INFO Database session closed after create
+2024-12-28T06:39:19.984641+0100 INFO Successfully created local_branch
+2024-12-28T06:39:19.989886+0100 INFO 2 chunks of colors.png have been created
+2024-12-28T06:39:20.016773+0100 INFO Database session closed after create
+2024-12-28T06:39:20.017612+0100 INFO Successfully created file
+2024-12-28T06:39:20.074060+0100 INFO 22 chunks of Natural Language Processing with PyTorch_ Build Intelligent Language Applications Using Deep Learning - PDF Room.pdf have been created
+2024-12-28T06:39:20.091915+0100 INFO Database session closed after create
+2024-12-28T06:39:20.092475+0100 INFO Successfully created file
+2024-12-28T06:39:20.161487+0100 INFO successfully executed init_git
+2024-12-28T06:39:20.244294+0100 INFO successfully executed add_remote
+2024-12-28T06:39:20.323330+0100 INFO successfully executed create_branch
+2024-12-28T06:39:20.442242+0100 ERROR A subprocess error occurred: 128
+2024-12-28T06:39:20.442849+0100 ERROR Command '['git', 'add', '.']' returned non-zero exit status 128.
+2024-12-28T06:44:39.085412+0100 INFO Database initialized successfully
+2024-12-28T06:44:39.085831+0100 INFO successfully established database connection
+2024-12-28T06:44:39.128682+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T06:44:49.466409+0100 INFO Database session closed after get_by_email
+2024-12-28T06:44:49.745908+0100 INFO User, test user logged in successfully
+2024-12-28T06:44:49.746287+0100 INFO successful login for test user
+2024-12-28T06:45:08.891916+0100 INFO Database session closed after get_by_column
+2024-12-28T06:45:08.892222+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_test-user_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_test-user_2
+
+2024-12-28T06:45:08.893831+0100 INFO Database session closed after get_by_column
+2024-12-28T06:45:08.894091+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T06:45:08.896108+0100 INFO Database session closed after get_by_condition
+2024-12-28T06:45:08.896368+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\test, localRepo_frequency = 0.3333333333333333h
+
+2024-12-28T06:45:08.900345+0100 INFO 2 chunks of colors.png have been created
+2024-12-28T06:45:08.928004+0100 INFO Database session closed after create
+2024-12-28T06:45:08.928563+0100 INFO Successfully created file
+2024-12-28T06:45:08.961796+0100 INFO 22 chunks of Natural Language Processing with PyTorch_ Build Intelligent Language Applications Using Deep Learning - PDF Room.pdf have been created
+2024-12-28T06:45:08.976468+0100 INFO Database session closed after create
+2024-12-28T06:45:08.976981+0100 INFO Successfully created file
+2024-12-28T06:45:09.047263+0100 INFO successfully executed init_git
+2024-12-28T06:45:09.130677+0100 INFO successfully executed add_remote
+2024-12-28T06:45:09.214760+0100 INFO successfully executed create_branch
+2024-12-28T06:45:09.333414+0100 ERROR A subprocess error occurred: 128
+2024-12-28T06:45:09.334031+0100 ERROR Command '['git', 'add', '.']' returned non-zero exit status 128.
+2024-12-28T06:50:10.341335+0100 INFO Database initialized successfully
+2024-12-28T06:50:10.341815+0100 INFO successfully established database connection
+2024-12-28T06:50:10.387248+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T06:50:18.058906+0100 INFO Database session closed after get_by_email
+2024-12-28T06:50:18.339195+0100 INFO User, test user logged in successfully
+2024-12-28T06:50:18.339641+0100 INFO successful login for test user
+2024-12-28T06:51:20.005297+0100 INFO Database session closed after get_by_column
+2024-12-28T06:51:20.005664+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_test-user_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_test-user_2
+
+2024-12-28T06:51:20.007763+0100 INFO Database session closed after get_by_column
+2024-12-28T06:51:20.008048+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T06:51:20.010081+0100 INFO Database session closed after get_by_condition
+2024-12-28T06:51:20.010348+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\test, localRepo_frequency = 0.3333333333333333h
+
+2024-12-28T06:51:20.014966+0100 INFO 2 chunks of colors.png have been created
+2024-12-28T06:51:20.126890+0100 INFO Database session closed after create
+2024-12-28T06:51:20.127443+0100 INFO Successfully created file
+2024-12-28T06:51:20.148192+0100 INFO 22 chunks of Deep Learning.pdf have been created
+2024-12-28T06:51:20.173208+0100 INFO Database session closed after create
+2024-12-28T06:51:20.173771+0100 INFO Successfully created file
+2024-12-28T06:51:20.381631+0100 INFO successfully executed init_git
+2024-12-28T06:51:20.468217+0100 INFO successfully executed add_remote
+2024-12-28T06:51:20.556048+0100 INFO successfully executed create_branch
+2024-12-28T06:51:23.047415+0100 INFO successfully executed add
+2024-12-28T06:51:23.280279+0100 INFO successfully executed commit
+2024-12-28T06:51:23.281926+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\test\Colors_UPGIT_CHUNKS
+2024-12-28T06:51:23.288087+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\test\Deep learning_UPGIT_CHUNKS
+2024-12-28T06:52:02.035045+0100 INFO successfully executed push
+2024-12-28T06:52:02.039088+0100 ERROR An unexpected error occurred during crud operation: 'LocalRepo' object has no attribute 'dict'
+2024-12-28T06:52:02.040044+0100 INFO Database session closed after update
+2024-12-28T06:52:02.040988+0100 INFO Successfully updated local_repo with id 3
+2024-12-28T06:52:02.041915+0100 INFO Successfully backed up C:\Users\Caleb\Desktop\upgit test folders\test to upGIT_test-user_2 at 2024-12-28 06:52:02.041867
+2024-12-28T07:02:30.657476+0100 INFO Database initialized successfully
+2024-12-28T07:02:30.658006+0100 INFO successfully established database connection
+2024-12-28T07:02:58.652797+0100 INFO Database initialized successfully
+2024-12-28T07:02:58.653369+0100 INFO successfully established database connection
+2024-12-28T07:03:21.665587+0100 INFO Database initialized successfully
+2024-12-28T07:03:21.666155+0100 INFO successfully established database connection
+2024-12-28T07:12:25.474551+0100 INFO Database initialized successfully
+2024-12-28T07:12:25.475041+0100 INFO successfully established database connection
+2024-12-28T07:12:25.529547+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T07:12:33.463974+0100 INFO Database session closed after get_by_email
+2024-12-28T07:12:33.763223+0100 INFO User, test user logged in successfully
+2024-12-28T07:12:33.763808+0100 INFO successful login for test user
+2024-12-28T07:12:49.907853+0100 INFO Database session closed after get_by_column
+2024-12-28T07:12:49.908168+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_test-user_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_test-user_2
+
+2024-12-28T07:12:49.909770+0100 INFO Database session closed after get_by_column
+2024-12-28T07:12:49.910019+0100 INFO Successfully retrieved branchs with Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T07:12:49.913938+0100 INFO Database session closed after get_by_condition
+2024-12-28T07:12:49.914757+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\test, localRepo_frequency = 0.3333333333333333h
+
+2024-12-28T07:12:49.946172+0100 INFO 3 chunks of Deep Learning.pdf have been created
+2024-12-28T07:12:49.972141+0100 INFO Database session closed after create
+2024-12-28T07:12:49.972868+0100 INFO Successfully created file
+2024-12-28T07:12:50.001317+0100 INFO 3 chunks of _Getintopc.com_KMSAuto_1.7.2.rar have been created
+2024-12-28T07:12:50.023718+0100 INFO Database session closed after create
+2024-12-28T07:12:50.024320+0100 INFO Successfully created file
+2024-12-28T07:12:50.076887+0100 INFO successfully executed init_git
+2024-12-28T07:12:50.126286+0100 INFO successfully executed add_remote
+2024-12-28T07:12:50.170590+0100 INFO successfully executed create_branch
+2024-12-28T07:12:52.988365+0100 INFO successfully executed add
+2024-12-28T07:12:53.354458+0100 INFO successfully executed commit
+2024-12-28T07:12:53.357542+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\test\Deep learning_UPGIT_CHUNKS
+2024-12-28T07:12:53.361346+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\test\heavy\_getintopc.com_kmsauto_1.7.2_UPGIT_CHUNKS
+2024-12-28T07:14:41.383381+0100 INFO successfully executed push
+2024-12-28T07:14:41.408832+0100 ERROR An unexpected error occurred during crud operation: 'completed' is not among the defined enum values. Enum name: backupstatus. Possible values: PENDING, COMPLETED, FAILED, READY
+2024-12-28T07:14:41.410014+0100 INFO Database session closed after update
+2024-12-28T07:14:41.410612+0100 INFO Successfully updated local_repo with id 3
+2024-12-28T07:14:41.411486+0100 INFO Successfully backed up C:\Users\Caleb\Desktop\upgit test folders\test to upGIT_test-user_2 at 2024-12-28 07:14:41.411406
+2024-12-28T07:17:57.710291+0100 INFO Database initialized successfully
+2024-12-28T07:17:57.710853+0100 INFO successfully established database connection
+2024-12-28T07:17:57.757895+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T07:18:08.244700+0100 INFO Database session closed after get_by_email
+2024-12-28T07:18:08.592003+0100 INFO User, test user logged in successfully
+2024-12-28T07:18:08.592366+0100 INFO successful login for test user
+2024-12-28T07:18:10.749061+0100 INFO Database session closed after get_by_condition
+2024-12-28T07:18:10.749504+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+
+2024-12-28T07:18:10.752832+0100 INFO Database session closed after get_branch
+2024-12-28T07:18:10.753596+0100 INFO Successfully retrieved None
+2024-12-28T07:20:26.989948+0100 INFO Database initialized successfully
+2024-12-28T07:20:26.990405+0100 INFO successfully established database connection
+2024-12-28T07:20:27.031323+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T07:20:37.317773+0100 INFO Database session closed after get_by_email
+2024-12-28T07:20:37.609781+0100 INFO User, test user logged in successfully
+2024-12-28T07:20:37.610249+0100 INFO successful login for test user
+2024-12-28T07:20:39.043587+0100 ERROR An unexpected error occurred during crud operation: 'completed' is not among the defined enum values. Enum name: backupstatus. Possible values: PENDING, COMPLETED, FAILED, READY
+2024-12-28T07:20:39.043914+0100 INFO Database session closed after get_by_condition
+2024-12-28T07:20:39.044191+0100 INFO Successfully retrieved local_repos with None
+2024-12-28T07:23:43.622222+0100 INFO Database initialized successfully
+2024-12-28T07:23:43.622898+0100 INFO successfully established database connection
+2024-12-28T07:23:43.672776+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T07:23:55.365989+0100 INFO Database session closed after get_by_email
+2024-12-28T07:23:55.647379+0100 INFO User, afanyuy logged in successfully
+2024-12-28T07:23:55.647831+0100 INFO successful login for afanyuy
+2024-12-28T07:24:05.899536+0100 INFO Database session closed after get_by_column
+2024-12-28T07:24:05.899854+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T07:24:05.901357+0100 INFO Database session closed after get_by_column
+2024-12-28T07:24:05.901606+0100 INFO Successfully retrieved branchs with None
+2024-12-28T07:24:05.920942+0100 INFO Database session closed after create
+2024-12-28T07:24:05.921452+0100 INFO Successfully created branch
+2024-12-28T07:24:05.924492+0100 INFO Database session closed after get_by_condition
+2024-12-28T07:24:05.925073+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+
+2024-12-28T07:24:05.949858+0100 INFO Database session closed after create
+2024-12-28T07:24:05.951217+0100 INFO Successfully created local_branch
+2024-12-28T07:24:05.976947+0100 INFO 3 chunks of _Getintopc.com_KMSAuto_1.7.2.rar have been created
+2024-12-28T07:24:05.994102+0100 INFO Database session closed after create
+2024-12-28T07:24:05.994693+0100 INFO Successfully created file
+2024-12-28T07:24:06.044252+0100 INFO successfully executed init_git
+2024-12-28T07:24:06.085721+0100 INFO successfully executed add_remote
+2024-12-28T07:24:06.174627+0100 INFO successfully executed create_branch
+2024-12-28T07:24:07.008451+0100 INFO successfully executed add
+2024-12-28T07:24:07.335018+0100 INFO successfully executed commit
+2024-12-28T07:24:07.345576+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\yeah\_getintopc.com_kmsauto_1.7.2_UPGIT_CHUNKS
+2024-12-28T07:25:16.777493+0100 INFO successfully executed push
+2024-12-28T07:25:16.797597+0100 INFO Database session closed after update
+2024-12-28T07:25:16.798340+0100 INFO Successfully updated local_repo with id 2
+2024-12-28T07:25:16.798887+0100 INFO Successfully backed up C:\Users\Caleb\Desktop\upgit test folders\GIthub to upGIT_afanyuy_1 at 2024-12-28 07:25:16.798851
+2024-12-28T07:26:10.017999+0100 INFO Database initialized successfully
+2024-12-28T07:26:10.018742+0100 INFO successfully established database connection
+2024-12-28T07:26:10.060081+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T07:26:17.843546+0100 INFO Database session closed after get_by_email
+2024-12-28T07:26:18.137276+0100 INFO User, afanyuy logged in successfully
+2024-12-28T07:26:18.137894+0100 INFO successful login for afanyuy
+2024-12-28T07:26:19.563672+0100 ERROR An unexpected error occurred during crud operation: 'completed' is not among the defined enum values. Enum name: backupstatus. Possible values: PENDING, COMPLETED, FAILED, READY
+2024-12-28T07:26:19.564356+0100 INFO Database session closed after get_by_condition
+2024-12-28T07:26:19.564795+0100 INFO Successfully retrieved local_repos with None
+2024-12-28T07:28:43.120763+0100 INFO Database initialized successfully
+2024-12-28T07:28:43.121347+0100 INFO successfully established database connection
+2024-12-28T07:28:43.139903+0100 ERROR An unexpected error occurred during crud operation: 'completed' is not among the defined enum values. Enum name: backupstatus. Possible values: PENDING, COMPLETED, FAILED, READY
+2024-12-28T07:28:43.140469+0100 INFO Database session closed after delete
+2024-12-28T07:28:43.140827+0100 INFO Successfully deleted local_repo with id 3
+2024-12-28T07:28:43.185704+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T07:31:04.443251+0100 INFO Database initialized successfully
+2024-12-28T07:31:04.443814+0100 INFO successfully established database connection
+2024-12-28T07:31:04.459835+0100 INFO Database session closed after delete
+2024-12-28T07:31:04.460186+0100 INFO Successfully deleted local_repo with id 3
+2024-12-28T07:31:04.503990+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T07:32:30.173807+0100 INFO Database initialized successfully
+2024-12-28T07:32:30.174256+0100 INFO successfully established database connection
+2024-12-28T07:32:30.219512+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T07:32:38.369757+0100 INFO Database session closed after get_by_email
+2024-12-28T07:32:38.646265+0100 INFO User, afanyuy logged in successfully
+2024-12-28T07:32:38.646713+0100 INFO successful login for afanyuy
+2024-12-28T07:32:39.966354+0100 INFO Database session closed after get_by_condition
+2024-12-28T07:32:39.966801+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\test, localRepo_frequency = 0.3333333333333333h
+
+2024-12-28T07:32:39.968956+0100 INFO Database session closed after get_branch
+2024-12-28T07:32:39.969429+0100 INFO Successfully retrieved Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T07:32:40.021198+0100 INFO successfully executed init_git
+2024-12-28T07:32:42.585124+0100 INFO successfully merged Deep learning_UPGIT_CHUNKS chunks
+2024-12-28T07:32:42.601858+0100 INFO successfully merged _getintopc.com_kmsauto_1.7.2_UPGIT_CHUNKS chunks
+2024-12-28T07:32:42.604771+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\test\Deep learning_UPGIT_CHUNKS
+2024-12-28T07:32:42.607841+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\test\heavy\_getintopc.com_kmsauto_1.7.2_UPGIT_CHUNKS
+2024-12-28T07:32:42.608530+0100 INFO Pull operation successful
+2024-12-28T07:32:42.609027+0100 INFO successfully executed pull
+2024-12-28T07:46:27.808203+0100 INFO Database initialized successfully
+2024-12-28T07:46:27.808715+0100 INFO successfully established database connection
+2024-12-28T07:46:27.850263+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T07:46:37.026159+0100 INFO Database session closed after get_by_email
+2024-12-28T07:46:37.306646+0100 INFO User, afanyuy logged in successfully
+2024-12-28T07:46:37.307249+0100 INFO successful login for afanyuy
+2024-12-28T07:47:15.163303+0100 INFO Database initialized successfully
+2024-12-28T07:47:15.164004+0100 INFO successfully established database connection
+2024-12-28T07:47:15.203370+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T07:47:25.622785+0100 INFO Database session closed after get_by_email
+2024-12-28T07:47:25.901533+0100 INFO User, afanyuy logged in successfully
+2024-12-28T07:47:25.902192+0100 INFO successful login for afanyuy
+2024-12-28T07:48:25.739108+0100 INFO Database session closed after get_by_condition
+2024-12-28T07:48:25.739456+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+
+2024-12-28T07:48:25.741446+0100 INFO Database session closed after get_branch
+2024-12-28T07:48:25.741882+0100 INFO Successfully retrieved Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T07:48:25.788897+0100 INFO successfully executed init_git
+2024-12-28T07:48:30.746071+0100 INFO successfully merged Python-tutorial_105318_UPGIT_CHUNKS chunks
+2024-12-28T07:48:30.751672+0100 INFO successfully merged Data-structure-final-_UPGIT_CHUNKS chunks
+2024-12-28T07:48:30.760726+0100 INFO successfully merged Learning_python_105051_UPGIT_CHUNKS chunks
+2024-12-28T07:48:30.762675+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\Python-tutorial_105318_UPGIT_CHUNKS
+2024-12-28T07:48:30.766235+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\yeah\Data-structure-final-_UPGIT_CHUNKS
+2024-12-28T07:48:30.769459+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\yeah\Learning_python_105051_UPGIT_CHUNKS
+2024-12-28T07:48:30.769969+0100 INFO Pull operation successful
+2024-12-28T07:48:30.770391+0100 INFO successfully executed pull

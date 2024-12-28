@@ -23,7 +23,7 @@ def get_local_repo(session, id: int):
 @transaction_decorator
 def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
     filter_column = getattr(LocalRepo, field)
-    condition = filter_column.like(f"%{value}%")
+    condition = filter_column.ilike(value)
     if limit == 1:
         return session.query(LocalRepo).filter(condition).first()
     return session.query(LocalRepo).filter(condition).all()
@@ -36,6 +36,17 @@ def get_by_condition(session, condition = [], limit:int=10):
         return session.query(LocalRepo).filter(*condition).all()
     else:
         raise Exception("Condition not provided")
+
+@transaction_decorator
+def update(session, id: int, local_repo):
+    local_repo_to_update = session.query(LocalRepo).filter_by(id=id).one_or_none()
+    if local_repo_to_update:
+        for key, value in local_repo.items():
+            if value is not None:
+                setattr(local_repo_to_update, key, value)
+        return local_repo_to_update
+    else:
+        raise Exception(f"Couldn't find local_repo with id {id}")
 
 @transaction_decorator
 def delete(session, local_repo_id: int):

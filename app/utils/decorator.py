@@ -8,6 +8,18 @@ from functools import wraps #to maintain the function metadata when called
 
 Session = sessionmaker(bind=engine)
 
+def global_exception_handler(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        try:
+            # Execute the function
+            result = func(*args, **kwargs)
+            return result
+        except Exception as e:
+            logger.error(f"An error occurred running {func.__name__}: {e}")
+            return None
+    return wrapper
+
 def transaction_decorator(func):
     @wraps(func)
     def wrapper(*args, **kwargs):

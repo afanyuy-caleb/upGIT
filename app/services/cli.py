@@ -1,7 +1,7 @@
 import os, sys
 import subprocess
 from ..utils.decorator import cli_decorator
-from .manage_files import organize_files
+from .manage_files import organize_push_files, organize_pull_files
 import shutil
 from ..utils.constants import logger
 import socket
@@ -9,70 +9,93 @@ import uuid
 
 class CLI():
     
-    def __init__(self):
-        pass
-    def backup(self, local_dir_id, remote_url, branch_name, local_dir=None):
-        if local_dir:
-            self.local_dir = local_dir
-        self.remote_url = remote_url
+    def __init__(self, local_dir, branch_name):
+        self.local_dir = local_dir
         self.branch_name = branch_name
-        
-        self.chunk_dirs = organize_files(dir_path=self.local_dir, folder_id=local_dir_id)
-        self.create_test_file()
+        pass
+    def backup(self, local_dir_id, remote_url):
+        self.remote_url = remote_url
+        self.chunk_dirs = organize_push_files(dir_path=self.local_dir, folder_id=local_dir_id)
         self.init_git()
         self.add_remote()
         self.create_branch()
         self.add()
         self.commit()
-        self.delete_chunk()
+        if self.chunk_dirs not in [None, [], '', False]:
+            self.delete_chunk()
         self.push()
     
-    def create_test_file(self):
-        filename = os.path.join(self.local_dir, 'test.txt')
-        with open(filename, 'a') as file:
-            file.write("This is a test file for the .gitignore\n")
-        gitignore_path = os.path.join(self.local_dir, '.gitignore')
-        with open(gitignore_path, 'a') as file:
-            file.write('test.txt\n')
     @cli_decorator
     def init_git(self):
-        result = subprocess.run(['git', 'init'], cwd=self.local_dir, check=True, capture_output=True, text=True)
-        return result.stdout.strip()
+        return subprocess.run(
+            ['git', 'init'], 
+            cwd=self.local_dir, 
+            check=True, 
+            capture_output=True, 
+            text=True
+        )
     
     @cli_decorator
     def add_remote(self):
         USERNAME = os.getenv('GITHUB_USER')
         PAT = os.getenv('GITHUB_TOKEN')
         EMAIL = os.getenv('GITHUB_EMAIL')
-        
         replacement = f"://{USERNAME}:{PAT}@"
         url = self.remote_url.replace("://", replacement)
-        
-        result = subprocess.run(['git', 'remote', '-v'], cwd=self.local_dir, capture_output=True, check=True, text=True)
-        
+        result = subprocess.run(
+            ['git', 'remote', '-v'], 
+            cwd=self.local_dir, 
+            capture_output=True,
+            check=True, 
+            text=True
+        )
         if url not in result.stdout.strip():
-            result = subprocess.run(['git', 'remote', 'add', 'origin', url], cwd=self.local_dir, capture_output=True, check=True, text=True)  
-        
-        return result.stdout.strip()
+            return subprocess.run(
+                ['git', 'remote', 'add', 'origin', url], 
+                cwd=self.local_dir, 
+                capture_output=True, 
+                check=True, 
+                text=True
+            ).stdout.strip()  
     
     @cli_decorator
     def create_branch(self):
         # check if branch exists
-        result = subprocess.run(['git', 'branch', '--list', self.branch_name], cwd=self.local_dir, capture_output=True, check=True, text=True)
+        result = subprocess.run(
+            ['git', 'branch', '--list', self.branch_name], 
+            cwd=self.local_dir, 
+            capture_output=True, 
+            check=True, 
+            text=True
+        )
         if self.branch_name not in result.stdout:    
-            result = subprocess.run(['git', 'checkout', '-b', self.branch_name], cwd=self.local_dir, capture_output=True, check=True)
-        return result.stdout.strip()
+            return subprocess.run(
+                ['git', 'checkout', '-b', self.branch_name], 
+                cwd=self.local_dir, 
+                capture_output=True, 
+                check=True
+            ).stdout.strip()
     
     @cli_decorator
     def add(self):
-        result = subprocess.run(['git', 'add', '.'], cwd=self.local_dir, capture_output=True, check=True, text=True)
-        return result.stdout.strip()
+        return subprocess.run(
+            ['git', 'add', '.'], 
+            cwd=self.local_dir, 
+            capture_output=True, 
+            check=True, 
+            text=True
+        ).stdout.strip()
     
     @cli_decorator
     def commit(self):
         message=f"successful backup-{uuid.uuid4()}"
-        result = subprocess.run(['git', 'commit', '-m', message], cwd=self.local_dir, capture_output=True, check=True, text=True)
-        return result.stdout.strip()
+        return subprocess.run(
+            ['git', 'commit', '-m', message], 
+            cwd=self.local_dir, 
+            capture_output=True, 
+            check=True, 
+            text=True
+        ).stdout.strip()
     
     def delete_chunk(self):
         for dir in self.chunk_dirs:
@@ -92,10 +115,35 @@ class CLI():
     def push(self):
         """Push to git if there is internet connectivity"""
         if self.is_connected():
-            result = subprocess.run(['git', 'push', 'origin', self.branch_name], cwd=self.local_dir, capture_output=True, check=True, text=True)
-            logger.info("commit successfully pushed")
-            return result.stdout.strip()
+            return subprocess.run(
+                ['git', 'push', 'origin', self.branch_name], 
+                cwd=self.local_dir, 
+                capture_output=True, 
+                check=True, 
+                text=True
+            ).stdout.strip()
         else:
             raise Exception("no internet connection found, push failed")
 
+    @cli_decorator
+    def pull(self):
+        self.init_git()
+        subprocess.run(['git', 'reset', '--hard', f'origin/{self.branch_name}'], cwd=self.local_dir, capture_output=True, check=True)
+    
+        if self.is_connected():
+            result = subprocess.run(
+                ['git', 'pull', 'origin', self.branch_name], 
+                cwd=self.local_dir, 
+                capture_output=True, 
+                check=True, 
+                text=True
+            ).stdout.strip()
+            if result:
+                self.chunk_dirs = organize_pull_files(self.local_dir)
+                if self.chunk_dirs not in [None, [], '', False]:
+                    self.delete_chunk()
+                logger.info("Pull operation successful")
+        else:
+            raise Exception("no internet connection found, pull failed")
+        
     # push to remote branch if there is internet connection available

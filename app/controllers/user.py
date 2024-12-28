@@ -11,7 +11,7 @@ def get_all():
         logger.error("Failed to get users: %s" % e)
         return False
         
-def get_id(id):
+def get(id):
     try:
         user = user_crud.get_user(id=id)
         logger.info(f"Successfully retrieved {user}")

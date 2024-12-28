@@ -23,7 +23,7 @@ def get_file(session, id: int):
 @transaction_decorator
 def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
     filter_column = getattr(File, field)
-    condition = filter_column.like(f"%{value}%")
+    condition = filter_column.ilike(value)
     if limit == 1:
         return session.query(File).filter(condition).first()
     return session.query(File).filter(condition).all()

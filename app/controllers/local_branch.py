@@ -21,7 +21,7 @@ def get_all():
         logger.error("Failed to get local_branchs: %s" % e)
         return False
         
-def get_id(id: int):
+def get(id: int):
     try:
         local_branch = local_branch_crud.get_local_branch(id=id)
         logger.info(f"Successfully retrieved {local_branch}")

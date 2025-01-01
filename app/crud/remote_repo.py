@@ -10,9 +10,9 @@ def create(session, remote_repo: RemoteRepo):
     return remote_repo
 
 @transaction_decorator
-def get_all(session, limit: int = 20, skip: int = 0):
+def get_all(session, limit = None, skip: int = 0):
     """Get all remote_repos from the database"""
-    result = session.query(RemoteRepo).all()
+    result = session.query(RemoteRepo).offset(skip).limit(limit).all()
     return result
 
 @transaction_decorator
@@ -22,20 +22,20 @@ def get_remote_repo(session, id: int):
     return result
 
 @transaction_decorator
-def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
+def get_by_column(session, field:str, value, skip:int=0, limit = None):
     filter_column = getattr(RemoteRepo, field)
     condition = filter_column.ilike(value)
     if limit == 1:
         return session.query(RemoteRepo).filter(condition).first()
-    result = session.query(RemoteRepo).filter(condition).all()
+    result = session.query(RemoteRepo).filter(condition).limit(limit).offset(skip).all()
     return result
 
 @transaction_decorator
-def get_by_condition(session, condition = [], limit:int=10):
+def get_by_condition(session, condition = [], limit = None, skip:int=0):
     if condition not in [None, []]:
         if limit == 1:
             return session.query(RemoteRepo).filter(*condition).first()
-        return session.query(RemoteRepo).filter(*condition).all()
+        return session.query(RemoteRepo).filter(*condition).limit(limit).offset(skip).all()
     else:
         raise Exception("Condition not provided")
 

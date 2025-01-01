@@ -9,7 +9,7 @@ from .controllers import (
     local_repo as local_repo_controller
 )
 from .services.github import GithubUtililty
-from .services import initial_backup, pull
+from .services import initial_backup, pull, background_backup
 import subprocess
 from .models.user import User
 
@@ -67,6 +67,9 @@ def main():
     if not is_git_installed():
         logger.error("Git is not installed on the system or not added to the system PATH.")
         return
+    
+    # run the background backup
+    background_backup.bg_backup()
     
     print("1. create account\t 2. Login")
     choice = int(input("Enter your choice: "))

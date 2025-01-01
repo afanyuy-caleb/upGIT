@@ -2,6 +2,7 @@ from ..models.user import User as user_model
 from ..schema.user import UserCreate
 from ..crud import user as user_crud
 from ..utils.constants import logger
+import os
 
 def register():
     print("\nCreating user....")
@@ -25,6 +26,11 @@ def register():
         
         """Insert the new user"""
         created_user = user_crud.create(user=model_object)
+        
+        # write the user id to flat file
+        with open(os.path.join(os.path.dirname(__file__), 'user_id.txt'), 'w') as f:
+            f.write(str(created_user.id))
+        
         logger.info(f"User created without fault \n{created_user}")
         return created_user
         

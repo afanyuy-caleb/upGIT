@@ -12,9 +12,9 @@ def save(file_object):
         logger.error("Failed to create file: %s" % e)
         return False
 
-def get_all():
+def get_all(limit = None, skip:int = 0):
     try:
-        files = file_crud.get_all()
+        files = file_crud.get_all(limit=limit,skip=skip)
         logger.info(f"All files: {files}")
         return files
     except Exception as e:
@@ -30,18 +30,18 @@ def get(id: int):
         logger.error("Failed to get files: %s" % e)
         return False
 
-def get_specific(column: str, value, limit = None):
+def get_specific(column: str, value, limit = None, skip : int = 0):
     try:
-        files = file_crud.get_by_column(field=column, value=value, limit=limit)
+        files = file_crud.get_by_column(field=column, value=value, limit=limit, skip = skip)
         logger.info(f"Successfully retrieved files with {files}")
         return files
     except Exception as e:
         logger.error("Failed to get files: %s" % e)
         return False
  
-def get_conditional(condition, limit=None):
+def get_conditional(condition, limit=None, skip : int = 0):
     try:
-        local_repos = file_crud.get_by_condition(condition=condition, limit=limit)
+        local_repos = file_crud.get_by_condition(condition=condition, limit=limit, skip=skip)
         logger.info(f"Successfully retrieved local_repos with {local_repos}")
         return local_repos
     except Exception as e:

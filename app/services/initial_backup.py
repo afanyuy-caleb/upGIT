@@ -46,8 +46,8 @@ def check_folder(backup_object, user_id):
     # Convert the backup frequency to h format
     if freq.endswith('m'):
         time = re.findall(r'\d+', freq)
-        time = int(time[0])
-        freq = f'{time/60}h'
+        time = int(time[0])/60
+        freq = f'{round(time, 2)}h'
     folder_object = {
         'name': backup_object['path'],
         'user_id': user_id,
@@ -87,14 +87,16 @@ def new_backup(user : User, backup_object):
     created_folder = check_folder(backup_object, user.id)
     handle_local_branch(created_folder.id, branch_info.id)
     
-    cli = CLI(local_dir=created_folder.name, branch_name=branch_info.name)
-    cli.backup(local_dir_id=created_folder.id, remote_url=repo.clone_url)
+    backup(folder=created_folder, branch=branch_info, repo=repo)
+    
+def backup(folder, branch, repo):
+    cli = CLI(local_dir=folder.name, branch_name=branch.name)
+    cli.backup(local_dir_id=folder.id, remote_url=repo.clone_url)
     
     """update the local_repo's backup status"""
-    backup_hours = re.findall(r'\d+', created_folder.backup_frequency)
+    backup_hours = re.findall(r'\d+', folder.backup_frequency)
     backup_hours = int(backup_hours[0])
     next_backup_time = datetime.now() + timedelta(hours = backup_hours)
-    local_repo_controller.update(created_folder.id, {'backup_status': 'COMPLETED', 'backup_time': next_backup_time})
+    local_repo_controller.update(folder.id, {'backup_status': 'COMPLETED', 'backup_time': next_backup_time})
     
-    logger.info(f"Successfully backed up {created_folder.name} to {repo.name} at {datetime.now()}")
-        
+    logger.info(f"Successfully backed up {folder.name} to {repo.name} at {datetime.now()}")

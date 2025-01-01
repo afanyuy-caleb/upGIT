@@ -2054,3 +2054,546 @@ User(user_name = test user, user_email = test@gmail.com, user_password = $2b$12$
 2024-12-28T07:48:30.769459+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\yeah\Learning_python_105051_UPGIT_CHUNKS
 2024-12-28T07:48:30.769969+0100 INFO Pull operation successful
 2024-12-28T07:48:30.770391+0100 INFO successfully executed pull
+2024-12-28T08:31:07.896671+0100 INFO Database initialized successfully
+2024-12-28T08:31:07.897150+0100 INFO successfully established database connection
+2024-12-28T08:31:07.941452+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T08:31:17.402309+0100 INFO Database session closed after get_by_email
+2024-12-28T08:31:17.699687+0100 INFO User, afanyuy logged in successfully
+2024-12-28T08:31:17.700144+0100 INFO successful login for afanyuy
+2024-12-28T08:31:55.721928+0100 INFO Database session closed after get_by_column
+2024-12-28T08:31:55.722223+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T08:31:55.723952+0100 INFO Database session closed after get_by_column
+2024-12-28T08:31:55.724222+0100 INFO Successfully retrieved branchs with None
+2024-12-28T08:31:55.743503+0100 INFO Database session closed after create
+2024-12-28T08:31:55.744219+0100 INFO Successfully created branch
+2024-12-28T08:31:55.747846+0100 INFO Database session closed after get_by_condition
+2024-12-28T08:31:55.748514+0100 INFO Successfully retrieved local_repos with None
+2024-12-28T08:31:55.770175+0100 INFO Database session closed after create
+2024-12-28T08:31:55.770738+0100 INFO Successfully created local_repo
+2024-12-28T08:31:55.789788+0100 INFO Database session closed after create
+2024-12-28T08:31:55.790376+0100 INFO Successfully created local_branch
+2024-12-28T08:31:56.415141+0100 INFO 5 chunks of SUMIF and COUNTIF Tutorial in Excel - Simon Sez IT (720p, h264, youtube).mp4 have been created
+2024-12-28T08:31:56.438486+0100 INFO Database session closed after create
+2024-12-28T08:31:56.439672+0100 INFO Successfully created file
+2024-12-28T08:31:56.517410+0100 INFO successfully executed init_git
+2024-12-28T08:31:56.608586+0100 INFO successfully executed add_remote
+2024-12-28T08:31:56.693412+0100 INFO successfully executed create_branch
+2024-12-28T08:32:07.567210+0100 INFO successfully executed add
+2024-12-28T08:32:08.915315+0100 INFO successfully executed commit
+2024-12-28T08:32:08.919647+0100 INFO successfully Deleted C:\Users\Caleb\Documents\ICT\excel\tutorial\Sumif and countif tutorial in excel - simon sez it (720p, h264, youtube)_UPGIT_CHUNKS
+2024-12-28T08:35:00.696051+0100 INFO successfully executed push
+2024-12-28T08:35:00.723237+0100 INFO Database session closed after update
+2024-12-28T08:35:00.724608+0100 INFO Successfully updated local_repo with id 4
+2024-12-28T08:35:00.725940+0100 INFO Successfully backed up C:\Users\Caleb\Documents\ICT to upGIT_afanyuy_1 at 2024-12-28 08:35:00.725885
+2024-12-28T08:38:49.457232+0100 INFO Database initialized successfully
+2024-12-28T08:38:49.457995+0100 INFO successfully established database connection
+2024-12-28T08:38:49.498056+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T08:39:01.258825+0100 INFO Database session closed after get_by_email
+2024-12-28T08:39:01.551365+0100 INFO User, afanyuy logged in successfully
+2024-12-28T08:39:01.552009+0100 INFO successful login for afanyuy
+2024-12-28T08:39:42.298792+0100 INFO Database session closed after get_by_column
+2024-12-28T08:39:42.299319+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T08:39:42.301509+0100 INFO Database session closed after get_by_column
+2024-12-28T08:39:42.301958+0100 INFO Successfully retrieved branchs with Branch(branch_name = study, branch_parent_repo = 1
+
+2024-12-28T08:39:42.305798+0100 INFO Database session closed after get_by_condition
+2024-12-28T08:39:42.306518+0100 INFO Successfully retrieved local_repos with None
+2024-12-28T08:39:42.331185+0100 INFO Database session closed after create
+2024-12-28T08:39:42.331862+0100 INFO Successfully created local_repo
+2024-12-28T08:39:42.350949+0100 INFO Database session closed after create
+2024-12-28T08:39:42.351569+0100 INFO Successfully created local_branch
+2024-12-28T08:39:42.620534+0100 INFO successfully executed init_git
+2024-12-28T08:39:42.701147+0100 INFO successfully executed add_remote
+2024-12-28T08:39:42.777967+0100 INFO successfully executed create_branch
+2024-12-28T08:39:49.801310+0100 INFO successfully executed add
+2024-12-28T08:39:50.538624+0100 INFO successfully executed commit
+2024-12-28T08:39:52.270434+0100 ERROR A subprocess error occurred: 1
+2024-12-28T08:39:52.271212+0100 ERROR Command '['git', 'push', 'origin', 'study']' returned non-zero exit status 1.
+2024-12-28T08:43:08.370577+0100 INFO Database initialized successfully
+2024-12-28T08:43:08.371168+0100 INFO successfully established database connection
+2024-12-28T08:43:08.414452+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T08:43:08.432809+0100 INFO Database session closed after get_all
+2024-12-28T08:43:08.433138+0100 INFO All local_repos: [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T08:44:34.852634+0100 INFO Database initialized successfully
+2024-12-28T08:44:34.853060+0100 INFO successfully established database connection
+2024-12-28T08:44:34.896120+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T08:44:34.919331+0100 INFO Database session closed after get_all
+2024-12-28T08:44:34.919667+0100 INFO All local_repos: [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T08:44:34.921075+0100 INFO Database session closed after get_all
+2024-12-28T08:44:34.921345+0100 INFO All local_repos: [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\test, localRepo_frequency = 0.3333333333333333h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+]
+2024-12-28T08:44:34.923708+0100 INFO Database session closed after get_all
+2024-12-28T08:44:34.924789+0100 INFO All local_repos: [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T08:44:34.928415+0100 INFO Database session closed after get_all
+2024-12-28T08:44:34.929116+0100 INFO All local_repos: []
+2024-12-28T08:45:02.183026+0100 INFO Database initialized successfully
+2024-12-28T08:45:02.183657+0100 INFO successfully established database connection
+2024-12-28T08:45:02.225772+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T08:45:02.256694+0100 INFO Database session closed after get_all
+2024-12-28T08:45:02.257193+0100 INFO All local_repos: [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T08:45:02.258783+0100 INFO Database session closed after get_all
+2024-12-28T08:45:02.259044+0100 INFO All local_repos: [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\test, localRepo_frequency = 0.3333333333333333h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+]
+2024-12-28T08:45:02.261132+0100 INFO Database session closed after get_all
+2024-12-28T08:45:02.261841+0100 INFO All local_repos: [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T08:45:02.265336+0100 INFO Database session closed after get_all
+2024-12-28T08:45:02.266008+0100 INFO All local_repos: []
+2024-12-28T08:48:49.419871+0100 INFO Database initialized successfully
+2024-12-28T08:48:49.420306+0100 INFO successfully established database connection
+2024-12-28T08:48:49.467740+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T08:48:49.487098+0100 INFO Database session closed after get_all
+2024-12-28T08:48:49.487470+0100 INFO All local_repos: [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T08:48:49.490730+0100 INFO Database session closed after get_all
+2024-12-28T08:48:49.491275+0100 INFO All local_repos: [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\test, localRepo_frequency = 0.3333333333333333h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+]
+2024-12-28T08:48:49.493285+0100 INFO Database session closed after get_all
+2024-12-28T08:48:49.493721+0100 INFO All local_repos: [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T08:48:49.496543+0100 INFO Database session closed after get_all
+2024-12-28T08:48:49.497400+0100 INFO All local_repos: []
+2024-12-28T08:58:52.847798+0100 INFO Database initialized successfully
+2024-12-28T08:58:52.848224+0100 INFO successfully established database connection
+2024-12-28T08:58:52.893315+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T09:11:38.916186+0100 INFO Database initialized successfully
+2024-12-28T09:11:38.916754+0100 INFO successfully established database connection
+2024-12-28T09:11:39.018951+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T09:11:39.021358+0100 ERROR An unexpected error occurred during crud operation: attribute name must be string, not 'int'
+2024-12-28T09:11:39.022950+0100 INFO Database session closed after get_by_column
+2024-12-28T09:11:39.023599+0100 INFO Successfully retrieved local_repos with None
+2024-12-28T09:12:36.771726+0100 INFO Database initialized successfully
+2024-12-28T09:12:36.772205+0100 INFO successfully established database connection
+2024-12-28T09:12:36.813384+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T09:12:36.835623+0100 INFO Database session closed after get_by_column
+2024-12-28T09:12:36.835975+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T09:12:36.838569+0100 INFO Database session closed after get_by_column
+2024-12-28T09:12:36.839362+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T09:12:36.843308+0100 INFO Database session closed after get_by_column
+2024-12-28T09:12:36.843916+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T10:57:50.972494+0100 INFO Database initialized successfully
+2024-12-28T10:57:50.973007+0100 INFO successfully established database connection
+2024-12-28T10:57:51.015458+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T10:57:51.039996+0100 INFO Database session closed after get_by_column
+2024-12-28T10:57:51.040356+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T10:57:51.042587+0100 INFO Database session closed after get_by_column
+2024-12-28T10:57:51.043197+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T10:57:51.046029+0100 INFO Database session closed after get_by_column
+2024-12-28T10:57:51.046460+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T10:59:26.754335+0100 INFO Database initialized successfully
+2024-12-28T10:59:26.754916+0100 INFO successfully established database connection
+2024-12-28T10:59:26.797221+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T10:59:26.825252+0100 INFO Database session closed after get_by_column
+2024-12-28T10:59:26.825708+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T10:59:26.828286+0100 INFO Database session closed after get_by_column
+2024-12-28T10:59:26.829057+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T10:59:26.830665+0100 INFO Database session closed after get_by_column
+2024-12-28T10:59:26.830919+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T12:21:14.462536+0100 INFO Database initialized successfully
+2024-12-28T12:21:14.463049+0100 INFO successfully established database connection
+2024-12-28T12:21:14.503988+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T12:21:14.529892+0100 INFO Database session closed after get_by_condition
+2024-12-28T12:21:14.530206+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T12:21:14.534123+0100 INFO Database session closed after get_by_condition
+2024-12-28T12:21:14.534566+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T12:21:14.537847+0100 INFO Database session closed after get_by_condition
+2024-12-28T12:21:14.538420+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T12:23:39.089138+0100 INFO Database initialized successfully
+2024-12-28T12:23:39.089703+0100 INFO successfully established database connection
+2024-12-28T12:23:39.131813+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T12:23:39.154145+0100 INFO Database session closed after get_by_condition
+2024-12-28T12:23:39.154481+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+]
+2024-12-28T12:23:39.155904+0100 INFO Database session closed after get_by_condition
+2024-12-28T12:23:39.156156+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T12:25:46.067152+0100 INFO Database initialized successfully
+2024-12-28T12:25:46.067652+0100 INFO successfully established database connection
+2024-12-28T12:25:46.113714+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T12:25:46.142643+0100 INFO Database session closed after get_by_condition
+2024-12-28T12:25:46.143008+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T12:25:46.144547+0100 INFO Database session closed after get_by_condition
+2024-12-28T12:25:46.144886+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+]
+2024-12-28T12:25:46.147410+0100 INFO Database session closed after get_by_condition
+2024-12-28T12:25:46.148151+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T13:00:45.625904+0100 INFO Database initialized successfully
+2024-12-28T13:00:45.626339+0100 INFO successfully established database connection
+2024-12-28T13:00:45.665546+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T13:00:45.689199+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:00:45.689726+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T13:00:45.693129+0100 INFO Database session closed after get_by_column
+2024-12-28T13:00:45.693650+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:00:45.696135+0100 INFO Database session closed after get_by_column
+2024-12-28T13:00:45.696473+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 1, repo_id= 1, branch_id= 1
+
+2024-12-28T13:00:45.699231+0100 INFO Database session closed after get_by_column
+2024-12-28T13:00:45.699985+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:00:45.702376+0100 INFO Database session closed after get_by_column
+2024-12-28T13:00:45.702893+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 2, repo_id= 2, branch_id= 1
+
+2024-12-28T13:00:45.704840+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:00:45.705377+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T13:00:45.707376+0100 INFO Database session closed after get_by_column
+2024-12-28T13:00:45.708039+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:00:45.710394+0100 INFO Database session closed after get_by_column
+2024-12-28T13:00:45.711003+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2024-12-28T13:00:45.713396+0100 INFO Database session closed after get_by_column
+2024-12-28T13:00:45.713923+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:00:45.716103+0100 INFO Database session closed after get_by_column
+2024-12-28T13:00:45.716744+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2024-12-28T13:00:45.719887+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:00:45.720838+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T13:03:50.762363+0100 INFO Database initialized successfully
+2024-12-28T13:03:50.762959+0100 INFO successfully established database connection
+2024-12-28T13:03:50.813023+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T13:03:50.835589+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:03:50.836172+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T13:03:50.840128+0100 INFO Database session closed after get_by_column
+2024-12-28T13:03:50.840476+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:03:50.842356+0100 INFO Database session closed after get_by_column
+2024-12-28T13:03:50.842630+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 1, repo_id= 1, branch_id= 1
+
+2024-12-28T13:06:04.163189+0100 INFO Database initialized successfully
+2024-12-28T13:06:04.163689+0100 INFO successfully established database connection
+2024-12-28T13:06:04.205629+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T13:06:04.228087+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:06:04.228398+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T13:06:04.230728+0100 INFO Database session closed after get_by_column
+2024-12-28T13:06:04.231168+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:06:04.234328+0100 INFO Database session closed after get_by_column
+2024-12-28T13:06:04.234760+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 1, repo_id= 1, branch_id= 1
+
+2024-12-28T13:06:04.237092+0100 INFO Database session closed after get_by_column
+2024-12-28T13:06:04.237868+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:06:04.239554+0100 INFO Database session closed after get_by_column
+2024-12-28T13:06:04.240035+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 2, repo_id= 2, branch_id= 1
+
+2024-12-28T13:06:04.243242+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:06:04.243703+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T13:06:04.245308+0100 INFO Database session closed after get_by_column
+2024-12-28T13:06:04.245853+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:06:04.247581+0100 INFO Database session closed after get_by_column
+2024-12-28T13:06:04.248100+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2024-12-28T13:06:04.251758+0100 INFO Database session closed after get_by_column
+2024-12-28T13:06:04.252510+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:06:04.254107+0100 INFO Database session closed after get_by_column
+2024-12-28T13:06:04.254562+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2024-12-28T13:06:04.257478+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:06:04.257898+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T13:07:41.317400+0100 INFO Database initialized successfully
+2024-12-28T13:07:41.318126+0100 INFO successfully established database connection
+2024-12-28T13:07:41.356443+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T13:07:41.381390+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:07:41.381722+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T13:07:41.385844+0100 INFO Database session closed after get_by_column
+2024-12-28T13:07:41.386451+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:07:41.389054+0100 INFO Database session closed after get_by_column
+2024-12-28T13:07:41.389628+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 1, repo_id= 1, branch_id= 1
+
+2024-12-28T13:07:41.391681+0100 INFO Database session closed after get_branch
+2024-12-28T13:07:41.392148+0100 INFO Successfully retrieved Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T13:07:41.396192+0100 INFO Database session closed after get_by_column
+2024-12-28T13:07:41.396791+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:07:41.398249+0100 INFO Database session closed after get_by_column
+2024-12-28T13:07:41.398835+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 2, repo_id= 2, branch_id= 1
+
+2024-12-28T13:07:41.400429+0100 INFO Database session closed after get_branch
+2024-12-28T13:07:41.401101+0100 INFO Successfully retrieved Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2024-12-28T13:07:41.404438+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:07:41.405029+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T13:07:41.406724+0100 INFO Database session closed after get_by_column
+2024-12-28T13:07:41.407192+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:07:41.409545+0100 INFO Database session closed after get_by_column
+2024-12-28T13:07:41.410680+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2024-12-28T13:07:41.413688+0100 INFO Database session closed after get_branch
+2024-12-28T13:07:41.414296+0100 INFO Successfully retrieved None
+2024-12-28T13:07:41.417165+0100 INFO Database session closed after get_by_column
+2024-12-28T13:07:41.417815+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:07:41.420315+0100 INFO Database session closed after get_by_column
+2024-12-28T13:07:41.420963+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2024-12-28T13:07:41.422294+0100 INFO Database session closed after get_branch
+2024-12-28T13:07:41.422789+0100 INFO Successfully retrieved None
+2024-12-28T13:07:41.427004+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:07:41.428837+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T13:09:23.021802+0100 INFO Database initialized successfully
+2024-12-28T13:09:23.022260+0100 INFO successfully established database connection
+2024-12-28T13:09:23.061311+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T13:09:23.084658+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:09:23.085429+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T13:09:23.088884+0100 INFO Database session closed after get_by_column
+2024-12-28T13:09:23.089709+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:09:23.093276+0100 INFO Database session closed after get_by_column
+2024-12-28T13:09:23.093844+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 1, repo_id= 1, branch_id= 1
+
+2024-12-28T13:09:23.096131+0100 INFO Database session closed after get_branch
+2024-12-28T13:09:23.096724+0100 INFO Successfully retrieved Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T13:09:23.099296+0100 INFO Database session closed after get_by_column
+2024-12-28T13:09:23.099987+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:09:23.101840+0100 INFO Database session closed after get_by_column
+2024-12-28T13:09:23.102328+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 2, repo_id= 2, branch_id= 1
+
+2024-12-28T13:09:23.103608+0100 INFO Database session closed after get_branch
+2024-12-28T13:09:23.104109+0100 INFO Successfully retrieved Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2024-12-28T13:09:23.106708+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:09:23.107445+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T13:09:23.110029+0100 INFO Database session closed after get_by_column
+2024-12-28T13:09:23.110481+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:09:23.112508+0100 INFO Database session closed after get_by_column
+2024-12-28T13:09:23.113132+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2024-12-28T13:09:23.115136+0100 INFO Database session closed after get_branch
+2024-12-28T13:09:23.115694+0100 INFO Successfully retrieved None
+2024-12-28T13:09:23.117289+0100 INFO Database session closed after get_by_column
+2024-12-28T13:09:23.117900+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:09:23.119502+0100 INFO Database session closed after get_by_column
+2024-12-28T13:09:23.120078+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2024-12-28T13:09:23.121285+0100 INFO Database session closed after get_branch
+2024-12-28T13:09:23.121793+0100 INFO Successfully retrieved None
+2024-12-28T13:09:23.124079+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:09:23.124950+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T13:10:03.963328+0100 INFO Database initialized successfully
+2024-12-28T13:10:03.963837+0100 INFO successfully established database connection
+2024-12-28T13:10:04.008497+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T13:10:04.039206+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:10:04.039595+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T13:10:04.043731+0100 INFO Database session closed after get_by_column
+2024-12-28T13:10:04.044042+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:10:04.045981+0100 INFO Database session closed after get_by_column
+2024-12-28T13:10:04.046295+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 1, repo_id= 1, branch_id= 1
+
+2024-12-28T13:10:04.047830+0100 INFO Database session closed after get_branch
+2024-12-28T13:10:04.048099+0100 INFO Successfully retrieved Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T13:10:04.049287+0100 INFO Database session closed after get_by_column
+2024-12-28T13:10:04.049506+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:10:04.051446+0100 INFO Database session closed after get_by_column
+2024-12-28T13:10:04.052128+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 2, repo_id= 2, branch_id= 1
+
+2024-12-28T13:10:04.055273+0100 INFO Database session closed after get_branch
+2024-12-28T13:10:04.056109+0100 INFO Successfully retrieved Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2024-12-28T13:10:04.058282+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:10:04.058723+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2024-12-28T13:10:04.060339+0100 INFO Database session closed after get_by_column
+2024-12-28T13:10:04.061291+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:10:04.063231+0100 INFO Database session closed after get_by_column
+2024-12-28T13:10:04.063872+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2024-12-28T13:10:04.065228+0100 INFO Database session closed after get_branch
+2024-12-28T13:10:04.065671+0100 INFO Successfully retrieved None
+2024-12-28T13:10:04.066951+0100 INFO Database session closed after get_by_column
+2024-12-28T13:10:04.067486+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:10:04.069423+0100 INFO Database session closed after get_by_column
+2024-12-28T13:10:04.070878+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2024-12-28T13:10:04.072347+0100 INFO Database session closed after get_branch
+2024-12-28T13:10:04.072894+0100 INFO Successfully retrieved None
+2024-12-28T13:10:04.074595+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:10:04.075076+0100 INFO Successfully retrieved local_repos with []
+2024-12-28T13:12:02.223762+0100 INFO Database initialized successfully
+2024-12-28T13:12:02.224173+0100 INFO successfully established database connection
+2024-12-28T13:12:02.265634+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T13:12:02.300636+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:12:02.301113+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+]
+2024-12-28T13:12:02.306440+0100 INFO Database session closed after get_by_column
+2024-12-28T13:12:02.306984+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:12:02.308866+0100 INFO Database session closed after get_by_column
+2024-12-28T13:12:02.309150+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 1, repo_id= 1, branch_id= 1
+
+2024-12-28T13:12:02.313509+0100 INFO Database session closed after get_branch
+2024-12-28T13:12:02.314328+0100 INFO Successfully retrieved Branch(branch_name = first, branch_parent_repo = 1
+
+2024-12-28T13:12:02.315636+0100 ERROR An error occurred while organizing files: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Caleb\\Desktop\\GIthub'
+2024-12-28T13:12:02.317098+0100 ERROR An error occurred while running the CLI command: [WinError 267] The directory name is invalid
+2024-12-28T13:21:15.629642+0100 INFO Database initialized successfully
+2024-12-28T13:21:15.630167+0100 INFO successfully established database connection
+2024-12-28T13:21:15.672362+0100 INFO Git is installed: git version 2.47.0.windows.2
+2024-12-28T13:21:15.692852+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:21:15.693509+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+]
+2024-12-28T13:21:15.697331+0100 INFO Database session closed after get_by_column
+2024-12-28T13:21:15.698041+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:21:15.700070+0100 INFO Database session closed after get_by_column
+2024-12-28T13:21:15.700348+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 2, repo_id= 2, branch_id= 1
+
+2024-12-28T13:21:15.703287+0100 INFO Database session closed after get_branch
+2024-12-28T13:21:15.703602+0100 INFO Successfully retrieved Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2024-12-28T13:21:15.734406+0100 INFO 3 chunks of _Getintopc.com_KMSAuto_1.7.2.rar have been created
+2024-12-28T13:21:15.755887+0100 INFO Database session closed after create
+2024-12-28T13:21:15.756209+0100 INFO Successfully created file
+2024-12-28T13:21:15.807121+0100 INFO successfully executed init_git
+2024-12-28T13:21:15.849273+0100 INFO successfully executed add_remote
+2024-12-28T13:21:15.956692+0100 INFO successfully executed create_branch
+2024-12-28T13:21:16.609627+0100 INFO successfully executed add
+2024-12-28T13:21:16.928572+0100 INFO successfully executed commit
+2024-12-28T13:21:16.932532+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\yeah\_getintopc.com_kmsauto_1.7.2_UPGIT_CHUNKS
+2024-12-28T13:23:22.244450+0100 INFO successfully executed push
+2024-12-28T13:23:22.365461+0100 INFO Database session closed after update
+2024-12-28T13:23:22.366948+0100 INFO Successfully updated local_repo with id 2
+2024-12-28T13:23:22.367617+0100 INFO Successfully backed up C:\Users\Caleb\Desktop\upgit test folders\GIthub to upGIT_afanyuy_1 at 2024-12-28 13:23:22.367597
+2024-12-28T13:23:22.369474+0100 INFO Database session closed after get_by_column
+2024-12-28T13:23:22.370073+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2024-12-28T13:23:22.372162+0100 INFO Database session closed after get_by_column
+2024-12-28T13:23:22.372776+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2024-12-28T13:23:22.374249+0100 INFO Database session closed after get_branch
+2024-12-28T13:23:22.374884+0100 INFO Successfully retrieved None
+2024-12-28T13:23:22.376361+0100 INFO Database session closed after get_by_condition
+2024-12-28T13:23:22.376922+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T02:49:22.666855+0100 INFO Database initialized successfully
+2025-01-01T02:49:22.668420+0100 INFO successfully established database connection
+2025-01-01T02:49:22.714062+0100 INFO Git is installed: git version 2.47.0.windows.2
+2025-01-01T02:49:22.747674+0100 INFO Database session closed after get_by_condition
+2025-01-01T02:49:22.748223+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+]
+2025-01-01T02:49:22.752588+0100 INFO Database session closed after get_by_column
+2025-01-01T02:49:22.752975+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T02:49:22.757464+0100 INFO Database session closed after get_by_column
+2025-01-01T02:49:22.758081+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 2, repo_id= 2, branch_id= 1
+
+2025-01-01T02:49:22.761257+0100 INFO Database session closed after get_branch
+2025-01-01T02:49:22.762007+0100 INFO Successfully retrieved Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2025-01-01T02:49:22.895877+0100 INFO 3 chunks of _Getintopc.com_KMSAuto_1.7.2.rar have been created
+2025-01-01T02:49:22.918291+0100 INFO Database session closed after create
+2025-01-01T02:49:22.919085+0100 INFO Successfully created file
+2025-01-01T02:49:22.988894+0100 INFO successfully executed init_git
+2025-01-01T02:49:23.039056+0100 INFO successfully executed add_remote
+2025-01-01T02:49:23.099219+0100 INFO successfully executed create_branch
+2025-01-01T02:49:23.334397+0100 INFO successfully executed add
+2025-01-01T02:49:23.533340+0100 INFO successfully executed commit
+2025-01-01T02:49:23.537570+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\yeah\_getintopc.com_kmsauto_1.7.2_UPGIT_CHUNKS
+2025-01-01T02:49:34.147707+0100 INFO successfully executed push
+2025-01-01T02:49:34.171006+0100 INFO Database session closed after update
+2025-01-01T02:49:34.171659+0100 INFO Successfully updated local_repo with id 2
+2025-01-01T02:49:34.172345+0100 INFO Successfully backed up C:\Users\Caleb\Desktop\upgit test folders\GIthub to upGIT_afanyuy_1 at 2025-01-01 02:49:34.172324
+2025-01-01T02:49:34.174597+0100 INFO Database session closed after get_by_column
+2025-01-01T02:49:34.175204+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T02:49:34.177129+0100 INFO Database session closed after get_by_column
+2025-01-01T02:49:34.177647+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T02:49:34.180212+0100 INFO Database session closed after get_branch
+2025-01-01T02:49:34.181191+0100 INFO Successfully retrieved None
+2025-01-01T02:49:34.185480+0100 INFO Database session closed after get_by_condition
+2025-01-01T02:49:34.186147+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T02:50:15.723857+0100 INFO Database initialized successfully
+2025-01-01T02:50:15.724375+0100 INFO successfully established database connection
+2025-01-01T02:50:15.767693+0100 INFO Git is installed: git version 2.47.0.windows.2
+2025-01-01T02:50:15.801266+0100 INFO Database session closed after get_by_condition
+2025-01-01T02:50:15.801752+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T02:50:15.804704+0100 INFO Database session closed after get_by_column
+2025-01-01T02:50:15.805058+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T02:50:15.809524+0100 INFO Database session closed after get_by_column
+2025-01-01T02:50:15.810117+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T02:50:15.812521+0100 INFO Database session closed after get_branch
+2025-01-01T02:50:15.813011+0100 INFO Successfully retrieved None
+2025-01-01T02:50:15.814337+0100 INFO Database session closed after get_by_column
+2025-01-01T02:50:15.814868+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T02:50:15.817675+0100 INFO Database session closed after get_by_column
+2025-01-01T02:50:15.818440+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T02:50:15.820393+0100 INFO Database session closed after get_branch
+2025-01-01T02:50:15.820928+0100 INFO Successfully retrieved None
+2025-01-01T02:50:15.822921+0100 INFO Database session closed after get_by_condition
+2025-01-01T02:50:15.823540+0100 INFO Successfully retrieved local_repos with []

@@ -11,9 +11,9 @@ def create(session, user: User):
     return user
 
 @transaction_decorator
-def get_all(session, limit: int = 20, skip: int = 0):
+def get_all(session, limit = None, skip: int = 0):
     """Get all users from the database"""
-    result = session.query(User).all()
+    result = session.query(User).offset(skip).limit(limit).all()
     return result
 
 @transaction_decorator
@@ -23,7 +23,7 @@ def get_user(session, id: int):
     return result
 
 @transaction_decorator
-def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
+def get_by_column(session, field:str, value, skip:int=0, limit = None):
     if not hasattr(User, field):
         raise ValueError(f"Invalid field name: {field}")
     filter_column = getattr(User, field)
@@ -36,11 +36,11 @@ def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
     return results
 
 @transaction_decorator
-def get_by_condition(session, condition = [], limit:int=10):
+def get_by_condition(session, condition = [], limit = None, skip:int=0):
     if condition not in [None, []]:
         if limit == 1:
             return session.query(User).filter(*condition).first()
-        return session.query(User).filter(*condition).all()
+        return session.query(User).filter(*condition).limit(limit).offset(skip).all()
     else:
         raise Exception("Condition not provided")
 

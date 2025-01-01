@@ -1,7 +1,6 @@
 from ..models.branch import Branch as branch_model
 from ..crud import branch as branch_crud
 from ..utils.constants import logger
-from typing import Optional
 
 def save(branch_object):
     branch = branch_model(**branch_object)
@@ -13,9 +12,9 @@ def save(branch_object):
         logger.error("Failed to create branch: %s" % e)
         return False
 
-def get_all():
+def get_all(limit = None, skip:int = 0):
     try:
-        branchs = branch_crud.get_all()
+        branchs = branch_crud.get_all(limit=limit,skip=skip)
         logger.info(f"All branchs: {branchs}")
         return branchs
     except Exception as e:
@@ -31,18 +30,18 @@ def get(id: int):
         logger.error("Failed to get branchs: %s" % e)
         return False
 
-def get_specific(column: str, value, limit :Optional[int] = None):
+def get_specific(column: str, value, limit = None, skip : int = 0):
     try:
-        branchs = branch_crud.get_by_column(field=column, value=value, limit=limit)
+        branchs = branch_crud.get_by_column(field=column, value=value, limit=limit, skip = skip)
         logger.info(f"Successfully retrieved branchs with {branchs}")
         return branchs
     except Exception as e:
         logger.error("Failed to get branchs: %s" % e)
         return False
 
-def get_conditional(condition, limit=None):
+def get_conditional(condition, limit=None, skip : int = 0):
     try:
-        local_repos = branch_crud.get_by_condition(condition=condition, limit=limit)
+        local_repos = branch_crud.get_by_condition(condition=condition, limit=limit, skip = skip)
         logger.info(f"Successfully retrieved local_repos with {local_repos}")
         return local_repos
     except Exception as e:

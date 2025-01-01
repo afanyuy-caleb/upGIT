@@ -9,9 +9,9 @@ def create(session, branch: Branch):
     return branch
 
 @transaction_decorator
-def get_all(session, limit: int = 20, skip: int = 0):
+def get_all(session, limit = None, skip: int = 0):
     """Get all branchs from the database"""
-    result = session.query(Branch).all()
+    result = session.query(Branch).offset(skip).limit(limit).all()
     return result
 
 @transaction_decorator
@@ -21,19 +21,19 @@ def get_branch(session, id: int):
     return result
 
 @transaction_decorator
-def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
+def get_by_column(session, field:str, value, skip:int=0, limit = None):
     filter_column = getattr(Branch, field)
     condition = filter_column.ilike(value)
     if limit == 1:
         return session.query(Branch).filter(condition).first()
-    return session.query(Branch).filter(condition).all()
+    return session.query(Branch).filter(condition).offset(skip).limit(limit).all()
 
 @transaction_decorator
-def get_by_condition(session, condition = [], limit:int=10):
+def get_by_condition(session, condition = [], limit = None, skip:int=0):
     if condition not in [None, []]:
         if limit == 1:
             return session.query(Branch).filter(*condition).first()
-        return session.query(Branch).filter(*condition).all()
+        return session.query(Branch).filter(*condition).offset(skip).limit(limit).all()
     else:
         raise Exception("Condition not provided")
 

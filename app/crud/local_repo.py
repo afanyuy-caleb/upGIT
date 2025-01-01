@@ -9,9 +9,9 @@ def create(session, local_repo: LocalRepo):
     return local_repo
 
 @transaction_decorator
-def get_all(session, limit: int = 20, skip: int = 0):
+def get_all(session, limit = None, skip: int = 0):
     """Get all local_repos from the database"""
-    result = session.query(LocalRepo).all()
+    result = session.query(LocalRepo).offset(skip).limit(limit).all()
     return result
 
 @transaction_decorator
@@ -21,19 +21,19 @@ def get_local_repo(session, id: int):
     return result
 
 @transaction_decorator
-def get_by_column(session, field:str, value, skip:int=0, limit: int=10):
+def get_by_column(session, field:str, value, skip:int=0, limit = None):
     filter_column = getattr(LocalRepo, field)
     condition = filter_column.ilike(value)
     if limit == 1:
         return session.query(LocalRepo).filter(condition).first()
-    return session.query(LocalRepo).filter(condition).all()
+    return session.query(LocalRepo).filter(condition).limit(limit).offset(skip).all()
 
 @transaction_decorator
-def get_by_condition(session, condition = [], limit:int=10):
+def get_by_condition(session, condition = [], limit = None, skip:int=0):
     if condition not in [None, []]:
         if limit == 1:
             return session.query(LocalRepo).filter(*condition).first()
-        return session.query(LocalRepo).filter(*condition).all()
+        return session.query(LocalRepo).filter(*condition).limit(limit).offset(skip).all()
     else:
         raise Exception("Condition not provided")
 

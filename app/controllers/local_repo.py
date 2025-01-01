@@ -12,8 +12,8 @@ def save(local_repo_object):
 
 
 @global_exception_handler
-def get_all():
-    local_repos = local_repo_crud.get_all()
+def get_all(limit = None, skip:int = 0):
+    local_repos = local_repo_crud.get_all(limit=limit,skip=skip)
     logger.info(f"All local_repos: {local_repos}")
     return local_repos
 
@@ -24,18 +24,18 @@ def get(id):
     return local_repo
 
 @global_exception_handler
-def get_specific(column: str, value, limit=None):
-    local_repos = local_repo_crud.get_by_column(field=column, value=value, limit=limit)
+def get_specific(column: str, value, limit = None, skip : int = 0):
+    local_repos = local_repo_crud.get_by_column(field=column, value=value, limit=limit, skip = skip)
     logger.info(f"Successfully retrieved local_repos with {local_repos}")
     return local_repos
 
 @global_exception_handler
-def get_conditional(condition, limit=None):
-    local_repos = local_repo_crud.get_by_condition(condition=condition, limit=limit)
+def get_conditional(condition, limit = None, skip : int = 0):
+    local_repos = local_repo_crud.get_by_condition(condition=condition, limit=limit, skip = skip)
     logger.info(f"Successfully retrieved local_repos with {local_repos}")
     return local_repos
 
-@global_exception_handler    
+@global_exception_handler   
 def update(id, data):
     update_obj = local_repo_model(**data)
     if update_obj is None:

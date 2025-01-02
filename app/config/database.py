@@ -18,6 +18,5 @@ def init_db():
 def connect_to_database():
     """Connect to the database"""
    
-    
 def disconnect_from_database():
     """disconnect from the database"""

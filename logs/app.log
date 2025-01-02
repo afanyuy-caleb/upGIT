@@ -2597,3 +2597,520 @@ User(user_name = test user, user_email = test@gmail.com, user_password = $2b$12$
 2025-01-01T02:50:15.820928+0100 INFO Successfully retrieved None
 2025-01-01T02:50:15.822921+0100 INFO Database session closed after get_by_condition
 2025-01-01T02:50:15.823540+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T20:46:58.218425+0100 INFO Database initialized successfully
+2025-01-01T20:46:58.219497+0100 INFO successfully established database connection
+2025-01-01T20:46:58.242807+0100 INFO Database session closed after get_by_condition
+2025-01-01T20:46:58.243380+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+]
+2025-01-01T20:46:58.247767+0100 INFO Database session closed after get_by_column
+2025-01-01T20:46:58.248651+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T20:46:58.252371+0100 INFO Database session closed after get_by_column
+2025-01-01T20:46:58.253188+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 2, repo_id= 2, branch_id= 1
+
+2025-01-01T20:46:58.256424+0100 INFO Database session closed after get_branch
+2025-01-01T20:46:58.257120+0100 INFO Successfully retrieved Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2025-01-01T20:46:58.340166+0100 INFO 3 chunks of _Getintopc.com_KMSAuto_1.7.2.rar have been created
+2025-01-01T20:46:58.362385+0100 INFO Database session closed after create
+2025-01-01T20:46:58.363121+0100 INFO Successfully created file
+2025-01-01T20:46:58.429559+0100 INFO successfully executed init_git
+2025-01-01T20:46:58.473587+0100 INFO successfully executed add_remote
+2025-01-01T20:46:58.517095+0100 INFO successfully executed create_branch
+2025-01-01T20:46:58.705328+0100 INFO successfully executed add
+2025-01-01T20:46:59.040211+0100 INFO successfully executed commit
+2025-01-01T20:46:59.043829+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\yeah\_getintopc.com_kmsauto_1.7.2_UPGIT_CHUNKS
+2025-01-01T20:47:01.811805+0100 INFO successfully executed push
+2025-01-01T20:47:01.834427+0100 INFO Database session closed after update
+2025-01-01T20:47:01.835106+0100 INFO Successfully updated local_repo with id 2
+2025-01-01T20:47:01.835727+0100 INFO Successfully backed up C:\Users\Caleb\Desktop\upgit test folders\GIthub to upGIT_afanyuy_1 at 2025-01-01 20:47:01.835712
+2025-01-01T20:47:01.837155+0100 INFO Database session closed after get_by_column
+2025-01-01T20:47:01.837696+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T20:47:01.839098+0100 INFO Database session closed after get_by_column
+2025-01-01T20:47:01.839544+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T20:47:01.841054+0100 INFO Database session closed after get_branch
+2025-01-01T20:47:01.841785+0100 INFO Successfully retrieved None
+2025-01-01T20:47:01.842974+0100 INFO Database session closed after get_by_condition
+2025-01-01T20:47:01.843440+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T20:58:30.088182+0100 INFO Database initialized successfully
+2025-01-01T20:58:30.088603+0100 INFO successfully established database connection
+2025-01-01T20:58:30.113698+0100 INFO Database session closed after get_by_condition
+2025-01-01T20:58:30.114012+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T20:58:30.117615+0100 INFO Database session closed after get_by_column
+2025-01-01T20:58:30.117999+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T20:58:30.120296+0100 INFO Database session closed after get_by_column
+2025-01-01T20:58:30.120607+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T20:58:30.122139+0100 INFO Database session closed after get_branch
+2025-01-01T20:58:30.122401+0100 INFO Successfully retrieved None
+2025-01-01T20:58:30.123180+0100 INFO Database session closed after get_by_column
+2025-01-01T20:58:30.123437+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T20:58:30.125544+0100 INFO Database session closed after get_by_column
+2025-01-01T20:58:30.126255+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T20:58:30.127524+0100 INFO Database session closed after get_branch
+2025-01-01T20:58:30.128016+0100 INFO Successfully retrieved None
+2025-01-01T20:58:30.129203+0100 INFO Database session closed after get_by_condition
+2025-01-01T20:58:30.129686+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T21:02:20.488692+0100 INFO Database initialized successfully
+2025-01-01T21:02:20.489213+0100 INFO successfully established database connection
+2025-01-01T21:02:20.510898+0100 INFO Database session closed after get_by_condition
+2025-01-01T21:02:20.511382+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T21:02:20.515943+0100 INFO Database session closed after get_by_column
+2025-01-01T21:02:20.516421+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T21:02:20.519138+0100 INFO Database session closed after get_by_column
+2025-01-01T21:02:20.519454+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T21:02:20.521295+0100 INFO Database session closed after get_branch
+2025-01-01T21:02:20.521706+0100 INFO Successfully retrieved None
+2025-01-01T21:02:20.523799+0100 INFO Database session closed after get_by_column
+2025-01-01T21:02:20.524336+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T21:02:20.526732+0100 INFO Database session closed after get_by_column
+2025-01-01T21:02:20.527776+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T21:02:20.529908+0100 INFO Database session closed after get_branch
+2025-01-01T21:02:20.530458+0100 INFO Successfully retrieved None
+2025-01-01T21:02:20.531634+0100 INFO Database session closed after get_by_condition
+2025-01-01T21:02:20.532138+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T21:02:58.731679+0100 INFO Database initialized successfully
+2025-01-01T21:02:58.732415+0100 INFO successfully established database connection
+2025-01-01T21:02:58.783806+0100 INFO Database session closed after get_by_condition
+2025-01-01T21:02:58.784452+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T21:02:58.787535+0100 INFO Database session closed after get_by_column
+2025-01-01T21:02:58.787930+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T21:02:58.791570+0100 INFO Database session closed after get_by_column
+2025-01-01T21:02:58.792531+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T21:02:58.797672+0100 INFO Database session closed after get_branch
+2025-01-01T21:02:58.798128+0100 INFO Successfully retrieved None
+2025-01-01T21:02:58.799886+0100 INFO Database session closed after get_by_column
+2025-01-01T21:02:58.800426+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T21:02:58.802906+0100 INFO Database session closed after get_by_column
+2025-01-01T21:02:58.803683+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T21:02:58.805969+0100 INFO Database session closed after get_branch
+2025-01-01T21:02:58.806585+0100 INFO Successfully retrieved None
+2025-01-01T21:02:58.812489+0100 INFO Database session closed after get_by_condition
+2025-01-01T21:02:58.813397+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T21:04:59.261087+0100 INFO Database initialized successfully
+2025-01-01T21:04:59.261561+0100 INFO successfully established database connection
+2025-01-01T21:04:59.286466+0100 INFO Database session closed after get_by_condition
+2025-01-01T21:04:59.286862+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T21:04:59.289764+0100 INFO Database session closed after get_by_column
+2025-01-01T21:04:59.290318+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T21:04:59.292980+0100 INFO Database session closed after get_by_column
+2025-01-01T21:04:59.293490+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T21:04:59.296116+0100 INFO Database session closed after get_branch
+2025-01-01T21:04:59.296616+0100 INFO Successfully retrieved None
+2025-01-01T21:04:59.297904+0100 INFO Database session closed after get_by_column
+2025-01-01T21:04:59.298397+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T21:04:59.300443+0100 INFO Database session closed after get_by_column
+2025-01-01T21:04:59.301061+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T21:04:59.303504+0100 INFO Database session closed after get_branch
+2025-01-01T21:04:59.304413+0100 INFO Successfully retrieved None
+2025-01-01T21:04:59.306318+0100 INFO Database session closed after get_by_condition
+2025-01-01T21:04:59.306845+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T21:41:50.250381+0100 INFO Database initialized successfully
+2025-01-01T21:41:50.251388+0100 INFO successfully established database connection
+2025-01-01T21:41:50.292667+0100 INFO Database session closed after get_by_condition
+2025-01-01T21:41:50.293397+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T21:41:50.299754+0100 INFO Database session closed after get_by_column
+2025-01-01T21:41:50.300793+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T21:41:50.304458+0100 INFO Database session closed after get_by_column
+2025-01-01T21:41:50.305309+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T21:41:50.313249+0100 INFO Database session closed after get_branch
+2025-01-01T21:41:50.314161+0100 INFO Successfully retrieved None
+2025-01-01T21:41:50.316271+0100 INFO Database session closed after get_by_column
+2025-01-01T21:41:50.317151+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T21:41:50.319370+0100 INFO Database session closed after get_by_column
+2025-01-01T21:41:50.320164+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T21:41:50.322537+0100 INFO Database session closed after get_branch
+2025-01-01T21:41:50.326264+0100 INFO Successfully retrieved None
+2025-01-01T21:41:50.329060+0100 INFO Database session closed after get_by_condition
+2025-01-01T21:41:50.330086+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T21:42:19.505400+0100 INFO Database initialized successfully
+2025-01-01T21:42:19.505819+0100 INFO successfully established database connection
+2025-01-01T21:42:37.316887+0100 INFO Database session closed after get_by_condition
+2025-01-01T21:42:37.317703+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T21:42:37.322097+0100 INFO Database session closed after get_by_column
+2025-01-01T21:42:37.322939+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T21:42:37.326538+0100 INFO Database session closed after get_by_column
+2025-01-01T21:42:37.329849+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T21:42:37.335068+0100 INFO Database session closed after get_branch
+2025-01-01T21:42:37.335829+0100 INFO Successfully retrieved None
+2025-01-01T21:42:37.337622+0100 INFO Database session closed after get_by_column
+2025-01-01T21:42:37.338239+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T21:42:37.341391+0100 INFO Database session closed after get_by_column
+2025-01-01T21:42:37.342985+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T21:42:37.348746+0100 INFO Database session closed after get_branch
+2025-01-01T21:42:37.349997+0100 INFO Successfully retrieved None
+2025-01-01T21:42:37.351925+0100 INFO Database session closed after get_by_condition
+2025-01-01T21:42:37.352708+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T23:10:03.237941+0100 INFO Database initialized successfully
+2025-01-01T23:11:35.396313+0100 INFO Database initialized successfully
+2025-01-01T23:11:35.421162+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:11:35.421762+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Desktop\upgit test folders\GIthub, localRepo_frequency = 2h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+]
+2025-01-01T23:11:35.426441+0100 INFO Database session closed after get_by_column
+2025-01-01T23:11:35.427251+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:11:35.432559+0100 INFO Database session closed after get_by_column
+2025-01-01T23:11:35.433624+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 2, repo_id= 2, branch_id= 1
+
+2025-01-01T23:11:35.438756+0100 INFO Database session closed after get_branch
+2025-01-01T23:11:35.439884+0100 INFO Successfully retrieved Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2025-01-01T23:11:35.776111+0100 INFO 3 chunks of _Getintopc.com_KMSAuto_1.7.2.rar have been created
+2025-01-01T23:11:35.799297+0100 INFO Database session closed after create
+2025-01-01T23:11:35.799966+0100 INFO Successfully created file
+2025-01-01T23:11:35.869133+0100 INFO successfully executed init_git
+2025-01-01T23:11:35.921797+0100 INFO successfully executed add_remote
+2025-01-01T23:11:35.974732+0100 INFO successfully executed create_branch
+2025-01-01T23:11:36.168436+0100 INFO successfully executed add
+2025-01-01T23:11:36.397588+0100 INFO successfully executed commit
+2025-01-01T23:11:36.402568+0100 INFO successfully Deleted C:\Users\Caleb\Desktop\upgit test folders\GIthub\yeah\_getintopc.com_kmsauto_1.7.2_UPGIT_CHUNKS
+2025-01-01T23:11:39.195005+0100 INFO successfully executed push
+2025-01-01T23:11:39.232798+0100 INFO Database session closed after update
+2025-01-01T23:11:39.233730+0100 INFO Successfully updated local_repo with id 2
+2025-01-01T23:11:39.234682+0100 INFO Successfully backed up C:\Users\Caleb\Desktop\upgit test folders\GIthub to upGIT_afanyuy_1 at 2025-01-01 23:11:39.234653
+2025-01-01T23:11:39.236860+0100 INFO Database session closed after get_by_column
+2025-01-01T23:11:39.238252+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:11:39.243480+0100 INFO Database session closed after get_by_column
+2025-01-01T23:11:39.245880+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T23:11:39.257669+0100 INFO Database session closed after get_branch
+2025-01-01T23:11:39.264575+0100 INFO Successfully retrieved None
+2025-01-01T23:11:39.267649+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:11:39.269859+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T23:12:05.024657+0100 INFO Database initialized successfully
+2025-01-01T23:12:30.810135+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:12:30.811227+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T23:12:30.817324+0100 INFO Database session closed after get_by_column
+2025-01-01T23:12:30.820023+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:12:30.822869+0100 INFO Database session closed after get_by_column
+2025-01-01T23:12:30.823347+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T23:12:30.825436+0100 INFO Database session closed after get_branch
+2025-01-01T23:12:30.825878+0100 INFO Successfully retrieved None
+2025-01-01T23:12:30.827073+0100 INFO Database session closed after get_by_column
+2025-01-01T23:12:30.827659+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:12:30.829808+0100 INFO Database session closed after get_by_column
+2025-01-01T23:12:30.830635+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T23:12:30.834051+0100 INFO Database session closed after get_branch
+2025-01-01T23:12:30.836372+0100 INFO Successfully retrieved None
+2025-01-01T23:12:30.839344+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:12:30.840564+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T23:13:47.861832+0100 INFO Database initialized successfully
+2025-01-01T23:16:51.404195+0100 INFO Database initialized successfully
+2025-01-01T23:16:51.424424+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:16:51.424937+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T23:16:51.427490+0100 INFO Database session closed after get_by_column
+2025-01-01T23:16:51.427804+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:16:51.429744+0100 INFO Database session closed after get_by_column
+2025-01-01T23:16:51.430324+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T23:16:51.432669+0100 INFO Database session closed after get_branch
+2025-01-01T23:16:51.433220+0100 INFO Successfully retrieved None
+2025-01-01T23:16:51.434369+0100 INFO Database session closed after get_by_column
+2025-01-01T23:16:51.434834+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:16:51.436463+0100 INFO Database session closed after get_by_column
+2025-01-01T23:16:51.436973+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T23:16:51.438412+0100 INFO Database session closed after get_branch
+2025-01-01T23:16:51.438952+0100 INFO Successfully retrieved None
+2025-01-01T23:16:51.440348+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:16:51.441324+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T23:28:58.180466+0100 INFO Database initialized successfully
+2025-01-01T23:28:58.201837+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:28:58.202482+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T23:28:58.206661+0100 INFO Database session closed after get_by_column
+2025-01-01T23:28:58.207126+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:28:58.211423+0100 INFO Database session closed after get_by_column
+2025-01-01T23:28:58.212083+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T23:28:58.214954+0100 INFO Database session closed after get_branch
+2025-01-01T23:28:58.215564+0100 INFO Successfully retrieved None
+2025-01-01T23:28:58.217241+0100 INFO Database session closed after get_by_column
+2025-01-01T23:28:58.217770+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:28:58.219363+0100 INFO Database session closed after get_by_column
+2025-01-01T23:28:58.219933+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T23:28:58.221079+0100 INFO Database session closed after get_branch
+2025-01-01T23:28:58.221550+0100 INFO Successfully retrieved None
+2025-01-01T23:28:58.222740+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:28:58.223243+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T23:29:16.853022+0100 INFO Database initialized successfully
+2025-01-01T23:29:16.886644+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:29:16.887207+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T23:29:16.891535+0100 INFO Database session closed after get_by_column
+2025-01-01T23:29:16.891935+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:29:16.893786+0100 INFO Database session closed after get_by_column
+2025-01-01T23:29:16.894071+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T23:29:16.895550+0100 INFO Database session closed after get_branch
+2025-01-01T23:29:16.896404+0100 INFO Successfully retrieved None
+2025-01-01T23:29:16.898320+0100 INFO Database session closed after get_by_column
+2025-01-01T23:29:16.898923+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:29:16.900967+0100 INFO Database session closed after get_by_column
+2025-01-01T23:29:16.901552+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T23:29:16.904565+0100 INFO Database session closed after get_branch
+2025-01-01T23:29:16.905448+0100 INFO Successfully retrieved None
+2025-01-01T23:29:16.907472+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:29:16.908130+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T23:29:40.803837+0100 INFO Database initialized successfully
+2025-01-01T23:29:40.829807+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:29:40.830411+0100 INFO Successfully retrieved local_repos with [LocalRepo(localRepo_name = C:\Users\Caleb\Documents\ICT, localRepo_frequency = 0.75h
+, LocalRepo(localRepo_name = C:\Users\Caleb\Documents\L3 notes\Advanced Python, localRepo_frequency = 10h
+]
+2025-01-01T23:29:40.832946+0100 INFO Database session closed after get_by_column
+2025-01-01T23:29:40.833194+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:29:40.835549+0100 INFO Database session closed after get_by_column
+2025-01-01T23:29:40.835882+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 5, repo_id= 4, branch_id= 4
+
+2025-01-01T23:29:40.837794+0100 INFO Database session closed after get_branch
+2025-01-01T23:29:40.838411+0100 INFO Successfully retrieved None
+2025-01-01T23:29:40.839660+0100 INFO Database session closed after get_by_column
+2025-01-01T23:29:40.840177+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_afanyuy_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_afanyuy_1
+
+2025-01-01T23:29:40.842164+0100 INFO Database session closed after get_by_column
+2025-01-01T23:29:40.842709+0100 INFO Successfully retrieved local_branchs with LocalBranch(id= 6, repo_id= 5, branch_id= 4
+
+2025-01-01T23:29:40.844513+0100 INFO Database session closed after get_branch
+2025-01-01T23:29:40.845189+0100 INFO Successfully retrieved None
+2025-01-01T23:29:40.848048+0100 INFO Database session closed after get_by_condition
+2025-01-01T23:29:40.848772+0100 INFO Successfully retrieved local_repos with []
+2025-01-01T23:34:16.997693+0100 INFO Database initialized successfully
+2025-01-01T23:37:42.363175+0100 INFO Database initialized successfully
+2025-01-01T23:38:17.588309+0100 INFO Database initialized successfully
+2025-01-01T23:38:36.519097+0100 INFO Database initialized successfully
+2025-01-01T23:39:37.070145+0100 INFO Database initialized successfully
+2025-01-01T23:40:52.756847+0100 INFO Database initialized successfully
+2025-01-01T23:41:15.036382+0100 INFO Database initialized successfully
+2025-01-01T23:42:09.001875+0100 INFO Database initialized successfully
+2025-01-01T23:44:42.728855+0100 INFO Database initialized successfully
+2025-01-01T23:45:19.357636+0100 INFO Database initialized successfully
+2025-01-01T23:47:18.938089+0100 INFO Database initialized successfully
+2025-01-01T23:50:19.438081+0100 INFO Database initialized successfully
+2025-01-01T23:51:29.771027+0100 INFO Database initialized successfully
+2025-01-01T23:52:15.367215+0100 INFO Database initialized successfully
+2025-01-01T23:54:33.279607+0100 INFO Database initialized successfully
+2025-01-01T23:58:00.576747+0100 INFO Database initialized successfully
+2025-01-01T23:59:00.440762+0100 INFO Database initialized successfully
+2025-01-02T00:12:31.949991+0100 INFO Database initialized successfully
+2025-01-02T00:15:07.818528+0100 INFO Database initialized successfully
+2025-01-02T00:16:07.746956+0100 INFO Database initialized successfully
+2025-01-02T00:16:26.878128+0100 INFO Database initialized successfully
+2025-01-02T00:17:08.850537+0100 INFO Database initialized successfully
+2025-01-02T00:17:20.273713+0100 INFO Database initialized successfully
+2025-01-02T00:17:30.315805+0100 INFO Database initialized successfully
+2025-01-02T00:22:50.092018+0100 INFO Database initialized successfully
+2025-01-02T00:23:52.161528+0100 INFO Database initialized successfully
+2025-01-02T00:44:12.416157+0100 INFO Database initialized successfully
+2025-01-02T00:44:40.620122+0100 INFO Database initialized successfully
+2025-01-02T00:45:16.623490+0100 INFO Database initialized successfully
+2025-01-02T00:45:40.091356+0100 INFO Database initialized successfully
+2025-01-02T00:48:14.416720+0100 INFO Database initialized successfully
+2025-01-02T00:53:21.887581+0100 INFO Database initialized successfully
+2025-01-02T00:53:55.252235+0100 INFO Database initialized successfully
+2025-01-02T00:55:04.334775+0100 INFO Database initialized successfully
+2025-01-02T00:55:41.540262+0100 INFO Database initialized successfully
+2025-01-02T01:29:25.714708+0100 INFO Database initialized successfully
+2025-01-02T01:31:17.319850+0100 INFO Database initialized successfully
+2025-01-02T01:37:03.616049+0100 INFO Database initialized successfully
+2025-01-02T01:39:43.898568+0100 INFO Database initialized successfully
+2025-01-02T01:43:04.309777+0100 INFO Database initialized successfully
+2025-01-02T01:45:01.591981+0100 INFO Database initialized successfully
+2025-01-02T01:45:28.936145+0100 INFO Database initialized successfully
+2025-01-02T01:46:43.579131+0100 INFO Database initialized successfully
+2025-01-02T01:49:08.162613+0100 INFO Database initialized successfully
+2025-01-02T01:50:56.951920+0100 INFO Database initialized successfully
+2025-01-02T01:52:42.789618+0100 INFO Database initialized successfully
+2025-01-02T01:54:47.743653+0100 INFO Database initialized successfully
+2025-01-02T01:55:10.768715+0100 INFO Database initialized successfully
+2025-01-02T02:01:18.544394+0100 INFO Database initialized successfully
+2025-01-02T02:02:23.103837+0100 INFO Database initialized successfully
+2025-01-02T02:04:21.348238+0100 INFO Database initialized successfully
+2025-01-02T02:08:26.161926+0100 INFO Database initialized successfully
+2025-01-02T02:09:45.706407+0100 INFO Database initialized successfully
+2025-01-02T02:13:00.341174+0100 INFO Database initialized successfully
+2025-01-02T02:14:51.531025+0100 INFO Database initialized successfully
+2025-01-02T02:15:20.229274+0100 INFO Database initialized successfully
+2025-01-02T02:16:49.862321+0100 INFO Database initialized successfully
+2025-01-02T02:17:38.089178+0100 INFO Database initialized successfully
+2025-01-02T02:18:20.983118+0100 INFO Database initialized successfully
+2025-01-02T02:22:20.433349+0100 INFO Database initialized successfully
+2025-01-02T02:22:48.827858+0100 INFO Database initialized successfully
+2025-01-02T02:24:16.954946+0100 INFO Database initialized successfully
+2025-01-02T02:25:07.424809+0100 INFO Database initialized successfully
+2025-01-02T02:26:11.970999+0100 INFO Database initialized successfully
+2025-01-02T02:26:22.539527+0100 INFO Database initialized successfully
+2025-01-02T02:26:34.615418+0100 INFO Database initialized successfully
+2025-01-02T02:26:50.781814+0100 INFO Database initialized successfully
+2025-01-02T02:27:19.820289+0100 INFO Database initialized successfully
+2025-01-02T02:27:33.443115+0100 INFO Database initialized successfully
+2025-01-02T02:28:07.368567+0100 INFO Database initialized successfully
+2025-01-02T02:28:34.321030+0100 INFO Database initialized successfully
+2025-01-02T02:29:05.008301+0100 INFO Database initialized successfully
+2025-01-02T02:29:32.194792+0100 INFO Database initialized successfully
+2025-01-02T02:29:47.672816+0100 INFO Database initialized successfully
+2025-01-02T02:30:15.459461+0100 INFO Database initialized successfully
+2025-01-02T02:30:35.556157+0100 INFO Database initialized successfully
+2025-01-02T02:30:53.499029+0100 INFO Database initialized successfully
+2025-01-02T02:31:14.798136+0100 INFO Database initialized successfully
+2025-01-02T02:33:27.780149+0100 INFO Database initialized successfully
+2025-01-02T02:34:16.156309+0100 INFO Database initialized successfully
+2025-01-02T02:34:58.320266+0100 INFO Database initialized successfully
+2025-01-02T02:37:43.580791+0100 INFO Database initialized successfully
+2025-01-02T02:38:30.785713+0100 INFO Database initialized successfully
+2025-01-02T02:39:25.509244+0100 INFO Database initialized successfully
+2025-01-02T02:40:18.527999+0100 INFO Database initialized successfully
+2025-01-02T02:40:48.365384+0100 INFO Database initialized successfully
+2025-01-02T02:47:39.228714+0100 INFO Database initialized successfully
+2025-01-02T02:49:39.232723+0100 INFO Database initialized successfully
+2025-01-02T02:55:11.076109+0100 INFO Database initialized successfully
+2025-01-02T03:01:38.322644+0100 INFO Database initialized successfully
+2025-01-02T03:02:34.502567+0100 INFO Database initialized successfully
+2025-01-02T03:05:10.056994+0100 INFO Database initialized successfully
+2025-01-02T03:05:26.360484+0100 INFO Database initialized successfully
+2025-01-02T03:06:18.586468+0100 INFO Database initialized successfully
+2025-01-02T03:06:39.782166+0100 INFO Database initialized successfully
+2025-01-02T03:07:03.050349+0100 INFO Database initialized successfully
+2025-01-02T03:07:18.724484+0100 INFO Database initialized successfully
+2025-01-02T03:08:04.062785+0100 INFO Database initialized successfully
+2025-01-02T03:08:48.848179+0100 INFO Database initialized successfully
+2025-01-02T03:10:04.443853+0100 INFO Database initialized successfully
+2025-01-02T03:12:35.599568+0100 INFO Database initialized successfully
+2025-01-02T03:12:58.447049+0100 INFO Database initialized successfully
+2025-01-02T03:14:57.303014+0100 INFO Database initialized successfully
+2025-01-02T03:15:50.890813+0100 INFO Database initialized successfully
+2025-01-02T03:16:23.194524+0100 INFO Database initialized successfully
+2025-01-02T03:16:41.313541+0100 INFO Database initialized successfully
+2025-01-02T03:20:33.978947+0100 INFO Database initialized successfully
+2025-01-02T03:21:33.303300+0100 INFO Database initialized successfully
+2025-01-02T03:22:20.626976+0100 INFO Database initialized successfully
+2025-01-02T03:22:44.578478+0100 INFO Database initialized successfully
+2025-01-02T03:23:07.083790+0100 INFO Database initialized successfully
+2025-01-02T03:23:34.798760+0100 INFO Database initialized successfully
+2025-01-02T03:23:46.858380+0100 INFO Database initialized successfully
+2025-01-02T03:24:32.034248+0100 INFO Database initialized successfully
+2025-01-02T03:28:46.992019+0100 INFO Database initialized successfully
+2025-01-02T10:20:21.544746+0100 INFO Database initialized successfully
+2025-01-02T10:21:39.344578+0100 INFO Database initialized successfully
+2025-01-02T10:23:29.387315+0100 INFO Database initialized successfully
+2025-01-02T10:25:40.958732+0100 INFO Database initialized successfully
+2025-01-02T10:26:35.289506+0100 INFO Database initialized successfully
+2025-01-02T10:47:51.699350+0100 INFO Database initialized successfully
+2025-01-02T10:48:41.289244+0100 INFO Database initialized successfully
+2025-01-02T10:57:54.064577+0100 INFO Database initialized successfully
+2025-01-02T10:58:47.550468+0100 INFO Database initialized successfully
+2025-01-02T10:59:52.423908+0100 INFO Database initialized successfully
+2025-01-02T11:00:00.533650+0100 INFO Database session closed after get_by_email
+2025-01-02T11:00:00.534123+0100 ERROR Incorrect email or password
+2025-01-02T11:02:30.234417+0100 INFO Database initialized successfully
+2025-01-02T11:02:43.572218+0100 INFO Database session closed after get_by_email
+2025-01-02T11:02:43.572601+0100 ERROR Incorrect email or password
+2025-01-02T11:03:46.959678+0100 INFO Database session closed after get_by_email
+2025-01-02T11:03:47.599025+0100 INFO User, afanyuy logged in successfully
+2025-01-02T11:14:20.738048+0100 INFO Database initialized successfully
+2025-01-02T11:14:32.136609+0100 INFO Database session closed after get_by_email
+2025-01-02T11:14:32.412302+0100 INFO User, afanyuy logged in successfully
+2025-01-02T11:16:54.873720+0100 INFO Database initialized successfully
+2025-01-02T11:17:03.075989+0100 INFO Database session closed after get_by_email
+2025-01-02T11:17:03.355736+0100 INFO User, afanyuy logged in successfully
+2025-01-02T11:17:41.545799+0100 INFO Database initialized successfully
+2025-01-02T11:17:53.495818+0100 INFO Database session closed after get_by_email
+2025-01-02T11:17:53.496204+0100 ERROR Incorrect email or password
+2025-01-02T11:18:05.703149+0100 INFO Database session closed after get_by_email
+2025-01-02T11:18:05.977634+0100 INFO User, afanyuy logged in successfully
+2025-01-02T11:21:03.132791+0100 INFO Database initialized successfully
+2025-01-02T11:22:12.462642+0100 INFO Database initialized successfully
+2025-01-02T11:22:34.732637+0100 INFO Database initialized successfully
+2025-01-02T11:23:21.534729+0100 INFO Database initialized successfully
+2025-01-02T11:24:23.678622+0100 INFO Database initialized successfully
+2025-01-02T11:26:35.495578+0100 INFO Database initialized successfully
+2025-01-02T11:28:44.857156+0100 INFO Database initialized successfully
+2025-01-02T11:29:23.266470+0100 INFO Database initialized successfully
+2025-01-02T11:30:01.065668+0100 INFO Database initialized successfully
+2025-01-02T11:30:14.870565+0100 INFO Database initialized successfully
+2025-01-02T11:30:33.692601+0100 INFO Database initialized successfully
+2025-01-02T11:30:55.031191+0100 INFO Database initialized successfully
+2025-01-02T11:31:26.925426+0100 INFO Database initialized successfully
+2025-01-02T11:32:06.265640+0100 INFO Database initialized successfully
+2025-01-02T11:43:01.706415+0100 INFO Database initialized successfully
+2025-01-02T11:44:13.550809+0100 INFO Database initialized successfully
+2025-01-02T11:45:25.787551+0100 INFO Database initialized successfully
+2025-01-02T11:47:27.156940+0100 INFO Database initialized successfully
+2025-01-02T11:49:19.039237+0100 INFO Database initialized successfully
+2025-01-02T11:49:44.866571+0100 INFO Database initialized successfully
+2025-01-02T11:50:00.776902+0100 INFO Database initialized successfully
+2025-01-02T11:51:12.080450+0100 INFO Database initialized successfully
+2025-01-02T11:53:12.727410+0100 INFO Database initialized successfully
+2025-01-02T12:31:40.862693+0100 INFO Database initialized successfully
+2025-01-02T12:32:32.727906+0100 INFO Database session closed after create
+2025-01-02T12:32:32.728961+0100 INFO User created without fault 
+User(user_name = new user, user_email = new@gmail.com, user_password = $2b$12$eOHw.Yr1qx54g1znm/01bOuMsLzY2cUnUL8/gv5nXsID5/JqsIFE6)
+
+2025-01-02T12:32:36.070976+0100 INFO Database session closed after create
+2025-01-02T12:32:36.071659+0100 INFO Successfully created remote_repo
+2025-01-02T12:32:36.072642+0100 INFO Successfully created remote repository for upGIT_new-user_3 and saved it to the database
+2025-01-02T12:32:54.363260+0100 INFO Database session closed after get_by_email
+2025-01-02T12:32:54.642494+0100 INFO User, new user logged in successfully
+2025-01-02T12:36:08.240854+0100 INFO Database initialized successfully
+2025-01-02T12:36:49.842065+0100 INFO Database initialized successfully
+2025-01-02T12:37:12.724723+0100 INFO Database initialized successfully
+2025-01-02T12:37:32.052982+0100 INFO Database session closed after get_by_email
+2025-01-02T12:37:32.331230+0100 INFO User, new user logged in successfully

@@ -1,6 +1,6 @@
 import os, sys
 import subprocess
-from ..utils.decorator import cli_decorator
+from ..utils.decorator import cli_decorator, global_exception_handler
 from .manage_files import organize_push_files, organize_pull_files
 import shutil
 from ..utils.constants import logger
@@ -8,7 +8,6 @@ import socket
 import uuid    
 
 class CLI():
-    
     def __init__(self, local_dir, branch_name):
         self.local_dir = local_dir
         self.branch_name = branch_name
@@ -110,6 +109,16 @@ class CLI():
             return True
         except socket.error:
             return False
+    @global_exception_handler
+    def is_git_installed():
+            # Execute the 'git --version' command
+            result = subprocess.run(['git', '--version'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            # Check if the command was successful
+            if result.returncode == 0:
+                logger.info(f"Git is installed: {result.stdout.strip()}")
+                return True
+            else:
+                raise FileNotFoundError("Git is not installed or not added to the system PATH.")
     
     @cli_decorator
     def push(self):

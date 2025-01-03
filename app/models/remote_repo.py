@@ -1,8 +1,8 @@
 from sqlalchemy import Column, Integer, String, Text, ARRAY, DateTime, Enum, ForeignKey
-from ..config.database import Base
+from app.config.database import Base
 from sqlalchemy.orm import relationship
 from datetime import datetime
-from .branch import Branch
+from app.models.branch import Branch
 
 class RemoteRepo(Base):
     """RemoteRepo model"""

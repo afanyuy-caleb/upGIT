@@ -1,6 +1,6 @@
 from sqlalchemy import select
-from ..models.file import File
-from ..utils.decorator import transaction_decorator
+from app.models.file import File
+from app.utils.decorator import transaction_decorator
 
 @transaction_decorator
 def create(session, file: File):

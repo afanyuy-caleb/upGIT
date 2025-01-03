@@ -1,8 +1,8 @@
 from sqlalchemy import Column, Integer, String, Text, ARRAY, DateTime, Enum, ForeignKey
-from ..config.database import Base
+from app.config.database import Base
 from datetime import datetime
 from sqlalchemy.orm import relationship
-from .local_branch import LocalBranch
+from app.models.local_branch import LocalBranch
 
 class Branch(Base):
     """Branch model"""

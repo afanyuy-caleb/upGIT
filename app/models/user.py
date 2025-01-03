@@ -1,10 +1,10 @@
 from sqlalchemy import Column, Integer, String, Text, ARRAY, DateTime, Enum, ForeignKey
-from ..config.database import Base
+from app.config.database import Base
 from sqlalchemy.orm import relationship
 from datetime import datetime
 import bcrypt
-from .remote_repo import RemoteRepo
-from .local_repo import LocalRepo
+from app.models.remote_repo import RemoteRepo
+from app.models.local_repo import LocalRepo
 
 class User(Base):
     """User model"""

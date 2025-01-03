@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, Float, String, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from datetime import datetime
-from ..config.database import Base
+from app.config.database import Base
 
 class File(Base):
     """File model"""

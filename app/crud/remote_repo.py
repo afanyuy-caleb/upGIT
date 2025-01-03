@@ -1,7 +1,7 @@
 from sqlalchemy import select
 from sqlalchemy.orm import Session
-from ..models.remote_repo import RemoteRepo
-from ..utils.decorator import transaction_decorator
+from app.models.remote_repo import RemoteRepo
+from app.utils.decorator import transaction_decorator
 
 @transaction_decorator
 def create(session, remote_repo: RemoteRepo):

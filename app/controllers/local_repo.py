@@ -1,7 +1,7 @@
-from ..models.local_repo import LocalRepo as local_repo_model
-from ..crud import local_repo as local_repo_crud
-from ..utils.constants import logger
-from ..utils.decorator import global_exception_handler
+from app.models.local_repo import LocalRepo as local_repo_model
+from app.crud import local_repo as local_repo_crud
+from app.utils.constants import logger
+from app.utils.decorator import global_exception_handler
 
 @global_exception_handler
 def save(local_repo_object):

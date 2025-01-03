@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, DateTime, ForeignKey, UniqueConstraint
-from ..config.database import Base
+from app.config.database import Base
 from datetime import datetime
 
 class LocalBranch(Base):

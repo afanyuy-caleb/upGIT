@@ -1,6 +1,6 @@
-from ..models.local_branch import LocalBranch as local_branch_model
-from ..crud import local_branch as local_branch_crud
-from ..utils.constants import logger
+from app.models.local_branch import LocalBranch as local_branch_model
+from app.crud import local_branch as local_branch_crud
+from app.utils.constants import logger
 
 def save(local_branch_object):
     local_branch = local_branch_model(**local_branch_object)

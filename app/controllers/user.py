@@ -1,6 +1,6 @@
-from ..schema.user import UserUpdate
-from ..crud import user as user_crud
-from ..utils.constants import logger
+from app.schema.user import UserUpdate
+from app.crud import user as user_crud
+from app.utils.constants import logger
         
 def get_all(limit = None, skip:int = 0):
     try:

@@ -1,7 +1,7 @@
 """A decorator method to handle the exceptions that may occur durring the crud"""
 import subprocess
 from .constants import logger
-from ..config.database import engine
+from app.config.database import engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.exc import SQLAlchemyError
 from functools import wraps #to maintain the function metadata when called

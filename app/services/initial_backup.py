@@ -1,16 +1,16 @@
 from app.models.local_repo import LocalRepo
-from ..schema.user import User
-from ..controllers import (
+from app.schema.user import User
+from app.controllers import (
     remote_repo as remote_repo_controller, 
     branch as branch_controller, 
     local_repo as local_repo_controller, 
     local_branch as local_branch_controller
 )
-from ..utils.decorator import global_exception_handler
+from app.utils.decorator import global_exception_handler
 import os, re
 from datetime import datetime, timedelta
-from .cli import CLI
-from ..utils.constants import logger
+from app.services.cli import CLI
+from app.utils.constants import logger
 
 is_new_branch = False
 is_new_folder = False

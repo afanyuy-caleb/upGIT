@@ -1,6 +1,6 @@
 import os
-from ..utils.constants import logger
-from ..controllers import file as file_controller
+from app.utils.constants import logger
+from app.controllers import file as file_controller
 
 """add a to-be-deleted array that contains the dir_paths of all the chunks to be deleted after commit"""
 

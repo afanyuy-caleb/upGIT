@@ -3702,3 +3702,11 @@ User(user_name = Afanyuy Caleb, user_email = afa@gmail.com, user_password = $2b$
 2025-01-03T13:08:07.406788+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\Third_UPGIT_CHUNKS
 2025-01-03T13:08:07.407403+0100 INFO Pull operation successful
 2025-01-03T13:08:07.407867+0100 INFO successfully executed pull
+2025-01-03T13:41:34.567952+0100 INFO Database initialized successfully
+2025-01-03T13:41:34.594204+0100 INFO Database session closed after get_by_condition
+2025-01-03T13:41:34.594546+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 5H
+
+2025-01-03T13:41:34.597209+0100 INFO Database session closed after get_branch
+2025-01-03T13:41:34.597719+0100 INFO Successfully retrieved Branch(branch_name = test_branch, branch_parent_repo = 1
+
+2025-01-03T13:41:34.651974+0100 INFO successfully executed init_git

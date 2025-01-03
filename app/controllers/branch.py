@@ -1,6 +1,6 @@
-from ..models.branch import Branch as branch_model
-from ..crud import branch as branch_crud
-from ..utils.constants import logger
+from app.models.branch import Branch as branch_model
+from app.crud import branch as branch_crud
+from app.utils.constants import logger
 
 def save(branch_object):
     branch = branch_model(**branch_object)

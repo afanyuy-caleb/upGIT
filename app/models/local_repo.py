@@ -1,10 +1,10 @@
 from sqlalchemy import Column, Integer, String, Text, ARRAY, DateTime, Enum, ForeignKey, UniqueConstraint
-from ..config.database import Base
+from app.config.database import Base
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from enum import Enum as PyEnum
-from .local_branch import LocalBranch
-from .file import File
+from app.models.local_branch import LocalBranch
+from app.models.file import File
 
 class BackupStatus(PyEnum):
     """Enum types for backup status"""

@@ -1,6 +1,6 @@
 from sqlalchemy import select
-from ..models.local_branch import LocalBranch
-from ..utils.decorator import transaction_decorator
+from app.models.local_branch import LocalBranch
+from app.utils.decorator import transaction_decorator
 
 @transaction_decorator
 def create(session, local_branch: LocalBranch):

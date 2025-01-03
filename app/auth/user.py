@@ -1,9 +1,9 @@
 from app.services.github import GithubUtililty
 from app.utils.decorator import global_exception_handler
-from ..models.user import User as user_model
-from ..schema.user import UserCreate
-from ..crud import user as user_crud
-from ..utils.constants import logger
+from app.models.user import User as user_model
+from app.schema.user import UserCreate
+from app.crud import user as user_crud
+from app.utils.constants import logger
 import os
 from app.controllers import remote_repo as remote_repo_controller
 

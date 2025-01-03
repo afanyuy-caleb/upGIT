@@ -1,9 +1,9 @@
 import os, sys
 import subprocess
-from ..utils.decorator import cli_decorator, global_exception_handler
-from .manage_files import organize_push_files, organize_pull_files
+from app.utils.decorator import cli_decorator, global_exception_handler
+from app.services.manage_files import organize_push_files, organize_pull_files
 import shutil
-from ..utils.constants import logger
+from app.utils.constants import logger
 import socket
 import uuid    
 

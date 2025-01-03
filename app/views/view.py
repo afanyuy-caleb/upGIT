@@ -1,6 +1,6 @@
 from app.views.home import HomePage
-from .auth.register import Register
-from .auth.login import Login
+from app.views.auth.register import Register
+from app.views.auth.login import Login
 from tkinter import *
 from PIL import Image, ImageTk
 import os

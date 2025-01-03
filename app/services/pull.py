@@ -1,9 +1,9 @@
 from app.services.cli import CLI
-from ..controllers import (
+from app.controllers import (
     local_repo as local_repo_controller,
     branch as branch_controller
 )
-from ..models.local_repo import LocalRepo
+from app.models.local_repo import LocalRepo
 
 def pull(user_id, local_repo_id, branch_id):
     """Pulls the latest changes from the remote repository."""

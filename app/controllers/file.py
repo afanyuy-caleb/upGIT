@@ -1,6 +1,6 @@
-from ..models.file import File as file_model
-from ..crud import file as file_crud
-from ..utils.constants import logger
+from app.models.file import File as file_model
+from app.crud import file as file_crud
+from app.utils.constants import logger
 
 def save(file_object):
     file = file_model(**file_object)

@@ -1,13 +1,13 @@
 import os
-from ..controllers import (
+from app.controllers import (
     local_repo as local_repo_controller,
     remote_repo as remote_repo_controller,
     branch as branch_controller,
     local_branch as local_branch_controller
 )
-from ..models.local_repo import LocalRepo
+from app.models.local_repo import LocalRepo
 from datetime import datetime
-from .initial_backup import backup
+from app.services.initial_backup import backup
 
 def get_repos_in_batches(user_id, limit: int):
     """Get the repos in batches"""

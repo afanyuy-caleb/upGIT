@@ -1,8 +1,8 @@
 from sqlalchemy import select
 from sqlalchemy.orm import Session
-from ..models.user import User
-from ..schema.user import UserUpdate
-from ..utils.decorator import transaction_decorator
+from app.models.user import User
+from app.schema.user import UserUpdate
+from app.utils.decorator import transaction_decorator
 
 @transaction_decorator
 def create(session, user: User):

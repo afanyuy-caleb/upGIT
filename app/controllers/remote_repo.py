@@ -1,6 +1,6 @@
-from ..models.remote_repo import RemoteRepo as remote_repo_model
-from ..crud import remote_repo as remote_repo_crud
-from ..utils.constants import logger
+from app.models.remote_repo import RemoteRepo as remote_repo_model
+from app.crud import remote_repo as remote_repo_crud
+from app.utils.constants import logger
         
 def save(remote_repo_object):
     remote_repo = remote_repo_model(**remote_repo_object)

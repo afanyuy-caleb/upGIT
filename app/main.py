@@ -28,37 +28,8 @@ def db_connection():
 def main():    
     db_connection()
     # start_backup_thread()
-    app = MainApp()
+    # MainApp()
+    pull.pull(user_id=1, local_repo_id=4, branch_id=3)
     
-    # print("1. create account\t 2. Login")
-    # choice = int(input("Enter your choice: "))
-    
-    # if choice == 1:
-    #     handle_acc_creation()
 
-    # login_status = user_auth.login()
-    
-    # if login_status[0]:
-    #     """Redirect to the home page"""
-    #     logger.info(f"successful login for {login_status[1].name}")
-    #     print("1. backup\t 2. recover latest backup")
-    #     choice = int(input("Enter your choice: "))
-
-    #     if choice == 2:
-    #         pull_object = {
-    #             'user_id': int(input("Enter user id: ")),
-    #             'local_repo_id': int(input("Enter local repo id: ")),
-    #             'branch_id': int(input("Enter branch id: "))
-    #         }
-    #         pull.pull(**pull_object)
-    #     else:
-    #         backup_object = {
-    #             'path': input('enter folder path: '),
-    #             'backup_frequency': input('enter backup frequency(in hours, xh): '),
-    #             'branch_name': input('enter branch name: ')
-    #         }
-    #         initial_backup.new_backup(user=login_status[1], backup_object=backup_object)    
-        
-    # run the demo file
-    # demo.run_demo()
     

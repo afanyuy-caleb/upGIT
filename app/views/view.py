@@ -41,7 +41,7 @@ class MainApp:
     
     def open_home(self, user_info=None):
         self.clear_frame()
-        self.set_dimensions(width=450, height=470)
+        self.set_dimensions(width=500, height=500)
         HomePage(self.root, user_info)
     
     def clear_frame(self):

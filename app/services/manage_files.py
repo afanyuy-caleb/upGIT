@@ -6,9 +6,12 @@ from ..controllers import file as file_controller
 
 to_be_deleted = []
 main_dir = None
+max_filesize = 1 * 1024 * 1024
 def organize_push_files(dir_path, folder_id, subdir=False):
     global to_be_deleted
     global main_dir
+    global max_filesize
+    
     try:
         if not subdir:
             main_dir = dir_path 
@@ -22,7 +25,7 @@ def organize_push_files(dir_path, folder_id, subdir=False):
                 organize_push_files(file_path, folder_id, subdir=True)
             
             # check file size
-            max_filesize = 10 * 1024 * 1024
+            
             file_size = os.path.getsize(file_path)
             if file_size > max_filesize:
                 filename = os.path.basename(file_path)

@@ -23,6 +23,8 @@ class CLI():
         if self.chunk_dirs not in [None, [], '', False]:
             self.delete_chunk()
         self.push()
+        self.add()
+        self.commit()
     
     @cli_decorator
     def init_git(self):

@@ -3114,3 +3114,591 @@ User(user_name = new user, user_email = new@gmail.com, user_password = $2b$12$eO
 2025-01-02T12:37:12.724723+0100 INFO Database initialized successfully
 2025-01-02T12:37:32.052982+0100 INFO Database session closed after get_by_email
 2025-01-02T12:37:32.331230+0100 INFO User, new user logged in successfully
+2025-01-02T13:48:56.553011+0100 INFO Database initialized successfully
+2025-01-02T13:49:46.903644+0100 INFO Database session closed after create
+2025-01-02T13:49:46.904718+0100 INFO User created without fault 
+User(user_name = My Test User, user_email = my@gmail.com, user_password = $2b$12$.agvu95Gwuyg0rRFTVp8BOAganwCnkodw.3EoZfaOMhHo.4e8Goua)
+
+2025-01-02T13:49:48.413492+0100 INFO Database session closed after create
+2025-01-02T13:49:48.414180+0100 INFO Successfully created remote_repo
+2025-01-02T13:49:48.414742+0100 INFO Successfully created remote repository for upGIT_My-Test-User_4 and saved it to the database
+2025-01-02T13:50:51.705017+0100 INFO Database session closed after get_by_email
+2025-01-02T13:50:52.016677+0100 INFO User, My Test User logged in successfully
+2025-01-02T14:02:29.163643+0100 INFO Database initialized successfully
+2025-01-02T14:03:11.650077+0100 INFO Database session closed after create
+2025-01-02T14:03:11.651108+0100 INFO User created without fault 
+User(user_name = Caleb, user_email = cal@gmail.com, user_password = $2b$12$boJkSMnv8wJeWLWpH.lgluFPEeNQQoyoJlJ2C9JEXHssHJCb0YIZm)
+
+2025-01-02T14:03:13.241881+0100 INFO Database session closed after create
+2025-01-02T14:03:13.242503+0100 INFO Successfully created remote_repo
+2025-01-02T14:03:13.242884+0100 INFO Successfully created remote repository for upGIT_Caleb_1 and saved it to the database
+2025-01-02T14:04:29.924966+0100 INFO Database session closed after get_by_email
+2025-01-02T14:04:30.239036+0100 INFO User, Caleb logged in successfully
+2025-01-02T14:08:19.998123+0100 INFO Database initialized successfully
+2025-01-02T14:09:07.266439+0100 INFO Database session closed after create
+2025-01-02T14:09:07.267401+0100 INFO User created without fault 
+User(user_name = Afanyuy Caleb, user_email = afa@gmail.com, user_password = $2b$12$/GCAnrQeA/iXSscEsvxrzu2Y69q4l1rvY1JLvdRJkEymxutD9tQ2i)
+
+2025-01-02T14:09:11.329115+0100 INFO Database session closed after create
+2025-01-02T14:09:11.330511+0100 INFO Successfully created remote_repo
+2025-01-02T14:09:11.330982+0100 INFO Successfully created remote repository for upGIT_Afanyuy-Caleb_2 and saved it to the database
+2025-01-02T14:11:17.795199+0100 INFO Database session closed after get_by_email
+2025-01-02T14:11:18.098653+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T15:01:20.417192+0100 INFO Database initialized successfully
+2025-01-02T15:01:31.696461+0100 INFO Database session closed after get_by_email
+2025-01-02T15:01:31.970874+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:09:59.217562+0100 INFO Database initialized successfully
+2025-01-02T16:10:09.938983+0100 INFO Database session closed after get_by_email
+2025-01-02T16:10:10.215841+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:10:37.769730+0100 INFO Database initialized successfully
+2025-01-02T16:10:48.676910+0100 INFO Database session closed after get_by_email
+2025-01-02T16:10:48.960872+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:12:56.706891+0100 INFO Database initialized successfully
+2025-01-02T16:13:07.995051+0100 INFO Database session closed after get_by_email
+2025-01-02T16:13:08.266820+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:14:18.456223+0100 INFO Database initialized successfully
+2025-01-02T16:14:28.633104+0100 INFO Database session closed after get_by_email
+2025-01-02T16:14:28.929921+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:14:47.004216+0100 INFO Database initialized successfully
+2025-01-02T16:15:01.712566+0100 INFO Database session closed after get_by_email
+2025-01-02T16:15:01.984248+0100 ERROR Incorrect email or password
+2025-01-02T16:15:06.624546+0100 INFO Database session closed after get_by_email
+2025-01-02T16:15:06.900262+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:15:56.840768+0100 INFO Database initialized successfully
+2025-01-02T16:16:06.590748+0100 INFO Database session closed after get_by_email
+2025-01-02T16:16:06.858686+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:16:30.986235+0100 INFO Database initialized successfully
+2025-01-02T16:16:39.560430+0100 INFO Database session closed after get_by_email
+2025-01-02T16:16:39.829412+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:17:26.859045+0100 INFO Database initialized successfully
+2025-01-02T16:17:36.158246+0100 INFO Database session closed after get_by_email
+2025-01-02T16:17:36.431254+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:17:54.117357+0100 INFO Database initialized successfully
+2025-01-02T16:18:02.856655+0100 INFO Database session closed after get_by_email
+2025-01-02T16:18:03.129007+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:41:46.211387+0100 INFO Database initialized successfully
+2025-01-02T16:42:08.782556+0100 INFO Database session closed after get_by_email
+2025-01-02T16:42:09.054654+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:43:50.927212+0100 INFO Database initialized successfully
+2025-01-02T16:44:04.744509+0100 INFO Database session closed after get_by_email
+2025-01-02T16:44:05.051394+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T16:46:29.113665+0100 INFO Database initialized successfully
+2025-01-02T16:46:51.256213+0100 INFO Database session closed after get_by_email
+2025-01-02T16:46:51.525960+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T21:35:47.875281+0100 INFO Database initialized successfully
+2025-01-02T21:36:03.448825+0100 INFO Database session closed after get_by_email
+2025-01-02T21:36:04.317498+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-02T21:43:06.034104+0100 INFO Database initialized successfully
+2025-01-02T22:37:02.489441+0100 INFO Database initialized successfully
+2025-01-02T22:37:26.871532+0100 INFO Database initialized successfully
+2025-01-02T22:37:59.348470+0100 INFO Database initialized successfully
+2025-01-02T22:38:32.574414+0100 INFO Database initialized successfully
+2025-01-02T23:07:13.831277+0100 INFO Database initialized successfully
+2025-01-02T23:07:28.578616+0100 INFO Database initialized successfully
+2025-01-02T23:07:42.462774+0100 INFO Database initialized successfully
+2025-01-02T23:09:28.085362+0100 INFO Database initialized successfully
+2025-01-02T23:11:33.758635+0100 INFO Database initialized successfully
+2025-01-02T23:12:55.212581+0100 INFO Database initialized successfully
+2025-01-02T23:13:22.960186+0100 INFO Database initialized successfully
+2025-01-02T23:14:51.624478+0100 INFO Database initialized successfully
+2025-01-02T23:18:36.966558+0100 INFO Database initialized successfully
+2025-01-02T23:19:10.460947+0100 INFO Database initialized successfully
+2025-01-02T23:20:14.093775+0100 INFO Database initialized successfully
+2025-01-02T23:20:44.532816+0100 INFO Database initialized successfully
+2025-01-02T23:21:47.152105+0100 INFO Database initialized successfully
+2025-01-02T23:24:21.448484+0100 INFO Database initialized successfully
+2025-01-02T23:25:01.553452+0100 INFO Database initialized successfully
+2025-01-02T23:25:22.279037+0100 INFO Database initialized successfully
+2025-01-02T23:25:36.981169+0100 INFO Database initialized successfully
+2025-01-02T23:25:56.687892+0100 INFO Database initialized successfully
+2025-01-02T23:26:12.094444+0100 INFO Database initialized successfully
+2025-01-02T23:26:28.817328+0100 INFO Database initialized successfully
+2025-01-02T23:26:41.245673+0100 INFO Database initialized successfully
+2025-01-02T23:27:07.432632+0100 INFO Database initialized successfully
+2025-01-02T23:27:35.961280+0100 INFO Database initialized successfully
+2025-01-02T23:29:24.755443+0100 INFO Database initialized successfully
+2025-01-02T23:31:12.231763+0100 INFO Database initialized successfully
+2025-01-02T23:31:40.776213+0100 INFO Database initialized successfully
+2025-01-02T23:35:33.257071+0100 INFO Database initialized successfully
+2025-01-02T23:35:59.271411+0100 INFO Database initialized successfully
+2025-01-02T23:38:33.369293+0100 INFO Database initialized successfully
+2025-01-02T23:39:16.124380+0100 INFO Database initialized successfully
+2025-01-02T23:42:24.421099+0100 INFO Database initialized successfully
+2025-01-02T23:42:51.998065+0100 INFO Database initialized successfully
+2025-01-02T23:43:20.880918+0100 INFO Database initialized successfully
+2025-01-02T23:43:43.176096+0100 INFO Database initialized successfully
+2025-01-02T23:43:58.571820+0100 INFO Database initialized successfully
+2025-01-02T23:50:36.437242+0100 INFO Database initialized successfully
+2025-01-02T23:54:30.849220+0100 INFO Database initialized successfully
+2025-01-02T23:55:29.486121+0100 INFO Database initialized successfully
+2025-01-02T23:56:11.945643+0100 INFO Database initialized successfully
+2025-01-02T23:56:44.149001+0100 INFO Database initialized successfully
+2025-01-02T23:57:08.785536+0100 INFO Database initialized successfully
+2025-01-02T23:58:11.171958+0100 INFO Database initialized successfully
+2025-01-02T23:59:13.213966+0100 INFO Database initialized successfully
+2025-01-02T23:59:59.205887+0100 INFO Database initialized successfully
+2025-01-03T00:00:54.539353+0100 INFO Database initialized successfully
+2025-01-03T00:01:35.864410+0100 INFO Database initialized successfully
+2025-01-03T00:03:00.964339+0100 INFO Database initialized successfully
+2025-01-03T00:05:18.748280+0100 INFO Database initialized successfully
+2025-01-03T00:06:14.836491+0100 INFO Database initialized successfully
+2025-01-03T00:06:47.578092+0100 INFO Database initialized successfully
+2025-01-03T00:07:31.416054+0100 INFO Database initialized successfully
+2025-01-03T00:08:01.109169+0100 INFO Database initialized successfully
+2025-01-03T00:08:37.493552+0100 INFO Database initialized successfully
+2025-01-03T00:09:11.175843+0100 INFO Database initialized successfully
+2025-01-03T00:10:52.689187+0100 INFO Database initialized successfully
+2025-01-03T09:47:55.034953+0100 INFO Database initialized successfully
+2025-01-03T09:49:38.656122+0100 INFO Database initialized successfully
+2025-01-03T09:54:47.986199+0100 INFO Database initialized successfully
+2025-01-03T09:56:32.633034+0100 INFO Database initialized successfully
+2025-01-03T09:57:37.980761+0100 INFO Database initialized successfully
+2025-01-03T09:59:09.598394+0100 INFO Database initialized successfully
+2025-01-03T10:00:06.938329+0100 INFO Database initialized successfully
+2025-01-03T10:07:03.781343+0100 INFO Database initialized successfully
+2025-01-03T10:07:39.806231+0100 INFO Database initialized successfully
+2025-01-03T10:07:49.957460+0100 INFO Database session closed after get_by_email
+2025-01-03T10:07:50.241994+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:07:51.701383+0100 INFO Database session closed after get_by_column
+2025-01-03T10:07:51.701859+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:13:26.197646+0100 INFO Database initialized successfully
+2025-01-03T10:13:33.137518+0100 INFO Database session closed after get_by_email
+2025-01-03T10:13:33.416921+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:13:34.973085+0100 INFO Database session closed after get_by_column
+2025-01-03T10:13:34.973453+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:13:34.975725+0100 INFO Database session closed after get_by_column
+2025-01-03T10:13:34.976412+0100 INFO Successfully retrieved branchs with []
+2025-01-03T10:14:09.346383+0100 INFO Database initialized successfully
+2025-01-03T10:14:17.872781+0100 INFO Database session closed after get_by_email
+2025-01-03T10:14:18.150483+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:14:19.408811+0100 INFO Database session closed after get_by_column
+2025-01-03T10:14:19.409135+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:14:19.411198+0100 INFO Database session closed after get_by_column
+2025-01-03T10:14:19.411869+0100 INFO Successfully retrieved branchs with []
+2025-01-03T10:19:51.804351+0100 INFO Database initialized successfully
+2025-01-03T10:20:06.513218+0100 INFO Database initialized successfully
+2025-01-03T10:20:15.626513+0100 INFO Database session closed after get_by_email
+2025-01-03T10:20:15.906631+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:20:17.059304+0100 INFO Database session closed after get_by_column
+2025-01-03T10:20:17.059645+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:20:17.062007+0100 INFO Database session closed after get_by_column
+2025-01-03T10:20:17.062573+0100 INFO Successfully retrieved branchs with []
+2025-01-03T10:20:48.131578+0100 INFO Database initialized successfully
+2025-01-03T10:20:57.069479+0100 INFO Database session closed after get_by_email
+2025-01-03T10:20:57.349396+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:20:58.376755+0100 INFO Database session closed after get_by_column
+2025-01-03T10:20:58.377097+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:20:58.378946+0100 INFO Database session closed after get_by_column
+2025-01-03T10:20:58.379367+0100 INFO Successfully retrieved branchs with []
+2025-01-03T10:22:15.672627+0100 INFO Database initialized successfully
+2025-01-03T10:22:22.768196+0100 INFO Database session closed after get_by_email
+2025-01-03T10:22:23.045574+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:22:24.171198+0100 INFO Database session closed after get_by_column
+2025-01-03T10:22:24.171543+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:22:24.174147+0100 INFO Database session closed after get_by_column
+2025-01-03T10:22:24.174757+0100 INFO Successfully retrieved branchs with []
+2025-01-03T10:23:21.851743+0100 INFO Database initialized successfully
+2025-01-03T10:23:28.707738+0100 INFO Database session closed after get_by_email
+2025-01-03T10:23:28.985217+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:23:30.538605+0100 INFO Database session closed after get_by_column
+2025-01-03T10:23:30.539060+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:23:30.541281+0100 INFO Database session closed after get_by_column
+2025-01-03T10:23:30.541905+0100 INFO Successfully retrieved branchs with []
+2025-01-03T10:23:49.520215+0100 INFO Database initialized successfully
+2025-01-03T10:24:00.392061+0100 INFO Database session closed after get_by_email
+2025-01-03T10:24:00.673246+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:24:01.663351+0100 INFO Database session closed after get_by_column
+2025-01-03T10:24:01.663847+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:24:01.665881+0100 INFO Database session closed after get_by_column
+2025-01-03T10:24:01.666546+0100 INFO Successfully retrieved branchs with []
+2025-01-03T10:39:30.152870+0100 INFO Database initialized successfully
+2025-01-03T10:39:39.644301+0100 INFO Database session closed after get_by_email
+2025-01-03T10:39:39.922173+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:39:41.022117+0100 INFO Database session closed after get_by_column
+2025-01-03T10:39:41.022633+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:39:41.024950+0100 INFO Database session closed after get_by_column
+2025-01-03T10:39:41.025627+0100 INFO Successfully retrieved branchs with []
+2025-01-03T10:42:06.812554+0100 INFO Database initialized successfully
+2025-01-03T10:42:14.634688+0100 INFO Database session closed after get_by_email
+2025-01-03T10:42:14.914792+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:42:16.092770+0100 INFO Database session closed after get_by_column
+2025-01-03T10:42:16.093130+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:42:16.095146+0100 INFO Database session closed after get_by_column
+2025-01-03T10:42:16.095824+0100 INFO Successfully retrieved branchs with []
+2025-01-03T10:43:56.309336+0100 INFO Database initialized successfully
+2025-01-03T10:44:04.370299+0100 INFO Database session closed after get_by_email
+2025-01-03T10:44:04.650723+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T10:44:05.752892+0100 INFO Database session closed after get_by_column
+2025-01-03T10:44:05.753240+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T10:44:05.756144+0100 INFO Database session closed after get_by_column
+2025-01-03T10:44:05.756650+0100 INFO Successfully retrieved branchs with []
+2025-01-03T11:01:59.211751+0100 INFO Database initialized successfully
+2025-01-03T11:02:08.006834+0100 INFO Database session closed after get_by_email
+2025-01-03T11:02:08.286707+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T11:02:11.405813+0100 INFO Database session closed after get_by_column
+2025-01-03T11:02:11.406399+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T11:02:11.408931+0100 INFO Database session closed after get_by_column
+2025-01-03T11:02:11.409614+0100 INFO Successfully retrieved branchs with []
+2025-01-03T11:09:07.720258+0100 INFO Database initialized successfully
+2025-01-03T11:09:16.728123+0100 INFO Database session closed after get_by_email
+2025-01-03T11:09:17.019620+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T11:09:18.363990+0100 INFO Database session closed after get_by_column
+2025-01-03T11:09:18.364375+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T11:09:18.366884+0100 INFO Database session closed after get_by_column
+2025-01-03T11:09:18.367364+0100 INFO Successfully retrieved branchs with []
+2025-01-03T11:15:24.787523+0100 INFO Database initialized successfully
+2025-01-03T11:15:38.739690+0100 INFO Database session closed after get_by_email
+2025-01-03T11:15:39.019972+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T11:15:57.684148+0100 INFO Database session closed after get_by_column
+2025-01-03T11:15:57.684675+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T11:15:57.687079+0100 INFO Database session closed after get_by_column
+2025-01-03T11:15:57.687784+0100 INFO Successfully retrieved branchs with []
+2025-01-03T12:14:22.402545+0100 INFO Database initialized successfully
+2025-01-03T12:14:35.471994+0100 INFO Database session closed after get_by_email
+2025-01-03T12:14:35.755790+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T12:14:36.887923+0100 INFO Database session closed after get_by_column
+2025-01-03T12:14:36.888477+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T12:14:36.890336+0100 INFO Database session closed after get_by_column
+2025-01-03T12:14:36.890815+0100 INFO Successfully retrieved branchs with []
+2025-01-03T12:15:12.291970+0100 INFO Database session closed after get_by_column
+2025-01-03T12:15:12.292885+0100 INFO Successfully retrieved branchs with None
+2025-01-03T12:15:12.312760+0100 INFO Database session closed after create
+2025-01-03T12:15:12.313637+0100 INFO Successfully created branch
+2025-01-03T12:15:12.316790+0100 INFO Database session closed after get_by_condition
+2025-01-03T12:15:12.317760+0100 INFO Successfully retrieved local_repos with None
+2025-01-03T12:15:12.338220+0100 INFO Database session closed after create
+2025-01-03T12:15:12.339160+0100 INFO Successfully created local_repo
+2025-01-03T12:15:12.357272+0100 INFO Database session closed after create
+2025-01-03T12:15:12.357977+0100 INFO Successfully created local_branch
+2025-01-03T12:15:12.376533+0100 INFO 3 chunks of Python-Tutorial_105318.pdf have been created
+2025-01-03T12:15:12.397426+0100 INFO Database session closed after create
+2025-01-03T12:15:12.398009+0100 INFO Successfully created file
+2025-01-03T12:15:12.429553+0100 INFO 7 chunks of Data-Structure-Final-.pdf have been created
+2025-01-03T12:15:12.444825+0100 INFO Database session closed after create
+2025-01-03T12:15:12.445461+0100 INFO Successfully created file
+2025-01-03T12:15:12.477440+0100 INFO 8 chunks of Learning_Python_105051.pdf have been created
+2025-01-03T12:15:12.494195+0100 INFO Database session closed after create
+2025-01-03T12:15:12.495033+0100 INFO Successfully created file
+2025-01-03T12:15:12.574961+0100 INFO 19 chunks of _Getintopc.com_KMSAuto_1.7.2.rar have been created
+2025-01-03T12:15:12.595649+0100 INFO Database session closed after create
+2025-01-03T12:15:12.596944+0100 INFO Successfully created file
+2025-01-03T12:15:12.773438+0100 INFO successfully executed init_git
+2025-01-03T12:15:12.944197+0100 INFO successfully executed add_remote
+2025-01-03T12:15:13.061686+0100 INFO successfully executed create_branch
+2025-01-03T12:15:16.070534+0100 INFO successfully executed add
+2025-01-03T12:15:16.652989+0100 INFO successfully executed commit
+2025-01-03T12:15:16.655697+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/upgit test folders/GIthub\Python-tutorial_105318_UPGIT_CHUNKS
+2025-01-03T12:15:16.662258+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/upgit test folders/GIthub\yeah\Data-structure-final-_UPGIT_CHUNKS
+2025-01-03T12:15:16.667034+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/upgit test folders/GIthub\yeah\Learning_python_105051_UPGIT_CHUNKS
+2025-01-03T12:15:16.677363+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/upgit test folders/GIthub\yeah\_getintopc.com_kmsauto_1.7.2_UPGIT_CHUNKS
+2025-01-03T12:17:03.311853+0100 ERROR A subprocess error occurred: 1
+2025-01-03T12:17:03.312471+0100 ERROR Command '['git', 'push', 'origin', 'first_branch']' returned non-zero exit status 1.
+2025-01-03T12:20:07.667148+0100 INFO Database initialized successfully
+2025-01-03T12:20:15.403043+0100 INFO Database session closed after get_by_email
+2025-01-03T12:20:15.713625+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T12:20:17.255963+0100 INFO Database session closed after get_by_column
+2025-01-03T12:20:17.256434+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T12:20:17.258552+0100 INFO Database session closed after get_by_column
+2025-01-03T12:20:17.258984+0100 INFO Successfully retrieved branchs with [Branch(branch_name = first_branch, branch_parent_repo = 2
+]
+2025-01-03T12:21:44.228171+0100 INFO Database initialized successfully
+2025-01-03T12:21:52.410556+0100 INFO Database session closed after get_by_email
+2025-01-03T12:21:52.698839+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T12:21:54.000285+0100 INFO Database session closed after get_by_column
+2025-01-03T12:21:54.000652+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T12:21:54.002877+0100 INFO Database session closed after get_by_column
+2025-01-03T12:21:54.003465+0100 INFO Successfully retrieved branchs with [Branch(branch_name = first_branch, branch_parent_repo = 2
+]
+2025-01-03T12:24:15.927124+0100 INFO Database initialized successfully
+2025-01-03T12:24:22.886779+0100 INFO Database session closed after get_by_email
+2025-01-03T12:24:23.171488+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T12:24:24.251963+0100 INFO Database session closed after get_by_column
+2025-01-03T12:24:24.252434+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T12:24:24.254574+0100 INFO Database session closed after get_by_column
+2025-01-03T12:24:24.254930+0100 INFO Successfully retrieved branchs with [Branch(branch_name = first_branch, branch_parent_repo = 2
+]
+2025-01-03T12:24:42.199295+0100 INFO Database initialized successfully
+2025-01-03T12:24:51.384471+0100 INFO Database session closed after get_by_email
+2025-01-03T12:24:51.674806+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T12:24:52.734337+0100 INFO Database session closed after get_by_column
+2025-01-03T12:24:52.734845+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T12:24:52.736639+0100 INFO Database session closed after get_by_column
+2025-01-03T12:24:52.737059+0100 INFO Successfully retrieved branchs with [Branch(branch_name = first_branch, branch_parent_repo = 2
+]
+2025-01-03T12:25:39.331377+0100 INFO Database session closed after get_by_column
+2025-01-03T12:25:39.332110+0100 INFO Successfully retrieved branchs with None
+2025-01-03T12:25:39.353105+0100 INFO Database session closed after create
+2025-01-03T12:25:39.353765+0100 INFO Successfully created branch
+2025-01-03T12:25:39.357041+0100 INFO Database session closed after get_by_condition
+2025-01-03T12:25:39.357819+0100 INFO Successfully retrieved local_repos with None
+2025-01-03T12:25:39.377837+0100 INFO Database session closed after create
+2025-01-03T12:25:39.378500+0100 INFO Successfully created local_repo
+2025-01-03T12:25:39.408881+0100 INFO Database session closed after create
+2025-01-03T12:25:39.410606+0100 INFO Successfully created local_branch
+2025-01-03T12:25:39.520506+0100 INFO 18 chunks of Deep Learning.pdf have been created
+2025-01-03T12:25:39.538796+0100 INFO Database session closed after create
+2025-01-03T12:25:39.539570+0100 INFO Successfully created file
+2025-01-03T12:25:39.882571+0100 INFO 19 chunks of _Getintopc.com_KMSAuto_1.7.2.rar have been created
+2025-01-03T12:25:39.921864+0100 INFO Database session closed after create
+2025-01-03T12:25:39.923381+0100 INFO Successfully created file
+2025-01-03T12:25:40.107986+0100 INFO successfully executed init_git
+2025-01-03T12:25:40.408708+0100 INFO successfully executed add_remote
+2025-01-03T12:25:40.543400+0100 INFO successfully executed create_branch
+2025-01-03T12:25:44.253311+0100 INFO successfully executed add
+2025-01-03T12:25:44.518315+0100 INFO successfully executed commit
+2025-01-03T12:25:44.522877+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/upgit test folders/test\Deep learning_UPGIT_CHUNKS
+2025-01-03T12:25:44.528070+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/upgit test folders/test\heavy\_getintopc.com_kmsauto_1.7.2_UPGIT_CHUNKS
+2025-01-03T12:26:48.863693+0100 ERROR A subprocess error occurred: 1
+2025-01-03T12:26:48.865130+0100 ERROR Command '['git', 'push', 'origin', 'second']' returned non-zero exit status 1.
+2025-01-03T12:30:09.090804+0100 INFO Database initialized successfully
+2025-01-03T12:30:22.006794+0100 INFO Database session closed after get_by_email
+2025-01-03T12:30:22.290669+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T12:30:24.133475+0100 INFO Database session closed after get_by_column
+2025-01-03T12:30:24.134071+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T12:30:24.142227+0100 INFO Database session closed after get_by_column
+2025-01-03T12:30:24.143381+0100 INFO Successfully retrieved branchs with [Branch(branch_name = first_branch, branch_parent_repo = 2
+, Branch(branch_name = second, branch_parent_repo = 2
+]
+2025-01-03T12:31:12.215061+0100 INFO Database session closed after get_by_column
+2025-01-03T12:31:12.215617+0100 INFO Successfully retrieved branchs with Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2025-01-03T12:31:12.218704+0100 INFO Database session closed after get_by_condition
+2025-01-03T12:31:12.219459+0100 INFO Successfully retrieved local_repos with None
+2025-01-03T12:31:12.240417+0100 INFO Database session closed after create
+2025-01-03T12:31:12.241188+0100 INFO Successfully created local_repo
+2025-01-03T12:31:12.263321+0100 INFO Database session closed after create
+2025-01-03T12:31:12.264104+0100 INFO Successfully created local_branch
+2025-01-03T12:31:12.277687+0100 INFO 4 chunks of 365 Days With Self-Discipline_ 365 Life-Altering Thoughts on Self-Control, Mental Resilience, and Success - PDF Room.pdf have been created
+2025-01-03T12:31:12.303689+0100 INFO Database session closed after create
+2025-01-03T12:31:12.304384+0100 INFO Successfully created file
+2025-01-03T12:31:12.308574+0100 INFO 2 chunks of Advanced Brain Training - Brain Train Your Way to the Top_ A Teach Yourelf Guide - PDF Room.pdf have been created
+2025-01-03T12:31:12.324530+0100 INFO Database session closed after create
+2025-01-03T12:31:12.325517+0100 INFO Successfully created file
+2025-01-03T12:31:12.445447+0100 INFO successfully executed init_git
+2025-01-03T12:31:12.561936+0100 INFO successfully executed add_remote
+2025-01-03T12:31:12.673434+0100 INFO successfully executed create_branch
+2025-01-03T12:31:12.800085+0100 ERROR A subprocess error occurred: 128
+2025-01-03T12:31:12.801654+0100 ERROR Command '['git', 'add', '.']' returned non-zero exit status 128.
+2025-01-03T12:34:20.083163+0100 INFO Database initialized successfully
+2025-01-03T12:34:27.841881+0100 INFO Database session closed after get_by_email
+2025-01-03T12:34:28.133704+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T12:34:29.152916+0100 INFO Database session closed after get_by_column
+2025-01-03T12:34:29.153392+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T12:34:29.161196+0100 INFO Database session closed after get_by_column
+2025-01-03T12:34:29.162327+0100 INFO Successfully retrieved branchs with [Branch(branch_name = first_branch, branch_parent_repo = 2
+, Branch(branch_name = second, branch_parent_repo = 2
+]
+2025-01-03T12:34:46.711823+0100 INFO Database session closed after get_by_column
+2025-01-03T12:34:46.713573+0100 INFO Successfully retrieved branchs with Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2025-01-03T12:34:46.719388+0100 INFO Database session closed after get_by_condition
+2025-01-03T12:34:46.720331+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 2H
+
+2025-01-03T12:34:46.733468+0100 INFO 4 chunks of first.pdf have been created
+2025-01-03T12:34:46.767869+0100 INFO Database session closed after create
+2025-01-03T12:34:46.768572+0100 INFO Successfully created file
+2025-01-03T12:34:46.781104+0100 INFO 2 chunks of third.pdf have been created
+2025-01-03T12:34:46.800534+0100 INFO Database session closed after create
+2025-01-03T12:34:46.802056+0100 INFO Successfully created file
+2025-01-03T12:34:46.989771+0100 INFO successfully executed init_git
+2025-01-03T12:34:47.222002+0100 INFO successfully executed add_remote
+2025-01-03T12:34:47.343798+0100 INFO successfully executed create_branch
+2025-01-03T12:34:47.739139+0100 INFO successfully executed add
+2025-01-03T12:34:47.991004+0100 INFO successfully executed commit
+2025-01-03T12:34:47.995332+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\First_UPGIT_CHUNKS
+2025-01-03T12:34:47.996778+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\Third_UPGIT_CHUNKS
+2025-01-03T12:35:36.431941+0100 INFO successfully executed push
+2025-01-03T12:35:36.471094+0100 INFO Database session closed after update
+2025-01-03T12:35:36.472686+0100 INFO Successfully updated local_repo with id 3
+2025-01-03T12:35:36.474050+0100 INFO Successfully backed up C:/Users/Caleb/Desktop/test folder to upGIT_Afanyuy-Caleb_2 at 2025-01-03 12:35:36.473961
+2025-01-03T12:49:47.188594+0100 INFO Database initialized successfully
+2025-01-03T12:49:47.249590+0100 INFO Database session closed after get_by_condition
+2025-01-03T12:49:47.250057+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 2H
+
+2025-01-03T12:49:47.252234+0100 INFO Database session closed after get_branch
+2025-01-03T12:49:47.252774+0100 INFO Successfully retrieved Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2025-01-03T12:49:47.391266+0100 INFO successfully executed init_git
+2025-01-03T12:49:47.517264+0100 ERROR A subprocess error occurred: 128
+2025-01-03T12:49:47.518367+0100 ERROR Command '['git', 'reset', '--hard', 'origin/first_branch']' returned non-zero exit status 128.
+2025-01-03T12:55:22.370232+0100 INFO Database initialized successfully
+2025-01-03T12:55:32.984971+0100 INFO Database session closed after get_by_email
+2025-01-03T12:55:33.260322+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T12:55:34.615743+0100 INFO Database session closed after get_by_column
+2025-01-03T12:55:34.616223+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T12:55:34.618653+0100 INFO Database session closed after get_by_column
+2025-01-03T12:55:34.618964+0100 INFO Successfully retrieved branchs with [Branch(branch_name = first_branch, branch_parent_repo = 2
+, Branch(branch_name = second, branch_parent_repo = 2
+]
+2025-01-03T12:55:52.972734+0100 INFO Database session closed after get_by_column
+2025-01-03T12:55:52.973177+0100 INFO Successfully retrieved branchs with Branch(branch_name = second, branch_parent_repo = 2
+
+2025-01-03T12:55:52.979295+0100 INFO Database session closed after get_by_condition
+2025-01-03T12:55:52.979952+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 2H
+
+2025-01-03T12:55:52.996805+0100 INFO 4 chunks of first.pdf have been created
+2025-01-03T12:55:53.018220+0100 INFO Database session closed after create
+2025-01-03T12:55:53.018830+0100 INFO Successfully created file
+2025-01-03T12:55:53.027637+0100 INFO 2 chunks of third.pdf have been created
+2025-01-03T12:55:53.043719+0100 INFO Database session closed after create
+2025-01-03T12:55:53.045009+0100 INFO Successfully created file
+2025-01-03T12:55:53.099718+0100 INFO successfully executed init_git
+2025-01-03T12:55:53.191526+0100 INFO successfully executed add_remote
+2025-01-03T12:55:53.284623+0100 INFO successfully executed create_branch
+2025-01-03T12:55:53.620066+0100 INFO successfully executed add
+2025-01-03T12:55:53.806871+0100 INFO successfully executed commit
+2025-01-03T12:55:53.808726+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\First_UPGIT_CHUNKS
+2025-01-03T12:55:53.809879+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\Third_UPGIT_CHUNKS
+2025-01-03T12:56:15.694842+0100 ERROR A subprocess error occurred: 128
+2025-01-03T12:56:15.695654+0100 ERROR Command '['git', 'push', 'origin', 'second']' returned non-zero exit status 128.
+2025-01-03T12:56:54.959830+0100 INFO Database initialized successfully
+2025-01-03T12:57:27.234812+0100 INFO Database initialized successfully
+2025-01-03T12:57:36.410256+0100 INFO Database session closed after get_by_email
+2025-01-03T12:57:36.684606+0100 INFO User, Afanyuy Caleb logged in successfully
+2025-01-03T12:57:38.096886+0100 INFO Database session closed after get_by_column
+2025-01-03T12:57:38.097192+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Afanyuy-Caleb_2, remoteRepo_url = https://github.com/keyz-dev/upGIT_Afanyuy-Caleb_2
+
+2025-01-03T12:57:38.099071+0100 INFO Database session closed after get_by_column
+2025-01-03T12:57:38.099347+0100 INFO Successfully retrieved branchs with [Branch(branch_name = first_branch, branch_parent_repo = 2
+, Branch(branch_name = second, branch_parent_repo = 2
+]
+2025-01-03T12:57:51.681920+0100 INFO Database session closed after get_by_column
+2025-01-03T12:57:51.682466+0100 INFO Successfully retrieved branchs with Branch(branch_name = second, branch_parent_repo = 2
+
+2025-01-03T12:57:51.685502+0100 INFO Database session closed after get_by_condition
+2025-01-03T12:57:51.686045+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 2H
+
+2025-01-03T12:57:51.692039+0100 INFO 4 chunks of first.pdf have been created
+2025-01-03T12:57:51.712794+0100 INFO Database session closed after create
+2025-01-03T12:57:51.713368+0100 INFO Successfully created file
+2025-01-03T12:57:51.716836+0100 INFO 2 chunks of third.pdf have been created
+2025-01-03T12:57:51.733140+0100 INFO Database session closed after create
+2025-01-03T12:57:51.733736+0100 INFO Successfully created file
+2025-01-03T12:57:51.795021+0100 INFO successfully executed init_git
+2025-01-03T12:57:51.870710+0100 INFO successfully executed add_remote
+2025-01-03T12:57:51.945032+0100 INFO successfully executed create_branch
+2025-01-03T12:57:52.222247+0100 INFO successfully executed add
+2025-01-03T12:57:52.349119+0100 INFO successfully executed commit
+2025-01-03T12:57:52.350708+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\First_UPGIT_CHUNKS
+2025-01-03T12:57:52.351850+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\Third_UPGIT_CHUNKS
+2025-01-03T12:58:24.130322+0100 INFO successfully executed push
+2025-01-03T12:58:24.158237+0100 INFO Database session closed after update
+2025-01-03T12:58:24.159105+0100 INFO Successfully updated local_repo with id 3
+2025-01-03T12:58:24.160041+0100 INFO Successfully backed up C:/Users/Caleb/Desktop/test folder to upGIT_Afanyuy-Caleb_2 at 2025-01-03 12:58:24.160014
+2025-01-03T12:59:04.574964+0100 INFO Database initialized successfully
+2025-01-03T12:59:04.597906+0100 INFO Database session closed after get_by_condition
+2025-01-03T12:59:04.598355+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 2H
+
+2025-01-03T12:59:04.600322+0100 INFO Database session closed after get_branch
+2025-01-03T12:59:04.600595+0100 INFO Successfully retrieved Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2025-01-03T12:59:04.649550+0100 INFO successfully executed init_git
+2025-01-03T12:59:04.700301+0100 ERROR A subprocess error occurred: 128
+2025-01-03T12:59:04.700645+0100 ERROR Command '['git', 'reset', '--hard', 'origin/first_branch']' returned non-zero exit status 128.
+2025-01-03T12:59:20.192181+0100 INFO Database initialized successfully
+2025-01-03T12:59:20.211404+0100 INFO Database session closed after get_by_condition
+2025-01-03T12:59:20.211779+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 2H
+
+2025-01-03T12:59:20.213463+0100 INFO Database session closed after get_branch
+2025-01-03T12:59:20.213791+0100 INFO Successfully retrieved Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2025-01-03T12:59:20.263607+0100 INFO successfully executed init_git
+2025-01-03T12:59:20.308484+0100 ERROR A subprocess error occurred: 128
+2025-01-03T12:59:20.309109+0100 ERROR Command '['git', 'reset', '--hard', 'origin/first_branch']' returned non-zero exit status 128.
+2025-01-03T13:02:20.468261+0100 INFO Database initialized successfully
+2025-01-03T13:02:31.533113+0100 INFO Database session closed after get_by_email
+2025-01-03T13:02:31.828831+0100 INFO User, Caleb logged in successfully
+2025-01-03T13:02:33.034724+0100 INFO Database session closed after get_by_column
+2025-01-03T13:02:33.035020+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Caleb_1, remoteRepo_url = https://github.com/keyz-dev/upGIT_Caleb_1
+
+2025-01-03T13:02:33.036711+0100 INFO Database session closed after get_by_column
+2025-01-03T13:02:33.036981+0100 INFO Successfully retrieved branchs with []
+2025-01-03T13:03:14.921289+0100 INFO Database session closed after get_by_column
+2025-01-03T13:03:14.921658+0100 INFO Successfully retrieved branchs with None
+2025-01-03T13:03:14.939927+0100 INFO Database session closed after create
+2025-01-03T13:03:14.940597+0100 INFO Successfully created branch
+2025-01-03T13:03:14.943638+0100 INFO Database session closed after get_by_condition
+2025-01-03T13:03:14.944196+0100 INFO Successfully retrieved local_repos with None
+2025-01-03T13:03:14.964253+0100 INFO Database session closed after create
+2025-01-03T13:03:14.964945+0100 INFO Successfully created local_repo
+2025-01-03T13:03:14.984471+0100 INFO Database session closed after create
+2025-01-03T13:03:14.985040+0100 INFO Successfully created local_branch
+2025-01-03T13:03:14.993425+0100 INFO 4 chunks of first.pdf have been created
+2025-01-03T13:03:15.011328+0100 INFO Database session closed after create
+2025-01-03T13:03:15.012118+0100 INFO Successfully created file
+2025-01-03T13:03:15.015952+0100 INFO 2 chunks of third.pdf have been created
+2025-01-03T13:03:15.031931+0100 INFO Database session closed after create
+2025-01-03T13:03:15.032638+0100 INFO Successfully created file
+2025-01-03T13:03:15.084351+0100 INFO successfully executed init_git
+2025-01-03T13:03:15.163322+0100 INFO successfully executed add_remote
+2025-01-03T13:03:15.239709+0100 INFO successfully executed create_branch
+2025-01-03T13:03:15.517759+0100 INFO successfully executed add
+2025-01-03T13:03:15.665620+0100 INFO successfully executed commit
+2025-01-03T13:03:15.667391+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\First_UPGIT_CHUNKS
+2025-01-03T13:03:15.668584+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\Third_UPGIT_CHUNKS
+2025-01-03T13:03:35.658544+0100 INFO successfully executed push
+2025-01-03T13:03:35.722531+0100 INFO successfully executed add
+2025-01-03T13:03:35.836332+0100 INFO successfully executed commit
+2025-01-03T13:03:35.853689+0100 INFO Database session closed after update
+2025-01-03T13:03:35.854280+0100 INFO Successfully updated local_repo with id 4
+2025-01-03T13:03:35.854925+0100 INFO Successfully backed up C:/Users/Caleb/Desktop/test folder to upGIT_Caleb_1 at 2025-01-03 13:03:35.854886
+2025-01-03T13:05:38.412543+0100 INFO Database initialized successfully
+2025-01-03T13:05:38.436906+0100 INFO Database session closed after get_by_condition
+2025-01-03T13:05:38.437275+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 5H
+
+2025-01-03T13:05:38.439220+0100 INFO Database session closed after get_branch
+2025-01-03T13:05:38.439612+0100 INFO Successfully retrieved Branch(branch_name = test_branch, branch_parent_repo = 1
+
+2025-01-03T13:05:38.492429+0100 INFO successfully executed init_git
+2025-01-03T13:05:40.841352+0100 INFO Pull operation successful
+2025-01-03T13:05:40.841739+0100 INFO successfully executed pull
+2025-01-03T13:06:21.595531+0100 INFO Database initialized successfully
+2025-01-03T13:06:21.621938+0100 INFO Database session closed after get_by_condition
+2025-01-03T13:06:21.622267+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 5H
+
+2025-01-03T13:06:21.623864+0100 INFO Database session closed after get_branch
+2025-01-03T13:06:21.624101+0100 INFO Successfully retrieved Branch(branch_name = test_branch, branch_parent_repo = 1
+
+2025-01-03T13:06:21.670302+0100 INFO successfully executed init_git
+2025-01-03T13:06:23.730071+0100 INFO successfully merged First_UPGIT_CHUNKS chunks
+2025-01-03T13:06:23.732136+0100 INFO successfully merged Third_UPGIT_CHUNKS chunks
+2025-01-03T13:06:23.733401+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\First_UPGIT_CHUNKS
+2025-01-03T13:06:23.734616+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\Third_UPGIT_CHUNKS
+2025-01-03T13:06:23.735216+0100 INFO Pull operation successful
+2025-01-03T13:06:23.735682+0100 INFO successfully executed pull
+2025-01-03T13:08:04.464823+0100 INFO Database initialized successfully
+2025-01-03T13:08:04.484534+0100 INFO Database session closed after get_by_condition
+2025-01-03T13:08:04.485231+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 5H
+
+2025-01-03T13:08:04.488933+0100 INFO Database session closed after get_branch
+2025-01-03T13:08:04.489576+0100 INFO Successfully retrieved Branch(branch_name = test_branch, branch_parent_repo = 1
+
+2025-01-03T13:08:04.538205+0100 INFO successfully executed init_git
+2025-01-03T13:08:07.401759+0100 INFO successfully merged First_UPGIT_CHUNKS chunks
+2025-01-03T13:08:07.403987+0100 INFO successfully merged Third_UPGIT_CHUNKS chunks
+2025-01-03T13:08:07.405660+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\First_UPGIT_CHUNKS
+2025-01-03T13:08:07.406788+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\Third_UPGIT_CHUNKS
+2025-01-03T13:08:07.407403+0100 INFO Pull operation successful
+2025-01-03T13:08:07.407867+0100 INFO successfully executed pull

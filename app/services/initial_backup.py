@@ -18,7 +18,7 @@ is_new_folder = False
 def check_branch(branch_name, repo_id):
     """Check if the branch exists"""
     global is_new_branch
-    branch_name = branch_name.replace(' ', '_')
+    branch_name = branch_name.strip().replace(' ', '_')
     branch_exists = branch_controller.get_specific(column='name', value=branch_name, limit=1) 
     if branch_exists in [None, False, '', []]:
         """create the branch"""
@@ -38,16 +38,20 @@ def check_folder(backup_object, user_id):
     if not os.path.isdir(backup_object['path']):
         raise Exception("Not a directory")
     
-    frequency_reg = re.compile(r'^[1-9][0-9]*\s?[hHMm]$')
+    frequency_reg = re.compile(r'^[1-9][0-9]*\s?[hHMmDd]$')
     freq = backup_object['backup_frequency'].strip()
     if frequency_reg.match(freq) is None:
         raise Exception('Invalid backup frequency. backup set to 24h')
     
     # Convert the backup frequency to h format
-    if freq.endswith('m'):
+    if freq.lower().endswith('m'):
         time = re.findall(r'\d+', freq)
         time = int(time[0])/60
         freq = f'{round(time, 2)}h'
+    elif freq.lower().endswith('d'):
+        time = re.findall(r'\d+', freq)
+        time = int(time[0])*24
+        freq = f'{time}h'
     folder_object = {
         'name': backup_object['path'],
         'user_id': user_id,
@@ -74,21 +78,17 @@ def handle_local_branch(repo_id, branch_id):
         local_branch_controller.save(local_branch_object)
         
 @global_exception_handler           
-def new_backup(user : User, backup_object):
+def new_backup(user : User, backup_object, repo):
     global is_new_branch
     global is_new_folder
-    
-    # Get the remote repository info
-    repo = remote_repo_controller.get_specific(column='user_id', value=user.id, limit=1)
-    if repo in [None, False, '', []]:
-        raise Exception("No remote repository found for this user: %s" % user.name)
     # get branch id
     branch_info = check_branch(backup_object['branch_name'], repo.id)
     created_folder = check_folder(backup_object, user.id)
     handle_local_branch(created_folder.id, branch_info.id)
     
-    backup(folder=created_folder, branch=branch_info, repo=repo)
+    return backup(folder=created_folder, branch=branch_info, repo=repo)
     
+@global_exception_handler
 def backup(folder, branch, repo):
     cli = CLI(local_dir=folder.name, branch_name=branch.name)
     cli.backup(local_dir_id=folder.id, remote_url=repo.clone_url)
@@ -100,3 +100,5 @@ def backup(folder, branch, repo):
     local_repo_controller.update(folder.id, {'backup_status': 'COMPLETED', 'backup_time': next_backup_time})
     
     logger.info(f"Successfully backed up {folder.name} to {repo.name} at {datetime.now()}")
+    
+    return True

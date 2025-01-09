@@ -3710,3 +3710,56 @@ User(user_name = Afanyuy Caleb, user_email = afa@gmail.com, user_password = $2b$
 2025-01-03T13:41:34.597719+0100 INFO Successfully retrieved Branch(branch_name = test_branch, branch_parent_repo = 1
 
 2025-01-03T13:41:34.651974+0100 INFO successfully executed init_git
+2025-01-09T17:44:52.847595+0100 INFO Database initialized successfully
+2025-01-09T17:44:52.874711+0100 INFO Database session closed after get_by_condition
+2025-01-09T17:44:52.875154+0100 INFO Successfully retrieved local_repos with LocalRepo(localRepo_name = C:/Users/Caleb/Desktop/test folder, localRepo_frequency = 5H
+
+2025-01-09T17:44:52.878147+0100 INFO Database session closed after get_branch
+2025-01-09T17:44:52.878565+0100 INFO Successfully retrieved Branch(branch_name = test_branch, branch_parent_repo = 1
+
+2025-01-09T17:44:52.954972+0100 INFO successfully executed init_git
+2025-01-09T17:44:53.032103+0100 ERROR A subprocess error occurred: 128
+2025-01-09T17:44:53.032842+0100 ERROR Command '['git', 'reset', '--hard', 'origin/test_branch']' returned non-zero exit status 128.
+2025-01-09T17:47:59.851066+0100 INFO Database initialized successfully
+2025-01-09T17:49:08.216058+0100 INFO Database session closed after create
+2025-01-09T17:49:08.217065+0100 INFO User created without fault 
+User(user_name = Esther, user_email = esther@gmail.com, user_password = $2b$12$TojPMGagT8AJ5m.iTAObL.T.51F5NkBUYXA6.xAOGYHkqcK3dUDTm)
+
+2025-01-09T17:49:10.275342+0100 INFO Database session closed after create
+2025-01-09T17:49:10.276513+0100 INFO Successfully created remote_repo
+2025-01-09T17:49:10.277521+0100 INFO Successfully created remote repository for upGIT_Esther_3 and saved it to the database
+2025-01-09T17:49:38.172961+0100 INFO Database session closed after get_by_email
+2025-01-09T17:49:38.456894+0100 INFO User, Esther logged in successfully
+2025-01-09T17:49:40.782675+0100 INFO Database session closed after get_by_column
+2025-01-09T17:49:40.783555+0100 INFO Successfully retrieved remote_repos RemoteRepo(remoteRepo_name = upGIT_Esther_3, remoteRepo_url = https://github.com/keyz-dev/upGIT_Esther_3
+
+2025-01-09T17:49:40.786488+0100 INFO Database session closed after get_by_column
+2025-01-09T17:49:40.787412+0100 INFO Successfully retrieved branchs with []
+2025-01-09T17:51:02.909552+0100 INFO Database session closed after get_by_column
+2025-01-09T17:51:02.910320+0100 INFO Successfully retrieved branchs with Branch(branch_name = first_branch, branch_parent_repo = 2
+
+2025-01-09T17:51:02.913571+0100 INFO Database session closed after get_by_condition
+2025-01-09T17:51:02.914264+0100 INFO Successfully retrieved local_repos with None
+2025-01-09T17:51:02.937378+0100 INFO Database session closed after create
+2025-01-09T17:51:02.938365+0100 INFO Successfully created local_repo
+2025-01-09T17:51:02.958290+0100 INFO Database session closed after create
+2025-01-09T17:51:02.959162+0100 INFO Successfully created local_branch
+2025-01-09T17:51:03.103333+0100 INFO 10 chunks of First(merged).pdf have been created
+2025-01-09T17:51:03.129809+0100 INFO Database session closed after create
+2025-01-09T17:51:03.130997+0100 INFO Successfully created file
+2025-01-09T17:51:03.208375+0100 INFO 6 chunks of Third(merged).pdf have been created
+2025-01-09T17:51:03.232090+0100 INFO Database session closed after create
+2025-01-09T17:51:03.233540+0100 INFO Successfully created file
+2025-01-09T17:51:03.371056+0100 INFO successfully executed init_git
+2025-01-09T17:51:03.642933+0100 INFO successfully executed add_remote
+2025-01-09T17:51:03.732624+0100 INFO successfully executed create_branch
+2025-01-09T17:51:04.501001+0100 INFO successfully executed add
+2025-01-09T17:51:04.880470+0100 INFO successfully executed commit
+2025-01-09T17:51:04.883063+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\First(merged)_UPGIT_CHUNKS
+2025-01-09T17:51:04.884789+0100 INFO successfully Deleted C:/Users/Caleb/Desktop/test folder\Third(merged)_UPGIT_CHUNKS
+2025-01-09T17:52:23.442163+0100 INFO successfully executed push
+2025-01-09T17:52:23.564804+0100 INFO successfully executed add
+2025-01-09T17:52:23.837376+0100 INFO successfully executed commit
+2025-01-09T17:52:23.860559+0100 INFO Database session closed after update
+2025-01-09T17:52:23.861287+0100 INFO Successfully updated local_repo with id 5
+2025-01-09T17:52:23.861767+0100 INFO Successfully backed up C:/Users/Caleb/Desktop/test folder to upGIT_Esther_3 at 2025-01-09 17:52:23.861750

@@ -3,7 +3,6 @@ import threading
 from app.utils.constants import logger
 from app.config.database import init_db
 from app.auth import user as user_auth
-from app import demo
 from app.controllers import (
     user as user_controllers,
     remote_repo as remote_repo_controller,
@@ -28,8 +27,12 @@ def db_connection():
 def main():    
     db_connection()
     # start_backup_thread()
-    # MainApp()
-    pull.pull(user_id=1, local_repo_id=4, branch_id=3)
+    
+    # Launch the main app
+    MainApp()
+    
+    # The pull functionality
+    # pull.pull(user_id=1, local_repo_id=4, branch_id=3)
     
 
     
